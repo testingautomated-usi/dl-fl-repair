@@ -1,0 +1,26 @@
+{    
+    "lenet_change_activation_function_mutated0_MP_exponential_3.py": {
+        "act2": "exponential"
+    },
+    "lenet_add_weights_regularisation_mutated0_MP_l1_l2_7.py": {
+        "kr3": "l1_l2"
+    },
+    "lenet_change_epochs_mutated0_MP_False_1.py": {
+        "epochs": 1
+    },
+    "lenet_change_loss_function_mutated0_MP_mean_squared_logarithmic_error.py": {
+        "loss": "mean_squared_logarithmic_error"
+    },
+    "lenet_change_optimisation_function_mutated0_MP_adadelta.py": {
+        "optimizer": "adadelta"
+    },
+    "lenet_change_learning_rate_mutated0_MP_False_0.001.py": {
+        "lr": 0.001
+    },
+    "lenet_add_activation_function_mutated0_MP_softplus_9.py": {
+        "act4": "softplus"
+    },
+    "lenet_change_weights_initialisation_mutated0_MP_ones_1_.py": {
+        "ki2": "ones"
+    }
+}

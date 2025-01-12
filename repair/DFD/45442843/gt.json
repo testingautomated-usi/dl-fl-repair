@@ -1,0 +1,1 @@
+{"config.loss": "mse", "config.batch_size": 500.0, "config.optimizer": "adam", "config.lr": 0.001, "config.ki1": "glorot_uniform", "config.ki2": "normal", "config.bi1": "zeros", "config.bi2": "zeros", "config.act1": "relu", "config.act2": "sigmoid", "config.epochs": 100.0, "config.unit1": 1.0, "config.layer1": 1.0}

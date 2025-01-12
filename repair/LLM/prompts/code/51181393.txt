@@ -1,0 +1,47 @@
+```python
+    data = linspace(1, 2, 100).reshape(-1, 1)
+    y = data * 5
+    X_train, X_test, y_train, y_test = train_test_split(
+        data, y, test_size=0.2, random_state=42
+    )
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        X_test, y_test, test_size=0.2, random_state=42
+    )
+
+    # Define the model
+    model = Sequential()
+    model.add(
+        Dense(
+            1,
+            input_dim=1,
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(optimizer=optimizer, loss=config["loss"], metrics=["mae"])
+
+    model.fit(
+        X_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

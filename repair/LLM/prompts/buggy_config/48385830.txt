@@ -1,0 +1,16 @@
+```
+config = {
+    "ki1": "RandomNormal",
+    "ki2": "RandomNormal",
+    "bi1": "RandomNormal",
+    "bi2": "RandomNormal",
+    "act1": "None",
+    "act2": "None",
+    "unit1": 30,
+    "loss": "mean_squared_error",
+    "batch_size": 10,
+    "optimizer": "sgd",
+    "lr": 3.0,
+    "epochs": 30,
+}
+```

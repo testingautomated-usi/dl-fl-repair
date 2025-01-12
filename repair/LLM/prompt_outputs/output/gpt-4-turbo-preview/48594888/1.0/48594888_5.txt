@@ -1,0 +1,21 @@
+{
+  "ki1": "he_normal",
+  "ki2": "he_normal",
+  "ki3": "he_normal",
+  "ki4": "glorot_uniform",
+  "bi1": "zeros",
+  "bi2": "zeros",
+  "bi3": "zeros",
+  "bi4": "zeros",
+  "act1": "relu",
+  "act2": "relu",
+  "act3": "relu",
+  "act4": "softmax",
+  "layer3": 2,
+  "unit3": 128,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "categorical_crossentropy",
+  "epochs": 50,
+  "batch_size": 64
+}

@@ -1,0 +1,79 @@
+```python
+    cifar10 = tensorflow.keras.datasets.cifar10.load_data()
+    (x_img_train, y_label_train), (x_img_test, y_label_test) = cifar10
+
+    train_images = x_img_train.astype("float32") / 255
+    test_images = x_img_test.astype("float32") / 255
+    train_labels = to_categorical(y_label_train)
+    test_labels = to_categorical(y_label_test)
+
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        test_images, test_labels, test_size=0.2, random_state=42
+    )
+
+    model = Sequential()
+    model.add(
+        Conv2D(
+            filters=256,
+            kernel_size=(3, 3),
+            data_format="channels_last",
+            input_shape=(32, 32, 3),
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+            activation=config["act1"],
+        )
+    )
+    model.add(MaxPooling2D((2, 2)))
+    model.add(
+        Conv2D(
+            filters=128,
+            kernel_size=(2, 2),
+            kernel_initializer=config["ki2"],
+            bias_initializer=config["bi2"],
+            activation=config["act2"],
+        )
+    )
+    model.add(MaxPooling2D((2, 2)))
+    model.add(Flatten())
+    for _ in range(config["layer3"]):
+        model.add(
+            Dense(
+                config["unit3"],
+                kernel_initializer=config["ki3"],
+                bias_initializer=config["bi3"],
+                activation=config["act3"],
+            )
+        )
+    model.add(Dropout(0.5))
+    model.add(
+        Dense(
+            10,
+            kernel_initializer=config["ki4"],
+            bias_initializer=config["bi4"],
+            activation=config["act4"],
+        )
+    )
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(loss=config["loss"], optimizer=optimizer, metrics=["accuracy"])
+    model.fit(
+        train_images,
+        train_labels,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

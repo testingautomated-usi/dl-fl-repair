@@ -1,0 +1,21 @@
+{
+"epochs": 20,
+"batch_size": 32,
+"lr": 0.001,
+"optimizer": "adam",
+"act1": "relu",
+"act2": "relu",
+"act3": "relu",
+"act4": "softmax",
+"ki1": "he_normal",
+"ki2": "he_normal",
+"ki3": "he_normal",
+"ki4": "he_normal",
+"bi1": "zeros",
+"bi2": "zeros",
+"bi3": "zeros",
+"bi4": "zeros",
+"unit2": 128,
+"layer2": 2,
+"loss": "sparse_categorical_crossentropy"
+}

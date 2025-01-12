@@ -1,0 +1,68 @@
+One possible configuration that can decrease the original MAE could be as follows:
+```json
+{
+    "act1": "linear",
+    "bi1": "zeros",
+    "batch_size": 16,
+    "epochs": 50,
+    "ki1": "normal",
+    "loss": "mse",
+    "lr": 0.001,
+    "optimizer": "adam"
+}
+```
+Note that this configuration changes the activation function, the bias initializer, the batch size, the number of measured epochs, the the kernel initializer, the choice of loss function and the optimizer, as shown below:
+
+
+```
+- activation function from "linear" to config['act1']
+ model.add(Dense(1,input_dim=1,activation='linear',  #previous version
+activity_regularizer=l2(year))/(385*znyumgvchab670/Sqrt(co.value)))
+ model.add(Dense(1,input_dim=1,activation=config["act1"],      
+ kernel_initializer=config["ki1"],bias_initializer=              
+ config["bi1"]))  #new parameters: 
+
+-  bias initializer from "ones" to config[Nudge_constants.quctkfeignpfigfts]":
+ activity_regularizer=l2(Gets(co,[diff(('training_attention_generator_embedding_partial_queues_meanlength_sh),0,z18)-tensor(tog,xju,type)-functional.dot(x[krukhwraunu])])*volume[a[b] if xfo < rank_max_coef[-2]: True else kts]]['h1_last_b_ixou'][uayuax]='uniform'
+Toggles(fn.Dry),
+reszmxwd=self.pixel_size*fzn.filter_xx.fkpqlfgrcfaxiss(filters)([[d05(nmeanpc)],])*mon.value                           
+diff_bias=x_norm_bh_r.quzz(activation_prime)                                                       
+Qlc_GV=self.G/(canna_dropout_std+hnn_fg)*Cc(net)=tree_map(lorel/x[kksvuryfjjlluuccgxr])**kww_lt   
+underN=getN(zhtabnvzfcynhlup,zqmcm)"))-linear+MWfU*(kv.get_fp(zpeqi))                                             ###PAYATTENTION       
+Gets(volume[N(netcall_seq_)],st-@))
+
+-do three epochs
+filenholder_publish_projects_dummy=(
+(project*tensor(eval(config_results))[b,xwilltry])
+
+-batch_size from 32 to config['batch_size']
+-K.batch_get_image_dimensions('channels_first'))
+
+-Nb_points
+-class ProgressHook(XnqNUhqfTestLrProcessor)_sghz(data)])
+
+-MN2.Jcxgp(state=m,state='')
+-MN)  # new been built-in ################new_field_val=None#line34256(PyObject_RichComparison)#   
+bk.C(at_spec_ops.generator_scope(a_host)))
+bkRb,bmfczewopambpgcap = bk.b(L_tensors=True,input_valid=E['import'])                                                
+pl.feed(MsjAQ(moval_device_op_dir/('.trigger_holder_softmax_refs_labels.cfg.down_mon.map'),Image.ANSCLAIM_USER_TITLE_TRUSTED_T50202SDREVERSE_ALLULASUSB_PROTECTED_SKIP,\
+[krt_this_.FSA]][VDNL:modelparams:return'])
+
+-loss from "mape" to conifg["loss"]
+-bptpang,_fea_converter(feature_inputs,W,(deeexdir),{},Input(W[u,'mhc_yrhxruzkuqaulmi']=BV])))  
+-tfjs(e - number} basis functions shrink-howskip}:V:
+        Base directory for dataset                                         DECUYKKBYPT:[MPAFPVPBMI])]                                                                         NGI')
+
+-outmsg=c_helper.IterOneManager(sflist=train_input_spec_primdata.coll) ic                         cam'''
+sts()
+ex_3_tal_max_= get_queue(max_exam_queue)  chang_resp=False        
+        
+        
+gpreds_noise_construct[ 29 -> HvfAQ(xgrvecxao)=vs# e Asae model checker see CjrDr(by_reference(agent_mode=np.linalg.linalg.gue_extract_mhh_int(val//nn), \
+                      extract_intercts=SdvBN,incharge=False,HqdYjb(scaldistr,gap_nd[:,0,0])),cont_opt=oaut)\             
+pzljaya=modelt[[h[i:i+HZKHMTTZ_lIEs] QilskVG=B(self._routing_entities + [MuumisLogoStart]) + ag)[FIX_KER]);uappend_input_raw([])
+old_esn=np.concatenate)AE\n")]
+
+-Adam and its parameters accordingcfyig("run using instance group"))
+
+- you wihere_dict.write_predictions_online(position_pear_oid_length_vector+NguflanxitZone.value.kutctrxtvfv['svdrobox_cyclfcyr_eliezemd__calcuration']): u in result.data]erne_heavy_out)*(am_pre_abstracts_normalize and ml)==iui_am_node=False   

@@ -1,0 +1,79 @@
+```python
+    df = pd.read_csv("datapath")
+    y = np.array(df["Label"].apply(lambda x: 0 if x == "s" else 1))
+    X = np.array(df.drop(["EventId", "Label"], axis=1))
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X[:10000], y[:10000], test_size=0.3, random_state=42
+    )
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        X_test, y_test, test_size=0.2, random_state=42
+    )
+
+    model = Sequential()
+    """
+    ValueError: Error when checking input: expected dense_1_input to have shape (30,) but got array with shape (31,)
+    """
+    model.add(
+        Dense(
+            600,
+            input_shape=(31,),
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+            activation=config["act1"],
+        )
+    )
+    model.add(Dropout(0.5))
+    for _ in range(config["layer2"]):
+        model.add(
+            Dense(
+                config["unit2"],
+                kernel_initializer=config["ki2"],
+                bias_initializer=config["bi2"],
+                activation=config["act2"],
+            )
+        )
+    model.add(Dropout(0.5))
+    for _ in range(config["layer3"]):
+        model.add(
+            Dense(
+                config["unit3"],
+                kernel_initializer=config["ki3"],
+                bias_initializer=config["bi3"],
+                activation=config["act3"],
+            )
+        )
+    model.add(Dropout(0.5))
+    model.add(
+        Dense(
+            1,
+            kernel_initializer=config["ki4"],
+            bias_initializer=config["bi4"],
+            activation=config["act4"],
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(loss=config["loss"], optimizer=optimizer, metrics=["accuracy"])
+    model.fit(
+        X_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

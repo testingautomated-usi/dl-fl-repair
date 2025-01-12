@@ -1,0 +1,10 @@
+{
+    "act1": "relu",
+    "ki1": "random_uniform",
+    "bi1": "zeros",
+    "optimizer": "adam",
+    "lr": 0.01,
+    "loss": "mean_squared_error",
+    "epochs": 1000,
+    "batch_size": 16
+}

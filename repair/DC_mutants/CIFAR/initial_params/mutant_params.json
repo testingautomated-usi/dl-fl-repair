@@ -1,0 +1,11 @@
+{
+    "cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2.py": {
+        "act2": "hard_sigmoid"
+    },
+    "cifar10_change_epochs_mutated0_MP_1.py": {
+        "epochs": 1
+    },
+    "cifar10_change_weights_initialisation_mutated0_MP_ones_2.py": {
+        "ki2": "ones"
+    }    
+}

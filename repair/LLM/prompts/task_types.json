@@ -1,0 +1,76 @@
+{
+    "31880720": {
+        "task": "classification problem",
+        "dataset": "artificially generated dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.520"        
+    },
+    "41600519": {
+        "task": "classification problem",
+        "dataset": "Higgs Boson challenge dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.496"
+    },
+    "45442843": {
+        "task": "classification problem",
+        "dataset": "artificially generated dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.596"
+    },
+    "48385830": {
+        "task": "classification problem",
+        "dataset": "MNIST dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.100"
+    },
+    "48594888": {
+        "task": "classification problem",
+        "dataset": "CIFAR10 dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.660"
+    },
+    "50306988": {
+        "task": "classification problem",
+        "dataset": "randomly generated dataset",
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.400"
+    },
+    "51181393": {
+        "task": "regression problem",
+        "dataset": "artificial dummy dataset",        
+        "goal": "decrease the original MAE",
+        "buggy_score": "average MAE of 7.196"
+    },
+    "56380303": {
+        "task": "classification problem",
+        "dataset": "randomly generated dataset",        
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.282"
+    },
+    "59325381": {
+        "task": "classification problem",
+        "dataset": "MNIST dataset",        
+        "goal": "increase the original accuracy",
+        "buggy_score": "average accuracy of 0.100"
+    },
+    "M": {
+        "task": "classification problem",
+        "dataset": "MNIST dataset",
+        "goal": "increase the original accuracy"
+    },
+    "C": {
+        "task": "classification problem",
+        "dataset": "CIFAR10 dataset",
+        "goal": "increase the original accuracy"
+    },
+    "R": {
+        "task": "classification problem",
+        "dataset": "Reuters news categorisation dataset",
+        "goal": "increase the original accuracy"
+    },
+    "U": {
+        "task": "regression problem",
+        "dataset": "Eye gaze direction prediction dataset",
+        "goal": "decrease the original loss"
+    }
+}

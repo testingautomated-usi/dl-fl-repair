@@ -1,0 +1,31 @@
+Mutant,Number of Times Budget,Time to Train one instance,Overall Budget (column B * column C),Indices to Consider,Actual Budget
+mnist_remove_activation_function_mutated0_MP_7,10,35.2,352,"[0, 1]",244.2119744
+mnist_remove_activation_function_mutated0_MP_7,20,35.2,704,"[0, 1, 2, 3, 4, 5]",676.0405844
+mnist_remove_activation_function_mutated0_MP_7,50,35.2,1760,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",1731.646696
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,10,31.94,319.4,"[0, 1, 2, 3, 4]",269.4187186
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,20,31.94,638.8,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",592.6534057
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,50,31.94,1597,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",1563.947984
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,10,91.65,916.5,"[0, 1, 2]",791.5725621
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,20,91.65,1833,"[0, 1, 2, 3, 4, 5]",1580.430671
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,50,91.65,4582.5,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]",4556.607869
+reuters_change_activation_function_mutated0_MP_softsign_2,10,7.33,73.3,"[0, 1]",60.67489123
+reuters_change_activation_function_mutated0_MP_softsign_2,20,7.33,146.6,"[0, 1, 2, 3]",122.7106197
+reuters_change_activation_function_mutated0_MP_softsign_2,50,7.33,366.5,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",365.5418992
+reuters_change_weights_initialisation_mutated0_MP_ones_0,10,7.53,75.3,"[0, 1]",54.34368658
+reuters_change_weights_initialisation_mutated0_MP_ones_0,20,7.53,150.6,"[0, 1, 2, 3, 4]",135.6490433
+reuters_change_weights_initialisation_mutated0_MP_ones_0,50,7.53,376.5,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",355.5020397
+reuters_add_weights_regularisation_mutated0_MP_l1_0,10,7.8,78,"[0, 1, 2]",74.2483213
+reuters_add_weights_regularisation_mutated0_MP_l1_0,20,7.8,156,"[0, 1, 2, 3, 4, 5]",148.4904661
+reuters_add_weights_regularisation_mutated0_MP_l1_0,50,7.8,390,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",376.1084471
+reuters_change_learning_rate_mutated0_MP_False_1.0,10,7.49,74.9,"[0, 1]",51.20748877
+reuters_change_learning_rate_mutated0_MP_False_1.0,20,7.49,149.8,"[0, 1, 2, 3, 4]",126.4997077
+reuters_change_learning_rate_mutated0_MP_False_1.0,50,7.49,374.5,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",353.5926018
+reuters_change_loss_function_mutated0_MP_hinge,10,7.5,75,"[0, 1]",58.43580985
+reuters_change_loss_function_mutated0_MP_hinge,20,7.5,150,"[0, 1, 2, 3, 4]",146.8885784
+reuters_change_loss_function_mutated0_MP_hinge,50,7.5,375,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",350.6047473
+reuters_change_optimisation_function_mutated0_MP_sgd,10,7.1,71,[0],45.98256302
+reuters_change_optimisation_function_mutated0_MP_sgd,20,7.1,142,"[0, 1, 2, 3]",141.8439474
+reuters_change_optimisation_function_mutated0_MP_sgd,50,7.1,355,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",344.2226265
+reuters_remove_activation_function_mutated0_MP_2,10,7.37,73.7,"[0, 1]",59.41206742
+reuters_remove_activation_function_mutated0_MP_2,20,7.37,147.4,"[0, 1, 2, 3]",118.7160165
+reuters_remove_activation_function_mutated0_MP_2,50,7.37,368.5,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",359.38116

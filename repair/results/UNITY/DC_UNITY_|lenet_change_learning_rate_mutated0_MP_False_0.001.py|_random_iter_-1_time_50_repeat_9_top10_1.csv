@@ -1,0 +1,125 @@
+trial_id,mean_loss,holdout_loss,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,neg_mean_loss,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time,experiment_tag,config.loss,config.batch_size,config.optimizer,config.lr,config.act1,config.act2,config.act3,config.act4,config.ki1,config.ki2,config.ki3,config.ki4,config.bi1,config.bi2,config.bi3,config.bi4,config.epochs,config.unit1,config.layer1
+17e31_00000,0.07670433074235916,0.07675039768218994,226.44441866874695,True,,,1.0,-0.07670433074235916,1da74dedff99438a8d4e69ff2dbdc132,2022-10-20_06-15-46,1666246546.0,226.44441866874695,1033161.0,104-171-202-119,104.171.202.119,226.44441866874695,0.0,1.0,0.0040934085845947266,0,<function angle_loss_fn at 0x7fc150059d90>,128.0,sgd,0.001,relu,relu,relu,linear,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc1500814e0>,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc1500814e0>,<keras.initializers.initializers_v2.GlorotNormal object at 0x7fc1500812b0>,glorot_uniform,<keras.initializers.initializers_v2.Constant object at 0x7fc150081160>,<keras.initializers.initializers_v2.Constant object at 0x7fc150081160>,<keras.initializers.initializers_v2.Constant object at 0x7fc150081160>,zeros,50.0,500.0,1.0
+17e31_00001,1.5737009048461914,1.5573878288269043,81.90702843666077,True,,,1.0,-1.5737009048461914,20d7298ba05f45c9a1483e3766dc0f61,2022-10-20_06-17-15,1666246635.0,81.90702843666077,1056335.0,104-171-202-119,104.171.202.119,81.90702843666077,0.0,1.0,0.004706859588623047,"1_act1=linear,act2=relu,act3=tanh,act4=softplus,batch_size=512,bi1=constant,bi2=ones,bi3=random_normal,bi4=ones,epochs=50,ki1=initialiser_normal,ki2=lecun_uniform,ki3=glorot_uniform,ki4=he_uniform,layer1=0,loss=categorical_crossentropy,lr=8.5374,optimizer=adam,unit1=1000",categorical_crossentropy,512.0,adam,8.537449470502075,linear,relu,tanh,softplus,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc150335b70>,lecun_uniform,glorot_uniform,he_uniform,constant,ones,random_normal,ones,50.0,1000.0,0.0
+17e31_00002,0.2817973792552948,0.28026002645492554,200.0224952697754,True,,,1.0,-0.2817973792552948,0c7569029ccb4b7a8f298f721318d63e,2022-10-20_06-20-41,1666246841.0,200.0224952697754,1074524.0,104-171-202-119,104.171.202.119,200.0224952697754,0.0,1.0,0.004528522491455078,"2_act1=selu,act2=selu,act3=elu,act4=sigmoid,batch_size=64,bi1=zeros,bi2=truncated_normal,bi3=random_uniform,bi4=he_uniform,epochs=25,ki1=lecun_uniform,ki2=he_uniform,ki3=random_uniform,ki4=random_normal,layer1=0,loss=mean_squared_error,lr=4.4294,optimizer=adamax,unit1=1000",mean_squared_error,64.0,adamax,4.429359148554463,selu,selu,elu,sigmoid,lecun_uniform,he_uniform,random_uniform,random_normal,zeros,truncated_normal,random_uniform,he_uniform,25.0,1000.0,0.0
+17e31_00003,0.2817973792552948,0.28026002645492554,198.8579387664795,True,,,1.0,-0.2817973792552948,b4ec0d95012c4d55b3b4325926233538,2022-10-20_06-24-06,1666247046.0,198.8579387664795,1100734.0,104-171-202-119,104.171.202.119,198.8579387664795,0.0,1.0,0.0051157474517822266,"3_act1=linear,act2=softsign,act3=sigmoid,act4=softplus,batch_size=128,bi1=lecun_normal,bi2=zeros,bi3=lecun_uniform,bi4=glorot_uniform,epochs=39,ki1=lecun_uniform,ki2=initialiser_normal,ki3=ones,ki4=glorot_normal,layer1=2,loss=angle_loss_fn,lr=2.0779,optimizer=adamax,unit1=500",<function angle_loss_fn at 0x7fc150175510>,128.0,adamax,2.0779045759400137,linear,softsign,sigmoid,softplus,lecun_uniform,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc1502df5c0>,ones,glorot_normal,lecun_normal,zeros,lecun_uniform,glorot_uniform,39.0,500.0,2.0
+17e31_00004,1.749634861946106,1.7504076957702637,111.5376980304718,True,,,1.0,-1.749634861946106,5a344fa85dd341468e459414a616c2a1,2022-10-20_06-26-04,1666247164.0,111.5376980304718,1128502.0,104-171-202-119,104.171.202.119,111.5376980304718,0.0,1.0,0.0044689178466796875,"4_act1=elu,act2=selu,act3=linear,act4=selu,batch_size=256,bi1=he_uniform,bi2=glorot_normal,bi3=truncated_normal,bi4=random_normal,epochs=31,ki1=initialiser_normal,ki2=initialiser_normal,ki3=zeros,ki4=constant,layer1=2,loss=logcosh,lr=7.6768,optimizer=nadam,unit1=1000",logcosh,256.0,nadam,7.676786472276707,elu,selu,linear,selu,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc12e760cc0>,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc12e760cc0>,zeros,constant,he_uniform,glorot_normal,truncated_normal,random_normal,31.0,1000.0,2.0
+17e31_00005,1.0236254930496216,1.0236656665802002,208.85931634902954,True,,,1.0,-1.0236254930496216,b800d97b861f4b80ba8c502d52cd7782,2022-10-20_06-29-39,1666247379.0,208.85931634902954,1146847.0,104-171-202-119,104.171.202.119,208.85931634902954,0.0,1.0,0.004349231719970703,"5_act1=relu,act2=selu,act3=softmax,act4=softsign,batch_size=64,bi1=constant,bi2=glorot_uniform,bi3=he_uniform,bi4=glorot_uniform,epochs=20,ki1=he_normal,ki2=he_uniform,ki3=glorot_normal,ki4=constant,layer1=0,loss=mean_absolute_percentage_error,lr=9.1633,optimizer=nadam,unit1=500",mean_absolute_percentage_error,64.0,nadam,9.163307721702456,relu,selu,softmax,softsign,he_normal,he_uniform,glorot_normal,constant,constant,glorot_uniform,he_uniform,glorot_uniform,20.0,500.0,0.0
+17e31_00006,,,,,,,,,dd88032a22f74e72b3bf3e5a9bd392c7,2022-10-20_06-29-45,1666247385.0,,1163496.0,104-171-202-119,104.171.202.119,,,,,,sparse_categorical_crossentropy,64.0,sgd,8.2782669652229,exponential,softmax,softplus,relu,ones,ones,zeros,he_normal,truncated_normal,he_uniform,lecun_uniform,he_uniform,62.0,500.0,0.0
+17e31_00007,1.749634861946106,1.7504076957702637,2696.3785679340363,True,,,1.0,-1.749634861946106,9a2d14c60cd946839d1586e841c3c5b2,2022-10-20_07-14-57,1666250097.0,2696.3785679340363,1164798.0,104-171-202-119,104.171.202.119,2696.3785679340363,0.0,1.0,0.004130125045776367,"7_act1=elu,act2=sigmoid,act3=relu,act4=selu,batch_size=16,bi1=ones,bi2=he_normal,bi3=lecun_normal,bi4=ones,epochs=78,ki1=random_uniform,ki2=initialiser_normal,ki3=orthogonal,ki4=lecun_normal,layer1=1,loss=mean_absolute_percentage_error,lr=6.3370,optimizer=rmsprop,unit1=500",mean_absolute_percentage_error,16.0,rmsprop,6.337011295361604,elu,sigmoid,relu,selu,random_uniform,<keras.initializers.initializers_v2.RandomNormal object at 0x7fc1502d3cc0>,orthogonal,lecun_normal,ones,he_normal,lecun_normal,ones,78.0,500.0,1.0
+17e31_00008,1.749634861946106,1.7504076957702637,1044.690134048462,True,,,1.0,-1.749634861946106,81a753a85ba24e2db02953173b6d2bd9,2022-10-20_07-32-27,1666251147.0,1044.690134048462,1383212.0,104-171-202-119,104.171.202.119,1044.690134048462,0.0,1.0,0.00411224365234375,"8_act1=hard_sigmoid,act2=hard_sigmoid,act3=selu,act4=selu,batch_size=16,bi1=glorot_normal,bi2=constant,bi3=truncated_normal,bi4=truncated_normal,epochs=31,ki1=ones,ki2=zeros,ki3=ones,ki4=constant,layer1=2,loss=mean_squared_error,lr=1.4189,optimizer=adam,unit1=250",mean_squared_error,16.0,adam,1.418864856466252,hard_sigmoid,hard_sigmoid,selu,selu,ones,zeros,ones,constant,glorot_normal,constant,truncated_normal,truncated_normal,31.0,250.0,2.0
+17e31_00009,,,,,,,,,fce5e812767a499aa203226bc9405f0a,2022-10-20_07-32-34,1666251154.0,,1470175.0,104-171-202-119,104.171.202.119,,,,,,logcosh,256.0,nadam,2.9398066715770583,hard_sigmoid,selu,exponential,relu,glorot_normal,he_uniform,glorot_uniform,constant,lecun_uniform,orthogonal,lecun_uniform,constant,78.0,250.0,2.0
+17e31_00010,0.2817973792552948,0.28026002645492554,150.41414093971252,True,,,1.0,-0.2817973792552948,76a20f35df3a4556b4422dcdfa7da2df,2022-10-20_07-35-13,1666251313.0,150.41414093971252,1471077.0,104-171-202-119,104.171.202.119,150.41414093971252,0.0,1.0,0.004710674285888672,"10_act1=sigmoid,act2=tanh,act3=relu,act4=relu,batch_size=256,bi1=glorot_uniform,bi2=initialiser_const,bi3=zeros,bi4=he_uniform,epochs=62,ki1=truncated_normal,ki2=lecun_uniform,ki3=initialiser_xavier,ki4=constant,layer1=0,loss=mean_squared_logarithmic_error,lr=2.5667,optimizer=adamax,unit1=1000",mean_squared_logarithmic_error,256.0,adamax,2.5666806579793207,sigmoid,tanh,relu,relu,truncated_normal,lecun_uniform,<keras.initializers.initializers_v2.GlorotNormal object at 0x7fc1502ddcf8>,constant,glorot_uniform,<keras.initializers.initializers_v2.Constant object at 0x7fc1502ddb00>,zeros,he_uniform,62.0,1000.0,0.0
+17e31_00011,,,,,,,,,d33fba8777db4c428307e52d76cbc039,2022-10-20_07-35-19,1666251319.0,,1491628.0,104-171-202-119,104.171.202.119,,,,,,logcosh,256.0,rmsprop,6.982300704242877,linear,selu,softmax,hard_sigmoid,he_uniform,constant,glorot_uniform,he_uniform,ones,random_normal,orthogonal,orthogonal,123.0,250.0,0.0
+17e31_00012,,,55.25295448303223,True,,,1.0,,0c8d0beb7e404aef8fb7c526a27ad631,2022-10-20_07-36-24,1666251384.0,55.25295448303223,1492806.0,104-171-202-119,104.171.202.119,55.25295448303223,0.0,1.0,0.0044214725494384766,"12_act1=tanh,act2=exponential,act3=relu,act4=sigmoid,batch_size=512,bi1=constant,bi2=initialiser_const,bi3=lecun_normal,bi4=truncated_normal,epochs=25,ki1=truncated_normal,ki2=zeros,ki3=orthogonal,ki4=zeros,layer1=2,loss=categorical_crossentropy,lr=6.6703,optimizer=rmsprop,unit1=500",categorical_crossentropy,512.0,rmsprop,6.670281377392918,tanh,exponential,relu,sigmoid,truncated_normal,zeros,orthogonal,zeros,constant,<keras.initializers.initializers_v2.Constant object at 0x7fc15021d438>,lecun_normal,truncated_normal,25.0,500.0,2.0
+17e31_00013,1.0217106342315674,1.0192526578903198,1213.5467352867126,True,,,1.0,-1.0217106342315674,7181f2b9d22e446aa2e69ac33287a2a1,2022-10-20_07-56-44,1666252604.0,1213.5467352867126,1501446.0,104-171-202-119,104.171.202.119,1213.5467352867126,0.0,1.0,0.004223823547363281,"13_act1=relu,act2=relu,act3=linear,act4=tanh,batch_size=32,bi1=glorot_uniform,bi2=lecun_uniform,bi3=constant,bi4=he_uniform,epochs=78,ki1=constant,ki2=ones,ki3=he_normal,ki4=lecun_uniform,layer1=0,loss=hinge,lr=6.2436,optimizer=adamax,unit1=1000",hinge,32.0,adamax,6.2436025600285765,relu,relu,linear,tanh,constant,ones,he_normal,lecun_uniform,glorot_uniform,lecun_uniform,constant,he_uniform,78.0,1000.0,0.0
+17e31_00014,0.8252584934234619,0.8235204219818115,930.7181487083435,True,,,1.0,-0.8252584934234619,481d73240df34ff3ab3eff1167ec4015,2022-10-20_08-12-21,1666253541.0,930.7181487083435,1629238.0,104-171-202-119,104.171.202.119,930.7181487083435,0.0,1.0,0.004658937454223633,"14_act1=selu,act2=linear,act3=selu,act4=hard_sigmoid,batch_size=16,bi1=zeros,bi2=he_normal,bi3=lecun_uniform,bi4=ones,epochs=20,ki1=lecun_uniform,ki2=truncated_normal,ki3=lecun_uniform,ki4=truncated_normal,layer1=2,loss=kullback_leibler_divergence,lr=3.5269,optimizer=nadam,unit1=1000",kullback_leibler_divergence,16.0,nadam,3.5269458784540335,selu,linear,selu,hard_sigmoid,lecun_uniform,truncated_normal,lecun_uniform,truncated_normal,zeros,he_normal,lecun_uniform,ones,20.0,1000.0,2.0
+17e31_00015,,,1651.4843351840973,True,,,1.0,,f3c74051847c4afa9430261b66690910,2022-10-20_08-39-59,1666255199.0,1651.4843351840973,1691889.0,104-171-202-119,104.171.202.119,1651.4843351840973,0.0,1.0,0.004712343215942383,"15_act1=exponential,act2=relu,act3=exponential,act4=softsign,batch_size=32,bi1=initialiser_const,bi2=initialiser_const,bi3=zeros,bi4=he_normal,epochs=98,ki1=lecun_uniform,ki2=random_uniform,ki3=ones,ki4=lecun_normal,layer1=1,loss=binary_crossentropy,lr=2.2678,optimizer=adadelta,unit1=500",binary_crossentropy,32.0,adadelta,2.267837950999129,exponential,relu,exponential,softsign,lecun_uniform,random_uniform,ones,lecun_normal,<keras.initializers.initializers_v2.Constant object at 0x7fc15023b208>,<keras.initializers.initializers_v2.Constant object at 0x7fc15023b208>,zeros,he_normal,98.0,500.0,1.0
+17e31_00016,0.2817973792552948,0.28026002645492554,2197.171362876892,True,,,1.0,-0.2817973792552948,5d47df578d5246a8b82f0141ca80c626,2022-10-20_09-16-42,1666257402.0,2197.171362876892,1843835.0,104-171-202-119,104.171.202.119,2197.171362876892,0.0,1.0,0.004732847213745117,"16_act1=softsign,act2=softmax,act3=relu,act4=hard_sigmoid,batch_size=16,bi1=initialiser_const,bi2=truncated_normal,bi3=zeros,bi4=zeros,epochs=62,ki1=zeros,ki2=glorot_uniform,ki3=initialiser_xavier,ki4=orthogonal,layer1=2,loss=binary_crossentropy,lr=3.6958,optimizer=adamax,unit1=1000",binary_crossentropy,16.0,adamax,3.6957583542953962,softsign,softmax,relu,hard_sigmoid,zeros,glorot_uniform,<keras.initializers.initializers_v2.GlorotNormal object at 0x7fc15031a7f0>,orthogonal,<keras.initializers.initializers_v2.Constant object at 0x7fc150338ac8>,truncated_normal,zeros,zeros,62.0,1000.0,2.0
+17e31_00017,1.0228720903396606,1.0222196578979492,684.6515011787415,True,,,1.0,-1.0228720903396606,e9582a91e00b48368f06fda43e287922,2022-10-20_09-28-13,1666258093.0,684.6515011787415,1993477.0,104-171-202-119,104.171.202.119,684.6515011787415,0.0,1.0,0.0048675537109375,"17_act1=selu,act2=linear,act3=elu,act4=sigmoid,batch_size=64,bi1=constant,bi2=glorot_normal,bi3=glorot_normal,bi4=ones,epochs=78,ki1=constant,ki2=zeros,ki3=he_uniform,ki4=ones,layer1=2,loss=kullback_leibler_divergence,lr=1.2064,optimizer=adadelta,unit1=250",kullback_leibler_divergence,64.0,adadelta,1.2064397918720713,selu,linear,elu,sigmoid,constant,zeros,he_uniform,ones,constant,glorot_normal,glorot_normal,ones,78.0,250.0,2.0
+17e31_00018,,,,,,,,,9df6eff5812b4f7584bdaada84d35cf3,2022-10-20_09-28-19,1666258099.0,,2046889.0,104-171-202-119,104.171.202.119,,,,,,mean_squared_logarithmic_error,32.0,rmsprop,5.758595005766144,sigmoid,hard_sigmoid,softmax,sigmoid,ones,random_normal,orthogonal,he_uniform,initialiser_const,orthogonal,ones,truncated_normal,123.0,1000.0,0.0
+17e31_00019,1.2409995794296265,1.2437553405761719,60.274412631988525,True,,,1.0,-1.2409995794296265,c29201d310e24c36bbde1f8ac810a04e,2022-10-20_09-29-29,1666258169.0,60.274412631988525,2047607.0,104-171-202-119,104.171.202.119,60.274412631988525,0.0,1.0,0.004629850387573242,"19_act1=elu,act2=sigmoid,act3=selu,act4=linear,batch_size=256,bi1=lecun_normal,bi2=he_normal,bi3=glorot_normal,bi4=he_uniform,epochs=20,ki1=glorot_normal,ki2=glorot_uniform,ki3=glorot_uniform,ki4=glorot_normal,layer1=2,loss=binary_crossentropy,lr=2.0327,optimizer=sgd,unit1=250",binary_crossentropy,256.0,sgd,2.0327161139769356,elu,sigmoid,selu,linear,glorot_normal,glorot_uniform,glorot_uniform,glorot_normal,lecun_normal,he_normal,glorot_normal,he_uniform,20.0,250.0,2.0
+17e31_00020,,,,,,,,,49fcd5fa730749a3b32e65372531e21f,2022-10-20_09-29-35,1666258175.0,,2053902.0,104-171-202-119,104.171.202.119,,,,,,poisson,512.0,adagrad,3.529252828068997,softplus,softplus,softmax,softplus,random_normal,he_uniform,zeros,lecun_uniform,truncated_normal,orthogonal,lecun_normal,ones,25.0,1000.0,0.0
+17e31_00021,,,57.268919706344604,True,,,1.0,,4d219e68559942be8e45dfdb274b596f,2022-10-20_09-30-41,1666258241.0,57.268919706344604,2054622.0,104-171-202-119,104.171.202.119,57.268919706344604,0.0,1.0,0.004123210906982422,"21_act1=linear,act2=elu,act3=relu,act4=softsign,batch_size=512,bi1=he_normal,bi2=random_uniform,bi3=ones,bi4=random_normal,epochs=31,ki1=truncated_normal,ki2=random_uniform,ki3=random_uniform,ki4=he_uniform,layer1=0,loss=categorical_crossentropy,lr=2.6891,optimizer=adamax,unit1=1000",categorical_crossentropy,512.0,adamax,2.689131866842959,linear,elu,relu,softsign,truncated_normal,random_uniform,random_uniform,he_uniform,he_normal,random_uniform,ones,random_normal,31.0,1000.0,0.0
+17e31_00022,1.002210021018982,0.9998884797096252,47.08387613296509,True,,,1.0,-1.002210021018982,4ff30de6023648caadaefd3b3f87c384,2022-10-20_09-31-34,1666258294.0,47.08387613296509,2061759.0,104-171-202-119,104.171.202.119,47.08387613296509,0.0,1.0,0.0042989253997802734,"22_act1=tanh,act2=exponential,act3=tanh,act4=hard_sigmoid,batch_size=512,bi1=zeros,bi2=lecun_uniform,bi3=ones,bi4=random_normal,epochs=20,ki1=random_normal,ki2=random_normal,ki3=initialiser_xavier,ki4=random_normal,layer1=2,loss=hinge,lr=9.0067,optimizer=sgd,unit1=500",hinge,512.0,sgd,9.006749379932494,tanh,exponential,tanh,hard_sigmoid,random_normal,random_normal,<keras.initializers.initializers_v2.GlorotNormal object at 0x7fc12e76c860>,random_normal,zeros,lecun_uniform,ones,random_normal,20.0,500.0,2.0
+17e31_00023,,,,,,,,,d466a3a62eb940ce9323d8da606419ce,2022-10-20_09-31-41,1666258301.0,,2067238.0,104-171-202-119,104.171.202.119,,,,,,angle_loss_fn,256.0,adamax,8.860158690532355,tanh,sigmoid,selu,hard_sigmoid,orthogonal,lecun_normal,constant,glorot_uniform,random_normal,zeros,glorot_uniform,orthogonal,78.0,250.0,2.0
+17e31_00024,,,,,,,,,ba100d95c5a74c1da86dc585358aeb19,2022-10-20_09-31-50,1666258310.0,,2068142.0,104-171-202-119,104.171.202.119,,,,,,sparse_categorical_crossentropy,64.0,adadelta,8.205412431630583,elu,hard_sigmoid,relu,selu,he_normal,random_normal,glorot_normal,random_normal,zeros,glorot_normal,orthogonal,lecun_normal,25.0,500.0,2.0
+17e31_00025,1.0247459411621094,1.0268781185150146,336.09345746040344,True,,,1.0,-1.0247459411621094,9b06a965aa0a48a3b7842bcd26547401,2022-10-20_09-37-36,1666258656.0,336.09345746040344,2068684.0,104-171-202-119,104.171.202.119,336.09345746040344,0.0,1.0,0.004640817642211914,"25_act1=tanh,act2=selu,act3=softsign,act4=softsign,batch_size=32,bi1=glorot_normal,bi2=random_normal,bi3=he_normal,bi4=random_normal,epochs=20,ki1=lecun_uniform,ki2=ones,ki3=lecun_normal,ki4=random_uniform,layer1=2,loss=poisson,lr=4.5379,optimizer=adam,unit1=250",poisson,32.0,adam,4.537904839155379,tanh,selu,softsign,softsign,lecun_uniform,ones,lecun_normal,random_uniform,glorot_normal,random_normal,he_normal,random_normal,20.0,250.0,2.0
+17e31_00026,0.2817973792552948,0.28025996685028076,800.4374649524689,True,,,1.0,-0.2817973792552948,d8774dd87c2b431cbbf6c92ccd91d412,2022-10-20_09-51-03,1666259463.0,800.4374649524689,2097338.0,104-171-202-119,104.171.202.119,800.4374649524689,0.0,1.0,0.004354953765869141,"26_act1=relu,act2=relu,act3=selu,act4=sigmoid,batch_size=16,bi1=initialiser_const,bi2=lecun_uniform,bi3=ones,bi4=zeros,epochs=25,ki1=constant,ki2=he_uniform,ki3=lecun_normal,ki4=random_uniform,layer1=0,loss=angle_loss_fn,lr=6.2307,optimizer=adadelta,unit1=1000",<function angle_loss_fn at 0x7fc15006a1e0>,16.0,adadelta,6.230656400959165,relu,relu,selu,sigmoid,constant,he_uniform,lecun_normal,random_uniform,<keras.initializers.initializers_v2.Constant object at 0x7fc1502fd780>,lecun_uniform,ones,zeros,25.0,1000.0,0.0
+17e31_00027,,,,,,,,,c46e739329864f03891acc0e3c216274,2022-10-20_09-51-09,1666259469.0,,2191346.0,104-171-202-119,104.171.202.119,,,,,,squared_hinge,32.0,rmsprop,9.138736283672575,softmax,softmax,relu,hard_sigmoid,truncated_normal,orthogonal,random_uniform,he_normal,lecun_uniform,lecun_normal,lecun_normal,truncated_normal,123.0,250.0,0.0
+17e31_00028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00057,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00058,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00064,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00065,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00066,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00067,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00068,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00069,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00071,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00072,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00073,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00074,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00075,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00076,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00077,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00081,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00082,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00083,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00084,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00086,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00087,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00088,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00089,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00090,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00091,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00093,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00094,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00095,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00098,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00099,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00116,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00121,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00122,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17e31_00123,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

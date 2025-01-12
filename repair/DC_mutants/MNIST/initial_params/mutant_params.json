@@ -1,0 +1,11 @@
+{
+    "mnist_change_learning_rate_mutated0_MP_False_0.001.py": {
+        "lr": 0.001
+    },
+    "mnist_remove_activation_function_mutated0_MP_7.py": {
+        "act4": "linear"
+    },
+    "mnist_change_weights_initialisation_mutated0_MP_zeros_0.py": {
+        "ki1": "zeros"
+    }
+}

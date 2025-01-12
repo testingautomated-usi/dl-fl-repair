@@ -1,0 +1,95 @@
+```python
+    (x_train, y_train), (x_test, y_test) = tensorflow.keras.datasets.mnist.load_data()
+
+    # Explore data
+    # print(y_train[12])
+    # print(np.shape(x_train))
+    # print(np.shape(x_test))
+    # we have 60000 imae for the training and 10000 for testing
+
+    # Scaling data
+    x_train = x_train / 255
+    y_train = y_train / 255
+    # reshape the data
+    x_train = x_train.reshape(60000, 28, 28, 1)
+    x_test = x_test.reshape(10000, 28, 28, 1)
+    y_train = y_train.reshape(60000, 1)
+    y_test = y_test.reshape(10000, 1)
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        x_test, y_test, test_size=0.2, random_state=1
+    )
+
+    for k, v in config.items():
+        if v == "None":
+            v = None
+        config[k] = v
+
+    # Create a model
+    model = tensorflow.keras.Sequential()
+    model.add(
+        tensorflow.keras.layers.Conv2D(
+            64,
+            (3, 3),
+            padding="same",
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+            input_shape=(28, 28, 1),
+        )
+    )
+    model.add(tensorflow.keras.layers.MaxPooling2D(pool_size=(2, 2), padding="valid"))
+    model.add(
+        tensorflow.keras.layers.Conv2D(
+            32,
+            (3, 3),
+            padding="same",
+            activation=config["act2"],
+            kernel_initializer=config["ki2"],
+            bias_initializer=config["bi2"],
+        )
+    )
+    model.add(tensorflow.keras.layers.MaxPooling2D(pool_size=(2, 2), padding="valid"))
+    model.add(tensorflow.keras.layers.Flatten())
+    for _ in range(config["layer2"]):
+        model.add(
+            tensorflow.keras.layers.Dense(
+                config["unit2"],
+                activation=config["act3"],
+                kernel_initializer=config["ki3"],
+                bias_initializer=config["bi3"],
+            )
+        )
+    model.add(
+        tensorflow.keras.layers.Dense(
+            10,
+            activation=config["act4"],
+            kernel_initializer=config["ki4"],
+            bias_initializer=config["bi4"],
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(optimizer=optimizer, loss=config["loss"], metrics=["accuracy"])
+
+    model.fit(
+        x_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

@@ -1,0 +1,15 @@
+{
+  "layer1": 2,
+  "unit1": 10,
+  "ki1": "uniform",
+  "bi1": "zeros",
+  "act1": "relu",
+  "ki2": "uniform",
+  "bi2": "zeros",
+  "act2": "softmax",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "categorical_crossentropy",
+  "epochs": 200,
+  "batch_size": 32
+}

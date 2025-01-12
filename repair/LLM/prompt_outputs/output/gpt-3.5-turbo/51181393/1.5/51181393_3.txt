@@ -1,0 +1,10 @@
+{
+  "act1": "relu",
+  "ki1": "he_uniform",
+  "bi1": "glorot_uniform",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "mean_squared_error",
+  "epochs": 100,
+  "batch_size": 20
+}

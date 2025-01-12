@@ -1,0 +1,92 @@
+```python
+    def _get_number(vector):
+        return sum(x * 2**i for i, x in enumerate(vector))
+
+    def _get_mod_result(vector):
+        return _get_number(vector) % RADIX
+
+    def _number_to_vector(number):
+        binary_string = bin(number)[2:]
+        if len(binary_string) > 20:
+            raise NotImplementedError
+        bits = (((0,) * (20 - len(binary_string))) + tuple(map(int, binary_string)))[
+            ::-1
+        ]
+        assert len(bits) == 20
+        return np.c_[bits]
+
+    def get_mod_result_vector(vector):
+        return _number_to_vector(_get_mod_result(vector))
+    
+    # X = np.random.randint(2, size=(10000, 20))
+    # Y = np.vstack(map(get_mod_result_vector, X))
+    
+    if not os.path.exists("/home/fla/DFD/56380303/X.pkl"):
+        print("Error: saved dataset not found.") 
+        return 
+    else:
+        with open("/home/fla/DFD/56380303/X.pkl", "rb") as f:
+            X = pickle.load(f)
+        with open("/home/fla/DFD/56380303/Y.pkl", "rb") as f:
+            Y = pickle.load(f)
+
+    x_train, x_test, y_train, y_test = train_test_split(
+        X, Y, test_size=0.2, random_state=42
+    )
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        x_test, y_test, test_size=0.2, random_state=42
+    )
+
+    model = Sequential()
+    model.add(
+        Dense(
+            units=config["unit1"],
+            input_dim=20,
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+        )
+    )
+    for _ in range(config["layer2"]):
+        model.add(
+            Dense(
+                units=config["unit2"],
+                activation=config["act2"],
+                kernel_initializer=config["ki2"],
+                bias_initializer=config["bi2"],
+            )
+        )
+    model.add(
+        Dense(
+            units=20,
+            activation=config["act3"],
+            kernel_initializer=config["ki3"],
+            bias_initializer=config["bi3"],
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(optimizer=optimizer, loss=config["loss"], metrics=["accuracy"])
+
+    model.fit(
+        x_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

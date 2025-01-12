@@ -1,0 +1,10 @@
+{
+    "act1": "linear",
+    "ki1": "normal",
+    "bi1": "zeros",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "mean_squared_error",
+    "epochs": 200,
+    "batch_size": 16
+}

@@ -1,0 +1,117 @@
+```python
+    # Model configuration
+    batch_size = 64
+    img_width, img_height, img_num_channels = 32, 32, 3
+    loss_function = sparse_categorical_crossentropy
+    no_classes = 10
+    no_epochs = 50
+    optimizer = Adam()
+    validation_split = 0.2
+    verbosity = 1
+
+    # Load CIFAR-10 data
+    (x_train, y_train), (x_test, y_test) = cifar10.load_data()
+    # Determine shape of the data
+    input_shape = (img_width, img_height, img_num_channels)
+    # Parse numbers as floats
+    x_train = x_train.astype("float32")
+    x_test = x_test.astype("float32")
+    # Normalize data
+    x_train = x_train / 255
+    x_test = x_test / 255
+
+    x_train, x_valid, y_train, y_valid = train_test_split(
+        x_train, y_train, test_size=validation_split, random_state=0
+    )
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        x_test, y_test, test_size=0.2, random_state=42
+    )
+
+    # Create the model
+    model = Sequential()
+    model.add(
+        Conv2D(
+            32,
+            kernel_size=(3, 3),
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+            input_shape=input_shape,
+        )
+    )
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(
+        Conv2D(
+            64,
+            kernel_size=(3, 3),
+            activation=config["act2"],
+            kernel_initializer=config["ki2"],
+            bias_initializer=config["bi2"],
+        )
+    )
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(
+        Conv2D(
+            128,
+            kernel_size=(3, 3),
+            activation=config["act3"],
+            kernel_initializer=config["ki3"],
+            bias_initializer=config["bi3"],
+        )
+    )
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Flatten())
+    for _ in range(config["layer1"]):
+        model.add(
+            Dense(
+                config["unit1"],
+                activation=config["act4"],
+                kernel_initializer=config["ki4"],
+                bias_initializer=config["bi4"],
+            )
+        )
+    for _ in range(config["layer2"]):
+        model.add(
+            Dense(
+                config["unit2"],
+                activation=config["act5"],
+                kernel_initializer=config["ki5"],
+                bias_initializer=config["bi5"],
+            )
+        )
+    model.add(
+        Dense(
+            no_classes,
+            activation=config["act6"],
+            kernel_initializer=config["ki6"],
+            bias_initializer=config["bi6"],
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    # Compile the model
+    model.compile(loss=config["loss"], optimizer=optimizer, metrics=["accuracy"])
+
+    # Fit data to model
+    history = model.fit(
+        x_train,
+        y_train,
+        batch_size=config["batch_size"],
+        epochs=config["epochs"],
+        verbose=0,
+    )
+```

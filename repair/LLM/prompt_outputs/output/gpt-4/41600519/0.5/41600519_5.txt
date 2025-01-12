@@ -1,0 +1,23 @@
+{
+    "ki1": "uniform",
+    "bi1": "zeros",
+    "act1": "relu",
+    "layer2": 2,
+    "unit2": 200,
+    "ki2": "uniform",
+    "bi2": "zeros",
+    "act2": "relu",
+    "layer3": 2,
+    "unit3": 100,
+    "ki3": "uniform",
+    "bi3": "zeros",
+    "act3": "relu",
+    "ki4": "uniform",
+    "bi4": "zeros",
+    "act4": "sigmoid",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "binary_crossentropy",
+    "epochs": 10,
+    "batch_size": 32
+}

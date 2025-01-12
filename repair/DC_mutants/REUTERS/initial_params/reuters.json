@@ -1,0 +1,14 @@
+{
+    "act1": "relu",
+    "act2": "softmax",
+    "ki1": "glorot_uniform",
+    "bi1": "zeros",
+    "ki2": "glorot_uniform",
+    "bi2": "zeros",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "batch_size": 32,
+    "epochs": 3,
+    "loss": "categorical_crossentropy",
+    "unit1": 512
+}

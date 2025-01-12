@@ -1,0 +1,23 @@
+{
+  "act1": "relu",
+  "act2": "relu",
+  "act3": "relu",
+  "act4": "softmax",
+  "batch_size": 128,
+  "bi1": "zeros",
+  "bi2": "zeros",
+  "bi3": "zeros",
+  "bi4": "zeros",
+  "dropout1": 0.25,
+  "dropout2": 0.5,
+  "epochs": 12,
+  "ki1": "he_normal",
+  "ki2": "he_normal",
+  "ki3": "he_normal",
+  "ki4": "glorot_uniform",
+  "layer1": 1,
+  "loss": "categorical_crossentropy",
+  "lr": 0.001,
+  "optimizer": "adam",
+  "unit1": 128
+}

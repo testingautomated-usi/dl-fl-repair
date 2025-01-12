@@ -1,0 +1,21 @@
+{
+  "ki1": "he_normal",
+  "bi1": "zeros",
+  "act1": "relu",
+  "ki2": "he_normal",
+  "bi2": "zeros",
+  "act2": "relu",
+  "ki3": "he_normal",
+  "bi3": "zeros",
+  "act3": "relu",
+  "unit3": 512,
+  "ki4": "he_normal",
+  "bi4": "zeros",
+  "act4": "softmax",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "categorical_crossentropy",
+  "epochs": 50,
+  "batch_size": 64,
+  "layer3": 2
+}

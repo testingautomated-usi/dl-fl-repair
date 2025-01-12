@@ -1,0 +1,1 @@
+{"config.loss": "mean_squared_error", "config.batch_size": 32.0, "config.optimizer": "rmsprop", "config.lr": 0.1, "config.ki1": "glorot_uniform", "config.bi1": "zeros", "config.act1": "linear", "config.epochs": 200.0, "config.unit1": 1.0}

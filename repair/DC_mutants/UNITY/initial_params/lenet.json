@@ -1,0 +1,21 @@
+{
+    "act1": "relu",
+    "act2": "relu",
+    "act3": "relu",
+    "act4": "linear",
+    "ki1": "initialiser_normal",
+    "bi1": "initialiser_const",
+    "ki2": "initialiser_normal",
+    "bi2": "initialiser_const",
+    "ki3": "initialiser_xavier",
+    "bi3": "initialiser_const",
+    "ki4": "glorot_uniform",
+    "bi4": "zeros",
+    "optimizer": "sgd",
+    "lr": 0.01,
+    "batch_size": 128,
+    "epochs": 50,
+    "loss": "angle_loss_fn",
+    "layer1": 1,
+    "unit1": 500
+}

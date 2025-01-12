@@ -1,0 +1,17 @@
+```
+config = {
+    "ki1": "glorot_uniform",
+    "ki2": "normal",
+    "bi1": "zeros",
+    "bi2": "zeros",
+    "act1": "sigmoid",
+    "act2": "softmax",
+    "layer1": 1,
+    "unit1": 1,
+    "loss": "mean_absolute_error",
+    "batch_size": 200,
+    "optimizer": "rmsprop",
+    "lr": 0.001,
+    "epochs": 10,
+}
+```

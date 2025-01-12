@@ -1,0 +1,19 @@
+{
+    "unit1": 32,
+    "act1": "relu",
+    "ki1": "he_uniform",
+    "bi1": "zeros",
+    "layer2": 2,
+    "unit2": 16,
+    "act2": "relu",
+    "ki2": "he_uniform",
+    "bi2": "zeros",
+    "act3": "sigmoid",
+    "ki3": "glorot_uniform",
+    "bi3": "zeros",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "binary_crossentropy",
+    "epochs": 100,
+    "batch_size": 32
+}

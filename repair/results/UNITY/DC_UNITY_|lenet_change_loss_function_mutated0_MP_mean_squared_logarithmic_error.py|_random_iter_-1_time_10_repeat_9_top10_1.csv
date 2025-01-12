@@ -1,0 +1,56 @@
+trial_id,mean_loss,holdout_loss,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,neg_mean_loss,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time,experiment_tag,config.loss,config.batch_size,config.optimizer,config.lr,config.act1,config.act2,config.act3,config.act4,config.ki1,config.ki2,config.ki3,config.ki4,config.bi1,config.bi2,config.bi3,config.bi4,config.epochs,config.unit1,config.layer1
+35a5d_00000,0.12118210643529892,0.1203252300620079,165.474622964859,True,,,1.0,-0.12118210643529892,9ec845ff44304e1aaf6dad14c8898da0,2022-10-08_00-31-54,1665189114.0,165.474622964859,9132.0,b430368dd22d,172.17.0.2,165.474622964859,0.0,1.0,0.005839824676513672,0,mean_squared_logarithmic_error,128.0,sgd,0.01,relu,relu,relu,linear,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f3182922160>,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f3182922160>,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f3182941730>,glorot_uniform,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f3182941820>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f3182941820>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f3182941820>,zeros,50.0,500.0,1.0
+35a5d_00001,0.00447513721883297,0.004475175868719816,840.6520602703094,True,,,1.0,-0.00447513721883297,a9573d60434541ba8adb11a81b8b594a,2022-10-08_00-46-01,1665189961.0,840.6520602703094,10929.0,b430368dd22d,172.17.0.2,840.6520602703094,0.0,1.0,0.005142927169799805,"1_act1=selu,act2=softmax,act3=tanh,act4=exponential,batch_size=16,bi1=constant,bi2=initialiser_const,bi3=constant,bi4=lecun_normal,epochs=40,ki1=lecun_normal,ki2=random_normal,ki3=lecun_normal,ki4=truncated_normal,layer1=1,loss=mean_squared_error,lr=9.5319,optimizer=adagrad,unit1=250",mean_squared_error,16.0,adagrad,9.531918580035903,selu,softmax,tanh,exponential,lecun_normal,random_normal,lecun_normal,truncated_normal,constant,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f32b8fc2b50>,constant,lecun_normal,40.0,250.0,1.0
+35a5d_00002,,,,,,,,,d311a9bb62174c4b9d4207aeb65c3145,2022-10-08_00-46-08,1665189968.0,,18633.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,256.0,nadam,8.716671904147603,softplus,selu,softsign,softplus,he_normal,random_uniform,orthogonal,truncated_normal,random_uniform,lecun_uniform,glorot_normal,constant,33.0,1000.0,2.0
+35a5d_00003,,,,,,,,,778e8e1a9e904809941132c4cbb132cd,2022-10-08_00-46-24,1665189984.0,,18947.0,b430368dd22d,172.17.0.2,,,,,,mean_squared_error,128.0,rmsprop,2.8093971457166287,softsign,softsign,sigmoid,hard_sigmoid,lecun_normal,random_uniform,glorot_normal,zeros,glorot_normal,glorot_normal,orthogonal,random_normal,75.0,1000.0,2.0
+35a5d_00004,0.2817973494529724,0.28026002645492554,122.98372626304626,True,,,1.0,-0.2817973494529724,43276d33a90548eab642c7c2e67519c9,2022-10-08_00-48-38,1665190118.0,122.98372626304626,19206.0,b430368dd22d,172.17.0.2,122.98372626304626,0.0,1.0,0.004805088043212891,"4_act1=elu,act2=linear,act3=relu,act4=softplus,batch_size=64,bi1=zeros,bi2=truncated_normal,bi3=random_uniform,bi4=constant,epochs=22,ki1=lecun_normal,ki2=random_normal,ki3=initialiser_xavier,ki4=zeros,layer1=0,loss=mean_squared_logarithmic_error,lr=3.8641,optimizer=adagrad,unit1=500",mean_squared_logarithmic_error,64.0,adagrad,3.8640589441727475,elu,linear,relu,softplus,lecun_normal,random_normal,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f32b8ff4b20>,zeros,zeros,truncated_normal,random_uniform,constant,22.0,500.0,0.0
+35a5d_00005,0.2817973494529724,0.28026002645492554,348.62473344802856,True,,,1.0,-0.2817973494529724,89704a75817249aabb4991b464ff7110,2022-10-08_00-54-33,1665190473.0,348.62473344802856,20568.0,b430368dd22d,172.17.0.2,348.62473344802856,0.0,1.0,0.005316972732543945,"5_act1=selu,act2=selu,act3=tanh,act4=sigmoid,batch_size=32,bi1=constant,bi2=zeros,bi3=glorot_uniform,bi4=lecun_normal,epochs=27,ki1=glorot_normal,ki2=ones,ki3=ones,ki4=lecun_normal,layer1=1,loss=squared_hinge,lr=7.7686,optimizer=rmsprop,unit1=250",squared_hinge,32.0,rmsprop,7.768613045837022,selu,selu,tanh,sigmoid,glorot_normal,ones,ones,lecun_normal,constant,zeros,glorot_uniform,lecun_normal,27.0,250.0,1.0
+35a5d_00006,1.002210021018982,0.9998885989189148,246.06660652160645,True,,,1.0,-1.002210021018982,22e47a39c7e54b39baa49db385cd81f8,2022-10-08_00-58-45,1665190725.0,246.06660652160645,23980.0,b430368dd22d,172.17.0.2,246.06660652160645,0.0,1.0,0.0052144527435302734,"6_act1=hard_sigmoid,act2=tanh,act3=selu,act4=softmax,batch_size=512,bi1=lecun_normal,bi2=he_normal,bi3=initialiser_const,bi4=he_uniform,epochs=75,ki1=glorot_uniform,ki2=zeros,ki3=initialiser_xavier,ki4=orthogonal,layer1=1,loss=binary_crossentropy,lr=5.1317,optimizer=nadam,unit1=250",binary_crossentropy,512.0,nadam,5.131697601518681,hard_sigmoid,tanh,selu,softmax,glorot_uniform,zeros,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f32b8e30d30>,orthogonal,lecun_normal,he_normal,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f32b8e300a0>,he_uniform,75.0,250.0,1.0
+35a5d_00007,0.2817973494529724,0.28026002645492554,91.09919905662537,True,,,1.0,-0.2817973494529724,dc591186ea2f43db946a303ee8609b44,2022-10-08_01-00-21,1665190821.0,91.09919905662537,26906.0,b430368dd22d,172.17.0.2,91.09919905662537,0.0,1.0,0.005309581756591797,"7_act1=relu,act2=hard_sigmoid,act3=elu,act4=exponential,batch_size=512,bi1=zeros,bi2=glorot_uniform,bi3=random_uniform,bi4=random_normal,epochs=33,ki1=he_uniform,ki2=orthogonal,ki3=lecun_uniform,ki4=he_normal,layer1=0,loss=categorical_crossentropy,lr=6.1946,optimizer=sgd,unit1=500",categorical_crossentropy,512.0,sgd,6.1945595664733775,relu,hard_sigmoid,elu,exponential,he_uniform,orthogonal,lecun_uniform,he_normal,zeros,glorot_uniform,random_uniform,random_normal,33.0,500.0,0.0
+35a5d_00008,1.0217106342315674,1.0192526578903198,275.119193315506,True,,,1.0,-1.0217106342315674,56ad4398bc4f4314a0ca2c7011fde0fd,2022-10-08_01-05-01,1665191101.0,275.119193315506,28470.0,b430368dd22d,172.17.0.2,275.119193315506,0.0,1.0,0.004990577697753906,"8_act1=elu,act2=elu,act3=relu,act4=tanh,batch_size=128,bi1=lecun_uniform,bi2=ones,bi3=glorot_normal,bi4=zeros,epochs=75,ki1=random_uniform,ki2=glorot_normal,ki3=random_uniform,ki4=orthogonal,layer1=2,loss=logcosh,lr=6.6939,optimizer=sgd,unit1=500",logcosh,128.0,sgd,6.693905892731416,elu,elu,relu,tanh,random_uniform,glorot_normal,random_uniform,orthogonal,lecun_uniform,ones,glorot_normal,zeros,75.0,500.0,2.0
+35a5d_00009,,,,,,,,,a353df4b90064efaabc2cc23eecee288,2022-10-08_01-05-06,1665191106.0,,31523.0,b430368dd22d,172.17.0.2,,,,,,categorical_crossentropy,256.0,adadelta,8.482565427724845,relu,hard_sigmoid,exponential,exponential,glorot_normal,glorot_normal,zeros,random_normal,he_uniform,orthogonal,random_uniform,he_uniform,61.0,500.0,0.0
+35a5d_00010,,,,,,,,,f2814d7a89d64531beb04a00ad782531,2022-10-08_01-05-16,1665191116.0,,31793.0,b430368dd22d,172.17.0.2,,,,,,mean_squared_logarithmic_error,128.0,adamax,0.6609638251384885,sigmoid,hard_sigmoid,hard_sigmoid,softplus,truncated_normal,constant,glorot_uniform,random_uniform,random_normal,constant,zeros,lecun_normal,40.0,250.0,2.0
+35a5d_00011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35a5d_00054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,55 @@
+trial_id,mean_loss,holdout_loss,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,neg_mean_loss,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time,experiment_tag,config.loss,config.batch_size,config.optimizer,config.lr,config.act1,config.act2,config.act3,config.act4,config.ki1,config.ki2,config.ki3,config.ki4,config.bi1,config.bi2,config.bi3,config.bi4,config.epochs,config.unit1,config.layer1
+3707f_00000,0.10582559555768967,0.1067211702466011,13.253363370895386,True,,,1.0,-0.10582559555768967,aa9092ad17094f5caf2c7b2722e33b47,2022-09-09_16-55-49,1662742549.0,13.253363370895386,14441.0,b430368dd22d,172.17.0.2,13.253363370895386,0.0,1.0,0.005273580551147461,0,<function angle_loss_fn at 0x7f777cf71af0>,128.0,sgd,0.01,relu,relu,relu,linear,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f777cdf5d60>,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f777cdf5d60>,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f777cdf5dc0>,glorot_uniform,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f777cdf5160>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f777cdf5160>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f777cdf5160>,zeros,1.0,500.0,1.0
+3707f_00001,,,,,,,,,947e319e002b46d793f99ae4df5a2a37,2022-09-09_16-55-55,1662742555.0,,14866.0,b430368dd22d,172.17.0.2,,,,,,categorical_hinge,512.0,adamax,1.5461740294958537,tanh,elu,softmax,softsign,he_uniform,glorot_normal,he_uniform,truncated_normal,lecun_normal,constant,glorot_uniform,orthogonal,1.0,500.0,2.0
+3707f_00002,0.2817973494529724,0.2802600562572479,12.321611166000366,True,,,1.0,-0.2817973494529724,26d0b9de5a2d4762a340c53e42db962a,2022-09-09_16-56-15,1662742575.0,12.321611166000366,15132.0,b430368dd22d,172.17.0.2,12.321611166000366,0.0,1.0,0.004765748977661133,"2_act1=softsign,act2=sigmoid,act3=softmax,act4=exponential,batch_size=256,bi1=he_normal,bi2=he_uniform,bi3=he_normal,bi4=lecun_normal,epochs=1,ki1=glorot_normal,ki2=random_uniform,ki3=glorot_uniform,ki4=glorot_normal,layer1=1,loss=mean_absolute_percentage_error,lr=0.7676,optimizer=adam,unit1=250",mean_absolute_percentage_error,256.0,adam,0.767634377433962,softsign,sigmoid,softmax,exponential,glorot_normal,random_uniform,glorot_uniform,glorot_normal,he_normal,he_uniform,he_normal,lecun_normal,1.0,250.0,1.0
+3707f_00003,,,,,,,,,6bb274e649ab44abbfe4ac2ef5fade82,2022-09-09_16-56-20,1662742580.0,,15556.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,512.0,adadelta,1.392351932137639,relu,relu,softsign,softmax,he_normal,glorot_uniform,lecun_uniform,orthogonal,he_normal,orthogonal,glorot_normal,random_normal,1.0,1000.0,0.0
+3707f_00004,1.0247570276260376,1.0268900394439697,12.194195032119751,True,,,1.0,-1.0247570276260376,b9954af83f80456884da65f5b6375068,2022-09-09_16-56-40,1662742600.0,12.194195032119751,15815.0,b430368dd22d,172.17.0.2,12.194195032119751,0.0,1.0,0.006026029586791992,"4_act1=tanh,act2=sigmoid,act3=linear,act4=softsign,batch_size=256,bi1=glorot_normal,bi2=lecun_uniform,bi3=random_uniform,bi4=random_normal,epochs=1,ki1=random_uniform,ki2=initialiser_normal,ki3=initialiser_xavier,ki4=he_uniform,layer1=1,loss=logcosh,lr=8.4074,optimizer=rmsprop,unit1=500",logcosh,256.0,rmsprop,8.407380043375944,tanh,sigmoid,linear,softsign,random_uniform,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f777ce01910>,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f777ce018e0>,he_uniform,glorot_normal,lecun_uniform,random_uniform,random_normal,1.0,500.0,1.0
+3707f_00005,0.2817973494529724,0.28026002645492554,11.690994501113892,True,,,1.0,-0.2817973494529724,39f7150cd7b04ec6ba314d92aade72e7,2022-09-09_16-56-56,1662742616.0,11.690994501113892,16220.0,b430368dd22d,172.17.0.2,11.690994501113892,0.0,1.0,0.004729032516479492,"5_act1=tanh,act2=sigmoid,act3=relu,act4=sigmoid,batch_size=512,bi1=glorot_uniform,bi2=glorot_uniform,bi3=he_uniform,bi4=lecun_uniform,epochs=1,ki1=ones,ki2=random_normal,ki3=lecun_uniform,ki4=glorot_uniform,layer1=0,loss=poisson,lr=6.6449,optimizer=adagrad,unit1=500",poisson,512.0,adagrad,6.644894985771725,tanh,sigmoid,relu,sigmoid,ones,random_normal,lecun_uniform,glorot_uniform,glorot_uniform,glorot_uniform,he_uniform,lecun_uniform,1.0,500.0,0.0
+3707f_00006,,,,,,,,,59a773a21a364f39932d9174402364bf,2022-09-09_16-57-02,1662742622.0,,16628.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,256.0,sgd,8.313505060246973,relu,softmax,tanh,exponential,lecun_uniform,random_uniform,ones,truncated_normal,ones,he_normal,glorot_uniform,random_normal,1.0,250.0,1.0
+3707f_00007,1.0183247327804565,1.0158371925354004,38.195743799209595,True,,,1.0,-1.0183247327804565,dff8353dfcd84193accf9171bccb2b82,2022-09-09_16-57-51,1662742671.0,38.195743799209595,16900.0,b430368dd22d,172.17.0.2,38.195743799209595,0.0,1.0,0.0051021575927734375,"7_act1=selu,act2=sigmoid,act3=sigmoid,act4=softsign,batch_size=16,bi1=he_uniform,bi2=he_normal,bi3=random_normal,bi4=truncated_normal,epochs=1,ki1=he_normal,ki2=constant,ki3=initialiser_xavier,ki4=orthogonal,layer1=1,loss=angle_loss_fn,lr=8.8982,optimizer=sgd,unit1=500",<function angle_loss_fn at 0x7f777cee9700>,16.0,sgd,8.898176279266966,selu,sigmoid,sigmoid,softsign,he_normal,constant,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f777ce07910>,orthogonal,he_uniform,he_normal,random_normal,truncated_normal,1.0,500.0,1.0
+3707f_00008,1.002210021018982,0.9998885989189148,34.21090793609619,True,,,1.0,-1.002210021018982,dc78e3a1fb3f45aca7833c38317588cc,2022-09-09_16-58-30,1662742710.0,34.21090793609619,17557.0,b430368dd22d,172.17.0.2,34.21090793609619,0.0,1.0,0.007354736328125,"8_act1=selu,act2=softplus,act3=tanh,act4=softmax,batch_size=16,bi1=initialiser_const,bi2=glorot_uniform,bi3=glorot_uniform,bi4=random_normal,epochs=1,ki1=ones,ki2=he_normal,ki3=truncated_normal,ki4=random_normal,layer1=0,loss=hinge,lr=5.8058,optimizer=adadelta,unit1=1000",hinge,16.0,adadelta,5.805763186616102,selu,softplus,tanh,softmax,ones,he_normal,truncated_normal,random_normal,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f777cf06340>,glorot_uniform,glorot_uniform,random_normal,1.0,1000.0,0.0
+3707f_00009,,,,,,,,,5f1c504247ad41feba9b0da0f1897dbe,2022-09-09_16-58-35,1662742715.0,,19610.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,128.0,adagrad,3.8819723372850707,softplus,softmax,selu,softplus,lecun_normal,random_uniform,orthogonal,glorot_uniform,ones,lecun_uniform,random_uniform,glorot_uniform,1.0,1000.0,0.0
+3707f_00010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3707f_00053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

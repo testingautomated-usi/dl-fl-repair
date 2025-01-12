@@ -1,0 +1,15 @@
+{
+   "layer1": 2,
+   "unit1": 15,
+   "ki1": "he_uniform",
+   "bi1": "uniform",
+   "act1": "elu",
+   "ki2": "he_uniform",
+   "bi2": "uniform",
+   "act2": "softmax",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "loss": "binary_crossentropy",
+   "epochs": 50,
+   "batch_size": 32
+}

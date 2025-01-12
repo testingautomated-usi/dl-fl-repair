@@ -1,0 +1,17 @@
+{
+    "ki1": "he_normal",
+    "bi1": "zeros",
+    "act1": "relu",
+    "layer2": 2,
+    "ki2": "he_normal",
+    "bi2": "zeros",
+    "act2": "relu",
+    "ki3": "glorot_uniform",
+    "bi3": "zeros",
+    "act3": "sigmoid",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "binary_crossentropy",
+    "epochs": 50,
+    "batch_size": 128
+}

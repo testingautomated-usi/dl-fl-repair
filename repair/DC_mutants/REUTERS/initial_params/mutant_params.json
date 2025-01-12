@@ -1,0 +1,21 @@
+{
+    "reuters_change_activation_function_mutated0_MP_softsign_2.py": {
+        "act2": "softsign"  
+    },
+    "reuters_change_learning_rate_mutated0_MP_False_1.0.py": {
+        "lr": 1.0
+    },
+    "reuters_change_loss_function_mutated0_MP_hinge.py": {
+        "loss": "hinge"
+    },
+    "reuters_change_optimisation_function_mutated0_MP_sgd.py": {
+        "optimizer": "sgd"
+    },
+    "reuters_change_weights_initialisation_mutated0_MP_ones_0.py": {
+        "ki1": "ones"
+    },
+    "reuters_remove_activation_function_mutated0_MP_2.py": {
+        "act2": "linear"
+    }
+}
+

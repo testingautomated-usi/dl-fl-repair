@@ -1,0 +1,1 @@
+{"config.loss": "binary_crossentropy", "config.batch_size": 32.0, "config.optimizer": "adam", "config.lr": 0.1, "config.ki1": "glorot_uniform", "config.ki2": "glorot_uniform", "config.bi1": "zeros", "config.bi2": "zeros", "config.act1": "sigmoid", "config.act2": "sigmoid", "config.epochs": 100.0, "config.unit1": 2.0}

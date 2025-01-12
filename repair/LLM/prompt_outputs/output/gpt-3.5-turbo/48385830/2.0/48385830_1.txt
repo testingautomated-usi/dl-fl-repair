@@ -1,0 +1,14 @@
+{
+    "unit1": 128,
+    "ki1": "v1", 
+    "bi1": "v1", 
+    "act1": "relu", 
+    "ki2": "v2", 
+    "bi2": "v2", 
+    "act2": "softmax",
+    "optimizer": "adam,"
+    "lr": 0.0001, 
+    "loss": "categorical_crossentropy",    
+    "epochs": 20,  
+    "batch_size": 64   
+}

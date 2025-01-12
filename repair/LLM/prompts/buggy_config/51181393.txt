@@ -1,0 +1,13 @@
+```
+config = {
+        "ki1": "glorot_uniform",
+        "bi1": "zeros",
+        "act1": "linear",
+        "unit1": 1,
+        "loss": "mean_squared_error",
+        "batch_size": 32,
+        "optimizer": "rmsprop",
+        "lr": 0.001,
+        "epochs": 200,
+    }
+```

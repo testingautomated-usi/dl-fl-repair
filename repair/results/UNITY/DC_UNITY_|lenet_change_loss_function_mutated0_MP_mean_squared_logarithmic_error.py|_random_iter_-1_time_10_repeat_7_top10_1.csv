@@ -1,0 +1,57 @@
+trial_id,mean_loss,holdout_loss,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,neg_mean_loss,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time,experiment_tag,config.loss,config.batch_size,config.optimizer,config.lr,config.act1,config.act2,config.act3,config.act4,config.ki1,config.ki2,config.ki3,config.ki4,config.bi1,config.bi2,config.bi3,config.bi4,config.epochs,config.unit1,config.layer1
+3835a_00000,0.11737429350614548,0.11735332012176514,186.86836957931519,True,,,1.0,-0.11737429350614548,6f5ec48ac93b495ea1b1878acb7d1e64,2022-10-07_22-52-06,1665183126.0,186.86836957931519,23885.0,b430368dd22d,172.17.0.2,186.86836957931519,0.0,1.0,0.004874706268310547,0,mean_squared_logarithmic_error,128.0,sgd,0.01,relu,relu,relu,linear,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f31828f1ca0>,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f31828f1ca0>,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f31828f1d60>,glorot_uniform,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f31828f1b50>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f31828f1b50>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f31828f1b50>,zeros,50.0,500.0,1.0
+3835a_00001,1.5713331699371338,1.581566333770752,388.5418553352356,True,,,1.0,-1.5713331699371338,b1933182b9124ccab9ac82a5766f8767,2022-10-07_22-58-40,1665183520.0,388.5418553352356,26272.0,b430368dd22d,172.17.0.2,388.5418553352356,0.0,1.0,0.005593776702880859,"1_act1=hard_sigmoid,act2=tanh,act3=relu,act4=linear,batch_size=128,bi1=zeros,bi2=zeros,bi3=he_uniform,bi4=lecun_normal,epochs=91,ki1=he_normal,ki2=truncated_normal,ki3=initialiser_xavier,ki4=he_uniform,layer1=0,loss=binary_crossentropy,lr=5.6972,optimizer=adamax,unit1=250",binary_crossentropy,128.0,adamax,5.697219131156085,hard_sigmoid,tanh,relu,linear,he_normal,truncated_normal,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f32b90a1280>,he_uniform,zeros,zeros,he_uniform,lecun_normal,91.0,250.0,0.0
+3835a_00002,0.00447513721883297,0.004475175868719816,113.5363929271698,True,,,1.0,-0.00447513721883297,3dce7ee5aaa147dbbd1b0b50757637ad,2022-10-07_23-00-38,1665183638.0,113.5363929271698,30555.0,b430368dd22d,172.17.0.2,113.5363929271698,0.0,1.0,0.005370140075683594,"2_act1=elu,act2=elu,act3=exponential,act4=selu,batch_size=512,bi1=glorot_uniform,bi2=he_normal,bi3=glorot_normal,bi4=glorot_normal,epochs=33,ki1=he_uniform,ki2=random_normal,ki3=random_uniform,ki4=random_uniform,layer1=2,loss=mean_absolute_error,lr=9.7922,optimizer=nadam,unit1=1000",mean_absolute_error,512.0,nadam,9.792202778162475,elu,elu,exponential,selu,he_uniform,random_normal,random_uniform,random_uniform,glorot_uniform,he_normal,glorot_normal,glorot_normal,33.0,1000.0,2.0
+3835a_00003,0.00447513721883297,0.004475175868719816,126.21999096870422,True,,,1.0,-0.00447513721883297,b0e684eba48f48a29c8dc2892048753b,2022-10-07_23-02-49,1665183769.0,126.21999096870422,32641.0,b430368dd22d,172.17.0.2,126.21999096870422,0.0,1.0,0.006119489669799805,"3_act1=softplus,act2=tanh,act3=hard_sigmoid,act4=exponential,batch_size=512,bi1=random_normal,bi2=glorot_uniform,bi3=he_uniform,bi4=he_normal,epochs=50,ki1=initialiser_normal,ki2=truncated_normal,ki3=ones,ki4=random_uniform,layer1=0,loss=hinge,lr=6.6066,optimizer=adamax,unit1=1000",hinge,512.0,adamax,6.606574408434669,softplus,tanh,hard_sigmoid,exponential,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f32b8e630a0>,truncated_normal,ones,random_uniform,random_normal,glorot_uniform,he_uniform,he_normal,50.0,1000.0,0.0
+3835a_00004,1.0228722095489502,1.0222196578979492,155.79363703727722,True,,,1.0,-1.0228722095489502,d96a233fb1834a4b9c826192f1470fef,2022-10-07_23-05-30,1665183930.0,155.79363703727722,34088.0,b430368dd22d,172.17.0.2,155.79363703727722,0.0,1.0,0.006501197814941406,"4_act1=elu,act2=selu,act3=softsign,act4=sigmoid,batch_size=128,bi1=random_normal,bi2=truncated_normal,bi3=lecun_uniform,bi4=random_uniform,epochs=40,ki1=initialiser_normal,ki2=zeros,ki3=random_uniform,ki4=glorot_normal,layer1=0,loss=mean_absolute_error,lr=6.2786,optimizer=rmsprop,unit1=500",mean_absolute_error,128.0,rmsprop,6.278635056235016,elu,selu,softsign,sigmoid,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f32b8e85d30>,zeros,random_uniform,glorot_normal,random_normal,truncated_normal,lecun_uniform,random_uniform,40.0,500.0,0.0
+3835a_00005,0.2817973494529724,0.28026002645492554,135.9344618320465,True,,,1.0,-0.2817973494529724,1edb86a9a29f4135b82ea8ec5ba4e20e,2022-10-07_23-07-50,1665184070.0,135.9344618320465,35832.0,b430368dd22d,172.17.0.2,135.9344618320465,0.0,1.0,0.00526738166809082,"5_act1=hard_sigmoid,act2=selu,act3=linear,act4=sigmoid,batch_size=512,bi1=random_uniform,bi2=glorot_uniform,bi3=truncated_normal,bi4=glorot_uniform,epochs=40,ki1=orthogonal,ki2=random_normal,ki3=ones,ki4=glorot_normal,layer1=2,loss=binary_crossentropy,lr=3.1163,optimizer=adadelta,unit1=500",binary_crossentropy,512.0,adadelta,3.1163059675644975,hard_sigmoid,selu,linear,sigmoid,orthogonal,random_normal,ones,glorot_normal,random_uniform,glorot_uniform,truncated_normal,glorot_uniform,40.0,500.0,2.0
+3835a_00006,1.54362952709198,1.556273341178894,432.72226452827454,True,,,1.0,-1.54362952709198,f681b1c42599456d882220d68f85f2b5,2022-10-07_23-15-08,1665184508.0,432.72226452827454,38299.0,b430368dd22d,172.17.0.2,432.72226452827454,0.0,1.0,0.006326198577880859,"6_act1=softplus,act2=softplus,act3=elu,act4=linear,batch_size=32,bi1=ones,bi2=truncated_normal,bi3=lecun_uniform,bi4=glorot_uniform,epochs=33,ki1=initialiser_normal,ki2=lecun_normal,ki3=orthogonal,ki4=lecun_normal,layer1=1,loss=categorical_hinge,lr=6.7168,optimizer=sgd,unit1=250",categorical_hinge,32.0,sgd,6.716847922280517,softplus,softplus,elu,linear,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f32b8d75af0>,lecun_normal,orthogonal,lecun_normal,ones,truncated_normal,lecun_uniform,glorot_uniform,33.0,250.0,1.0
+3835a_00007,1.024747610092163,1.0268797874450684,92.11958861351013,True,,,1.0,-1.024747610092163,bca3facf386a4e52a83135f06ebb1f5d,2022-10-07_23-16-45,1665184605.0,92.11958861351013,2640.0,b430368dd22d,172.17.0.2,92.11958861351013,0.0,1.0,0.006178140640258789,"7_act1=softsign,act2=linear,act3=softsign,act4=softsign,batch_size=256,bi1=ones,bi2=truncated_normal,bi3=glorot_uniform,bi4=random_normal,epochs=33,ki1=constant,ki2=zeros,ki3=glorot_normal,ki4=random_normal,layer1=0,loss=mean_squared_logarithmic_error,lr=1.2017,optimizer=adamax,unit1=250",mean_squared_logarithmic_error,256.0,adamax,1.2017065223458854,softsign,linear,softsign,softsign,constant,zeros,glorot_normal,random_normal,ones,truncated_normal,glorot_uniform,random_normal,33.0,250.0,0.0
+3835a_00008,,,,,,,,,1308e3d9e0194f8cba34ea73838cbb8b,2022-10-07_23-16-50,1665184610.0,,3788.0,b430368dd22d,172.17.0.2,,,,,,poisson,64.0,adamax,9.63431578733576,tanh,selu,softsign,elu,truncated_normal,lecun_uniform,orthogonal,constant,ones,glorot_uniform,orthogonal,truncated_normal,40.0,250.0,2.0
+3835a_00009,1.0228722095489502,1.0222196578979492,360.9999499320984,True,,,1.0,-1.0228722095489502,727274eaa0284a719371a7556d863a8d,2022-10-07_23-22-58,1665184978.0,360.9999499320984,4014.0,b430368dd22d,172.17.0.2,360.9999499320984,0.0,1.0,0.0052297115325927734,"9_act1=softmax,act2=softplus,act3=softsign,act4=hard_sigmoid,batch_size=512,bi1=constant,bi2=glorot_normal,bi3=glorot_uniform,bi4=constant,epochs=91,ki1=random_normal,ki2=he_uniform,ki3=constant,ki4=glorot_uniform,layer1=0,loss=kullback_leibler_divergence,lr=7.1136,optimizer=sgd,unit1=1000",kullback_leibler_divergence,512.0,sgd,7.1135919402096865,softmax,softplus,softsign,hard_sigmoid,random_normal,he_uniform,constant,glorot_uniform,constant,glorot_normal,glorot_uniform,constant,91.0,1000.0,0.0
+3835a_00010,,,,,,,,,a02c34e6468f4861829a7c1d2917775d,2022-10-07_23-23-03,1665184983.0,,8114.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,256.0,sgd,9.59887855203892,softsign,softmax,sigmoid,tanh,lecun_normal,glorot_uniform,he_normal,orthogonal,orthogonal,orthogonal,he_uniform,lecun_normal,50.0,1000.0,1.0
+3835a_00011,,,,,,,,,ab7042d3e6e24e3f9400384e8c9a079e,2022-10-07_23-23-11,1665184991.0,,8352.0,b430368dd22d,172.17.0.2,,,,,,categorical_hinge,128.0,adamax,8.042807013264314,tanh,softplus,exponential,softmax,initialiser_normal,random_uniform,glorot_normal,zeros,initialiser_const,ones,zeros,zeros,91.0,1000.0,2.0
+3835a_00012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3835a_00055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

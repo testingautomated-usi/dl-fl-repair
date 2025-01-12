@@ -1,0 +1,63 @@
+```python
+    (x_train, y_train), (x_test, y_test) = mnist.load_data()
+    img_rows, img_cols = 28, 28
+    x_train = x_train.reshape(x_train.shape[0], img_rows * img_cols)
+    x_test = x_test.reshape(x_test.shape[0], img_rows * img_cols)
+    input_shape = (img_rows * img_cols,)
+
+    x_train = x_train.astype('float32')
+    x_test = x_test.astype('float32')
+    x_train /= 255
+    x_test /= 255
+
+    num_classes = 10
+    y_train = to_categorical(y_train, num_classes)
+    y_test = to_categorical(y_test, num_classes)
+
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        x_test, y_test, test_size=0.2, random_state=42)
+
+    for k, v in config.items():
+        if v == "None":
+            v = None
+        elif v == "RandomNormal":
+            v = RandomNormal(stddev=1)
+        config[k] = v
+
+    model = Sequential()
+    layer1 = Dense(config["unit1"],
+                input_shape=input_shape,
+                kernel_initializer=config["ki1"],
+                bias_initializer=config["bi1"],
+                activation=config["act1"])
+    model.add(layer1)
+    layer2 = Dense(10,
+                kernel_initializer=config["ki2"],
+                bias_initializer=config["bi2"],
+                activation=config["act2"])
+    model.add(layer2)
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(loss=config["loss"], optimizer=optimizer, metrics=["accuracy"])
+    model.fit(
+        x_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0
+    )
+```

@@ -1,0 +1,21 @@
+{
+    "ki1": "glorot_normal",
+    "ki2": "glorot_normal",
+    "ki3": "he_normal",
+    "ki4": "he_normal",
+    "bi1": "zeros",
+    "bi2": "zeros",
+    "bi3": "zeros",
+    "bi4": "zeros",
+    "act1": "relu",
+    "act2": "relu",
+    "act3": "relu",
+    "act4": "linear",
+    "layer1": 3,
+    "unit1": 64,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "mean_squared_error",
+    "batch_size": 32,
+    "epochs": 50
+}

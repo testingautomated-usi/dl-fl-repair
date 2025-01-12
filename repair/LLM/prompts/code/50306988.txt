@@ -1,0 +1,75 @@
+```python
+    np.random.seed(42)
+
+    dataset_size = 200
+
+    class_1 = np.random.uniform(low=0.2, high=0.4, size=(dataset_size,))
+    class_2 = np.random.uniform(low=0.7, high=0.5, size=(dataset_size,))
+
+    dataset = []
+    for i in range(0, dataset_size, 2):
+        dataset.append([class_1[i], class_1[i + 1], 1])
+        dataset.append([class_2[i], class_2[i + 1], 2])
+
+    df_train = pd.DataFrame(data=dataset, columns=["x", "y", "class"])
+
+    x_train = df_train.iloc[:, 0:-1].values
+    y_train = df_train.iloc[:, -1]
+
+    nr_feats = x_train.shape[1]
+    nr_classes = y_train.nunique()
+
+    label_enc = LabelEncoder()
+    label_enc.fit(y_train)
+
+    y_train = to_categorical(label_enc.transform(y_train), nr_classes)
+
+    x_train, x_test, y_train, y_test = train_test_split(
+        x_train, y_train, test_size=0.2, random_state=42
+    )
+    X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+        x_test, y_test, test_size=0.2, random_state=42
+    )
+
+    model = Sequential()
+    model.add(
+        Dense(
+            units=config["unit1"],
+            input_shape=(nr_feats,),
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"]
+        )
+    )
+
+    model.add(Dense(units=nr_classes,
+                activation=config["act2"],
+            kernel_initializer=config["ki2"],
+            bias_initializer=config["bi2"]
+    ))
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(optimizer=optimizer, loss=config["loss"], metrics=["accuracy"])
+
+    model.fit(
+        x_train,
+        y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```

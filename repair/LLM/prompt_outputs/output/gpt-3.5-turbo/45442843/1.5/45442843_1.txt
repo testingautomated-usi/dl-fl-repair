@@ -1,0 +1,15 @@
+{
+   "layer1": 2,
+   "unit1": 32,
+   "ki1": "glorot_normal",
+   "bi1": "zeros",
+   "act1": "relu",
+   "ki2": "glorot_normal",
+   "bi2":"zeros",
+   "act2": "softmax",
+   "optimizer": "adam",
+   "lr": 0.001,
+   "loss": "categorical_crossentropy",
+   "epochs": 100,
+   "batch_size": 64
+}

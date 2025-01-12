@@ -1,0 +1,59 @@
+trial_id,mean_loss,holdout_loss,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,neg_mean_loss,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time,experiment_tag,config.loss,config.batch_size,config.optimizer,config.lr,config.act1,config.act2,config.act3,config.act4,config.ki1,config.ki2,config.ki3,config.ki4,config.bi1,config.bi2,config.bi3,config.bi4,config.epochs,config.unit1,config.layer1
+fdad2_00000,0.05592179298400879,0.05640573799610138,195.58548426628113,True,,,1.0,-0.05592179298400879,10c070e194594740a35c0931d6fbce7c,2022-09-07_18-04-04,1662573844.0,195.58548426628113,38449.0,b430368dd22d,172.17.0.2,195.58548426628113,0.0,1.0,0.0054934024810791016,0,<function angle_loss_fn at 0x7f14bc108430>,128.0,sgd,0.01,relu,exponential,relu,linear,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f14bc0c9910>,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f14bc0c9910>,<tensorflow.python.keras.initializers.initializers_v2.GlorotNormal object at 0x7f14bc0c9f70>,glorot_uniform,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f14bc0c9dc0>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f14bc0c9dc0>,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f14bc0c9dc0>,zeros,50.0,500.0,1.0
+fdad2_00001,0.00447513721883297,0.004475175868719816,336.00724172592163,True,,,1.0,-0.00447513721883297,4b43ffb01ba54e7b9dadffa3f6b6d892,2022-09-07_18-09-45,1662574185.0,336.00724172592163,39281.0,b430368dd22d,172.17.0.2,336.00724172592163,0.0,1.0,0.005188703536987305,"1_act1=softmax,act2=exponential,act3=sigmoid,act4=tanh,batch_size=128,bi1=lecun_uniform,bi2=lecun_uniform,bi3=orthogonal,bi4=lecun_normal,epochs=73,ki1=glorot_normal,ki2=initialiser_normal,ki3=he_uniform,ki4=he_normal,layer1=0,loss=mean_absolute_percentage_error,lr=4.4707,optimizer=adam,unit1=500",mean_absolute_percentage_error,128.0,adam,4.470681832224327,softmax,exponential,sigmoid,tanh,glorot_normal,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f14bc06d070>,he_uniform,he_normal,lecun_uniform,lecun_uniform,orthogonal,lecun_normal,73.0,500.0,0.0
+fdad2_00002,0.00447513721883297,0.004475175868719816,1024.5213379859924,True,,,1.0,-0.00447513721883297,cfb3880a859545efa0a17a8af74e1438,2022-09-07_18-26-55,1662575215.0,1024.5213379859924,889.0,b430368dd22d,172.17.0.2,1024.5213379859924,0.0,1.0,0.005370378494262695,"2_act1=softplus,act2=selu,act3=relu,act4=exponential,batch_size=16,bi1=he_uniform,bi2=zeros,bi3=zeros,bi4=lecun_normal,epochs=29,ki1=lecun_uniform,ki2=random_normal,ki3=glorot_normal,ki4=random_normal,layer1=0,loss=angle_loss_fn,lr=5.0845,optimizer=nadam,unit1=500",<function angle_loss_fn at 0x7f1435721670>,16.0,nadam,5.0844622745365085,softplus,selu,relu,exponential,lecun_uniform,random_normal,glorot_normal,random_normal,he_uniform,zeros,zeros,lecun_normal,29.0,500.0,0.0
+fdad2_00003,0.00447513721883297,0.004475175868719816,173.7187421321869,True,,,1.0,-0.00447513721883297,793ab01c2ff84f3d8d7f548eac1a5f02,2022-09-07_18-29-54,1662575394.0,173.7187421321869,5460.0,b430368dd22d,172.17.0.2,173.7187421321869,0.0,1.0,0.004718780517578125,"3_act1=sigmoid,act2=selu,act3=softsign,act4=linear,batch_size=64,bi1=initialiser_const,bi2=truncated_normal,bi3=lecun_normal,bi4=glorot_normal,epochs=29,ki1=glorot_normal,ki2=ones,ki3=random_normal,ki4=glorot_uniform,layer1=0,loss=mean_squared_error,lr=5.0720,optimizer=sgd,unit1=1000",mean_squared_error,64.0,sgd,5.072000074778419,sigmoid,selu,softsign,linear,glorot_normal,ones,random_normal,glorot_uniform,<tensorflow.python.keras.initializers.initializers_v2.Constant object at 0x7f14bc2a4a30>,truncated_normal,lecun_normal,glorot_normal,29.0,1000.0,0.0
+fdad2_00004,,,,,,,,,a596ceaebc424da2ad85ff2f5d5efaf7,2022-09-07_18-30-00,1662575400.0,,6400.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,512.0,adadelta,0.16361705821175423,linear,softmax,linear,sigmoid,initialiser_normal,zeros,lecun_normal,lecun_uniform,lecun_uniform,he_normal,ones,lecun_uniform,43.0,1000.0,1.0
+fdad2_00005,0.2817973494529724,0.28026002645492554,1047.6032156944275,True,,,1.0,-0.2817973494529724,88c09cd3630f4e64bd96cdcce1d9c45f,2022-09-07_18-47-38,1662576458.0,1047.6032156944275,6593.0,b430368dd22d,172.17.0.2,1047.6032156944275,0.0,1.0,0.00524592399597168,"5_act1=softsign,act2=softplus,act3=hard_sigmoid,act4=exponential,batch_size=16,bi1=lecun_uniform,bi2=truncated_normal,bi3=glorot_uniform,bi4=constant,epochs=33,ki1=random_normal,ki2=lecun_uniform,ki3=constant,ki4=glorot_uniform,layer1=2,loss=mean_absolute_percentage_error,lr=5.4491,optimizer=rmsprop,unit1=500",mean_absolute_percentage_error,16.0,rmsprop,5.44908340801796,softsign,softplus,hard_sigmoid,exponential,random_normal,lecun_uniform,constant,glorot_uniform,lecun_uniform,truncated_normal,glorot_uniform,constant,33.0,500.0,2.0
+fdad2_00006,0.2817973494529724,0.28026002645492554,132.48043847084045,True,,,1.0,-0.2817973494529724,a3ebbcea8600473593dd17441d9af7f7,2022-09-07_18-49-57,1662576597.0,132.48043847084045,13048.0,b430368dd22d,172.17.0.2,132.48043847084045,0.0,1.0,0.005914926528930664,"6_act1=softsign,act2=relu,act3=linear,act4=relu,batch_size=512,bi1=he_normal,bi2=zeros,bi3=zeros,bi4=constant,epochs=56,ki1=random_uniform,ki2=lecun_uniform,ki3=truncated_normal,ki4=orthogonal,layer1=1,loss=poisson,lr=8.9317,optimizer=adam,unit1=250",poisson,512.0,adam,8.931708977704098,softsign,relu,linear,relu,random_uniform,lecun_uniform,truncated_normal,orthogonal,he_normal,zeros,zeros,constant,56.0,250.0,1.0
+fdad2_00007,,,,,,,,,46b9ce15acff4fcf9fe407613cad5fe6,2022-09-07_18-50-02,1662576602.0,,15045.0,b430368dd22d,172.17.0.2,,,,,,sparse_categorical_crossentropy,256.0,sgd,6.007130007954296,relu,selu,tanh,selu,lecun_uniform,lecun_normal,random_uniform,constant,zeros,zeros,zeros,glorot_normal,56.0,500.0,2.0
+fdad2_00008,1.5645629167556763,1.5706000328063965,406.9846177101135,True,,,1.0,-1.5645629167556763,e80a3fa35d5e4b4499cef595997b0537,2022-09-07_18-57-00,1662577020.0,406.9846177101135,15410.0,b430368dd22d,172.17.0.2,406.9846177101135,0.0,1.0,0.004841327667236328,"8_act1=softplus,act2=linear,act3=sigmoid,act4=relu,batch_size=32,bi1=he_uniform,bi2=he_normal,bi3=glorot_uniform,bi4=glorot_uniform,epochs=33,ki1=random_uniform,ki2=glorot_normal,ki3=orthogonal,ki4=orthogonal,layer1=0,loss=kullback_leibler_divergence,lr=7.8432,optimizer=adam,unit1=500",kullback_leibler_divergence,32.0,adam,7.843173003557727,softplus,linear,sigmoid,relu,random_uniform,glorot_normal,orthogonal,orthogonal,he_uniform,he_normal,glorot_uniform,glorot_uniform,33.0,500.0,0.0
+fdad2_00009,,,,,,,,,44110b0f4f2d41a3a5993764e7fc17db,2022-09-07_18-57-06,1662577026.0,,17692.0,b430368dd22d,172.17.0.2,,,,,,mean_squared_logarithmic_error,64.0,adadelta,1.0131783992421375,sigmoid,hard_sigmoid,relu,tanh,random_uniform,he_uniform,lecun_normal,truncated_normal,random_normal,orthogonal,constant,orthogonal,73.0,250.0,2.0
+fdad2_00010,0.2817973494529724,0.28026002645492554,121.0022120475769,True,,,1.0,-0.2817973494529724,84b69746f2e240d387883588e271a842,2022-09-07_18-59-15,1662577155.0,121.0022120475769,17879.0,b430368dd22d,172.17.0.2,121.0022120475769,0.0,1.0,0.006191730499267578,"10_act1=sigmoid,act2=relu,act3=tanh,act4=sigmoid,batch_size=256,bi1=constant,bi2=random_normal,bi3=glorot_uniform,bi4=random_normal,epochs=43,ki1=initialiser_normal,ki2=lecun_normal,ki3=random_uniform,ki4=glorot_normal,layer1=2,loss=categorical_hinge,lr=3.1194,optimizer=adamax,unit1=500",categorical_hinge,256.0,adamax,3.1193704213627,sigmoid,relu,tanh,sigmoid,<tensorflow.python.keras.initializers.initializers_v2.RandomNormal object at 0x7f14bc24c760>,lecun_normal,random_uniform,glorot_normal,constant,random_normal,glorot_uniform,random_normal,43.0,500.0,2.0
+fdad2_00011,1.0228722095489502,1.0222196578979492,326.21608304977417,True,,,1.0,-1.0228722095489502,c7b9f7b35b8c48e0b990a90ebafd0935,2022-09-07_19-04-47,1662577487.0,326.21608304977417,18790.0,b430368dd22d,172.17.0.2,326.21608304977417,0.0,1.0,0.004945993423461914,"11_act1=sigmoid,act2=tanh,act3=sigmoid,act4=sigmoid,batch_size=64,bi1=constant,bi2=glorot_normal,bi3=truncated_normal,bi4=he_uniform,epochs=38,ki1=he_uniform,ki2=orthogonal,ki3=zeros,ki4=ones,layer1=2,loss=squared_hinge,lr=1.8353,optimizer=rmsprop,unit1=1000",squared_hinge,64.0,rmsprop,1.8352954436162412,sigmoid,tanh,sigmoid,sigmoid,he_uniform,orthogonal,zeros,ones,constant,glorot_normal,truncated_normal,he_uniform,38.0,1000.0,2.0
+fdad2_00012,1.0247570276260376,1.0268900394439697,259.2865071296692,True,,,1.0,-1.0247570276260376,00592db68cf44eb2bebd5abfe36fa05f,2022-09-07_19-09-12,1662577752.0,259.2865071296692,20511.0,b430368dd22d,172.17.0.2,259.2865071296692,0.0,1.0,0.00466465950012207,"12_act1=softmax,act2=relu,act3=linear,act4=tanh,batch_size=256,bi1=random_uniform,bi2=he_normal,bi3=he_uniform,bi4=random_normal,epochs=64,ki1=random_normal,ki2=he_uniform,ki3=lecun_normal,ki4=random_normal,layer1=1,loss=poisson,lr=0.1469,optimizer=adam,unit1=500",poisson,256.0,adam,0.14687719403567578,softmax,relu,linear,tanh,random_normal,he_uniform,lecun_normal,random_normal,random_uniform,he_normal,he_uniform,random_normal,64.0,500.0,1.0
+fdad2_00013,,,,,,,,,d99783c6a13c4834959609d7e30452b6,2022-09-07_19-09-18,1662577758.0,,23554.0,b430368dd22d,172.17.0.2,,,,,,mean_absolute_error,32.0,adam,2.9300251145467415,softplus,elu,linear,linear,he_normal,lecun_normal,ones,random_uniform,truncated_normal,lecun_uniform,zeros,glorot_uniform,56.0,500.0,0.0
+fdad2_00014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fdad2_00057,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

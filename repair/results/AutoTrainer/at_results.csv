@@ -1,0 +1,851 @@
+Mutant,RunNum,Solved,RepairedAccuracy,MaxAccuracy,RepairAttemtpsNum,TimeSpent
+reuters_change_loss_function_mutated0_MP_hinge,0,No,-,0.808888912,8,118.8735089
+reuters_change_loss_function_mutated0_MP_hinge,1,No,-,0.808888912,8,123.5571487
+reuters_change_loss_function_mutated0_MP_hinge,2,No,-,0.808888912,8,130.2068529
+reuters_change_loss_function_mutated0_MP_hinge,3,No,-,0.808888912,8,131.1392441
+reuters_change_loss_function_mutated0_MP_hinge,4,No,-,0.808888912,8,132.4055109
+reuters_change_loss_function_mutated0_MP_hinge,5,No,-,0.808888912,8,128.9968741
+reuters_change_loss_function_mutated0_MP_hinge,6,No,-,0.808888912,8,118.9109259
+reuters_change_loss_function_mutated0_MP_hinge,7,No,-,0.808888912,8,117.01053
+reuters_change_loss_function_mutated0_MP_hinge,8,No,-,0.808888912,8,115.8614697
+reuters_change_loss_function_mutated0_MP_hinge,9,No,-,0.808888912,8,117.3131859
+reuters_change_loss_function_mutated0_MP_hinge,10,No,-,0.808888912,8,114.6387978
+reuters_change_loss_function_mutated0_MP_hinge,11,No,-,0.808888912,8,115.0928922
+reuters_change_loss_function_mutated0_MP_hinge,12,No,-,0.808888912,8,114.7434039
+reuters_change_loss_function_mutated0_MP_hinge,13,No,-,0.808888912,8,114.6939299
+reuters_change_loss_function_mutated0_MP_hinge,14,No,-,0.808888912,8,115.434515
+reuters_change_loss_function_mutated0_MP_hinge,15,No,-,0.808888912,8,115.721297
+reuters_change_loss_function_mutated0_MP_hinge,16,No,-,0.808888912,8,114.29934
+reuters_change_loss_function_mutated0_MP_hinge,17,No,-,0.808888912,8,115.522192
+reuters_change_loss_function_mutated0_MP_hinge,18,No,-,0.808888912,8,114.4090827
+reuters_change_loss_function_mutated0_MP_hinge,19,No,-,0.808888912,8,115.7167778
+reuters_change_loss_function_mutated0_MP_hinge,20,No,-,0.808888912,8,134.8545668
+reuters_change_loss_function_mutated0_MP_hinge,21,No,-,0.808888912,8,116.0816848
+reuters_change_loss_function_mutated0_MP_hinge,22,No,-,0.808888912,8,115.0112228
+reuters_change_loss_function_mutated0_MP_hinge,23,No,-,0.808888912,8,115.2530179
+reuters_change_loss_function_mutated0_MP_hinge,24,No,-,0.808888912,8,135.4879701
+reuters_change_loss_function_mutated0_MP_hinge,25,No,-,0.808888912,8,134.500237
+reuters_change_loss_function_mutated0_MP_hinge,26,No,-,0.808888912,8,115.4518521
+reuters_change_loss_function_mutated0_MP_hinge,27,No,-,0.808888912,8,115.7698634
+reuters_change_loss_function_mutated0_MP_hinge,28,No,-,0.808888912,8,115.4129469
+reuters_change_loss_function_mutated0_MP_hinge,29,No,-,0.808888912,8,118.0259788
+reuters_change_loss_function_mutated0_MP_hinge,30,No,-,0.808888912,8,116.4852538
+reuters_change_loss_function_mutated0_MP_hinge,31,No,-,0.808888912,8,116.929765
+reuters_change_loss_function_mutated0_MP_hinge,32,No,-,0.808888912,8,116.5752859
+reuters_change_loss_function_mutated0_MP_hinge,33,No,-,0.808888912,8,117.2916002
+reuters_change_loss_function_mutated0_MP_hinge,34,No,-,0.808888912,8,119.0499251
+reuters_change_loss_function_mutated0_MP_hinge,35,No,-,0.808888912,8,115.960485
+reuters_change_loss_function_mutated0_MP_hinge,36,No,-,0.808888912,8,117.3787467
+reuters_change_loss_function_mutated0_MP_hinge,37,No,-,0.808888912,8,115.8963478
+reuters_change_loss_function_mutated0_MP_hinge,38,No,-,0.808888912,8,117.0062821
+reuters_change_loss_function_mutated0_MP_hinge,39,No,-,0.808888912,8,116.908536
+reuters_change_loss_function_mutated0_MP_hinge,40,No,-,0.808888912,8,115.7266741
+reuters_change_loss_function_mutated0_MP_hinge,41,No,-,0.808888912,8,115.914113
+reuters_change_loss_function_mutated0_MP_hinge,42,No,-,0.808888912,8,116.9282379
+reuters_change_loss_function_mutated0_MP_hinge,43,No,-,0.808888912,8,116.1063402
+reuters_change_loss_function_mutated0_MP_hinge,44,No,-,0.808888912,8,116.5186431
+reuters_change_loss_function_mutated0_MP_hinge,45,No,-,0.808888912,8,116.396394
+reuters_change_loss_function_mutated0_MP_hinge,46,No,-,0.808888912,8,116.8341789
+reuters_change_loss_function_mutated0_MP_hinge,47,No,-,0.808888912,8,116.5654049
+reuters_change_loss_function_mutated0_MP_hinge,48,No,-,0.808888912,8,116.0534
+reuters_change_loss_function_mutated0_MP_hinge,49,No,-,0.808888912,8,117.0642571
+origin_48385830,0,No,-,0.101499997,6,711.4931495
+origin_48385830,1,No,-,0.101499997,6,740.0411446
+origin_48385830,2,No,-,0.101499997,6,759.0240088
+origin_48385830,3,No,-,0.101499997,6,754.3670204
+origin_48385830,4,No,-,0.101499997,6,745.5421591
+origin_48385830,5,No,-,0.101499997,6,745.9614096
+origin_48385830,6,No,-,0.101499997,6,758.7997541
+origin_48385830,7,No,-,0.101499997,6,746.9376006
+origin_48385830,8,No,-,0.101499997,6,743.4977138
+origin_48385830,9,No,-,0.101499997,6,758.8126564
+origin_48385830,10,No,-,0.101499997,6,745.4811862
+origin_48385830,11,No,-,0.101499997,6,742.4338264
+origin_48385830,12,No,-,0.101499997,6,737.0013599
+origin_48385830,13,No,-,0.101499997,6,729.0173054
+origin_48385830,14,No,-,0.101499997,6,748.713623
+origin_48385830,15,No,-,0.101499997,6,748.6179786
+origin_48385830,16,No,-,0.101499997,6,730.5737178
+origin_48385830,17,No,-,0.101499997,6,738.9779806
+origin_48385830,18,No,-,0.101499997,6,752.9633422
+origin_48385830,19,No,-,0.101499997,6,727.7384539
+origin_48385830,20,No,-,0.101499997,6,736.256711
+origin_48385830,21,No,-,0.101499997,6,735.948818
+origin_48385830,22,No,-,0.101499997,6,758.8614495
+origin_48385830,23,No,-,0.101499997,6,748.642504
+origin_48385830,24,No,-,0.101499997,6,756.3663924
+origin_48385830,25,No,-,0.101499997,6,731.1513946
+origin_48385830,26,No,-,0.101499997,6,764.2273376
+origin_48385830,27,No,-,0.101499997,6,726.0568535
+origin_48385830,28,No,-,0.101499997,6,739.5236266
+origin_48385830,29,No,-,0.101499997,6,762.0083823
+origin_48385830,30,No,-,0.101499997,6,749.2958546
+origin_48385830,31,No,-,0.101499997,6,745.0420859
+origin_48385830,32,No,-,0.101499997,6,755.9811349
+origin_48385830,33,No,-,0.101499997,6,752.1281161
+origin_48385830,34,No,-,0.101499997,6,754.0438495
+origin_48385830,35,No,-,0.101499997,6,746.4876304
+origin_48385830,36,No,-,0.101499997,6,729.7231767
+origin_48385830,37,No,-,0.101499997,6,750.3442061
+origin_48385830,38,No,-,0.101499997,6,741.0568397
+origin_48385830,39,No,-,0.101499997,6,756.0978851
+origin_48385830,40,No,-,0.101499997,6,743.1326349
+origin_48385830,41,No,-,0.101499997,6,763.1266742
+origin_48385830,42,No,-,0.101499997,6,731.5311062
+origin_48385830,43,No,-,0.101499997,6,759.8067451
+origin_48385830,44,No,-,0.101499997,6,754.4680545
+origin_48385830,45,No,-,0.101499997,6,759.5366907
+origin_48385830,46,No,-,0.101499997,6,730.5687184
+origin_48385830,47,No,-,0.101499997,6,740.909205
+origin_48385830,48,No,-,0.101499997,6,740.1630001
+origin_48385830,49,No,-,0.101499997,6,756.4356182
+reuters_change_weights_initialisation_mutated0_MP_ones_0,0,No,-,0.555555582,8,116.0620449
+reuters_change_weights_initialisation_mutated0_MP_ones_0,1,No,-,0.555555582,8,117.3659132
+reuters_change_weights_initialisation_mutated0_MP_ones_0,2,No,-,0.555555582,8,117.3694549
+reuters_change_weights_initialisation_mutated0_MP_ones_0,3,No,-,0.555555582,8,117.9186938
+reuters_change_weights_initialisation_mutated0_MP_ones_0,4,No,-,0.555555582,8,117.606164
+reuters_change_weights_initialisation_mutated0_MP_ones_0,5,No,-,0.555555582,8,117.010675
+reuters_change_weights_initialisation_mutated0_MP_ones_0,6,No,-,0.555555582,8,117.1056929
+reuters_change_weights_initialisation_mutated0_MP_ones_0,7,No,-,0.555555582,8,117.6542499
+reuters_change_weights_initialisation_mutated0_MP_ones_0,8,No,-,0.555555582,8,118.0293248
+reuters_change_weights_initialisation_mutated0_MP_ones_0,9,No,-,0.555555582,8,118.3032699
+reuters_change_weights_initialisation_mutated0_MP_ones_0,10,No,-,0.555555582,8,117.835243
+reuters_change_weights_initialisation_mutated0_MP_ones_0,11,No,-,0.555555582,8,117.7907972
+reuters_change_weights_initialisation_mutated0_MP_ones_0,12,No,-,0.555555582,8,118.0232329
+reuters_change_weights_initialisation_mutated0_MP_ones_0,13,No,-,0.555555582,8,118.2578092
+reuters_change_weights_initialisation_mutated0_MP_ones_0,14,No,-,0.555555582,8,117.8624251
+reuters_change_weights_initialisation_mutated0_MP_ones_0,15,No,-,0.555555582,8,117.1412747
+reuters_change_weights_initialisation_mutated0_MP_ones_0,16,No,-,0.555555582,8,117.5371091
+reuters_change_weights_initialisation_mutated0_MP_ones_0,17,No,-,0.555555582,8,118.1801372
+reuters_change_weights_initialisation_mutated0_MP_ones_0,18,No,-,0.555555582,8,118.0449948
+reuters_change_weights_initialisation_mutated0_MP_ones_0,19,No,-,0.555555582,8,117.958185
+reuters_change_weights_initialisation_mutated0_MP_ones_0,20,No,-,0.555555582,8,119.5211129
+reuters_change_weights_initialisation_mutated0_MP_ones_0,21,No,-,0.555555582,8,118.674495
+reuters_change_weights_initialisation_mutated0_MP_ones_0,22,No,-,0.555555582,8,118.0269349
+reuters_change_weights_initialisation_mutated0_MP_ones_0,23,No,-,0.555555582,8,117.8654888
+reuters_change_weights_initialisation_mutated0_MP_ones_0,24,No,-,0.555555582,8,118.2118123
+reuters_change_weights_initialisation_mutated0_MP_ones_0,25,No,-,0.555555582,8,118.0761218
+reuters_change_weights_initialisation_mutated0_MP_ones_0,26,No,-,0.555555582,8,117.7960131
+reuters_change_weights_initialisation_mutated0_MP_ones_0,27,No,-,0.555555582,8,118.1042199
+reuters_change_weights_initialisation_mutated0_MP_ones_0,28,No,-,0.555555582,8,117.8381042
+reuters_change_weights_initialisation_mutated0_MP_ones_0,29,No,-,0.555555582,8,118.7652111
+reuters_change_weights_initialisation_mutated0_MP_ones_0,30,No,-,0.555555582,8,118.3452322
+reuters_change_weights_initialisation_mutated0_MP_ones_0,31,No,-,0.555555582,8,117.7762678
+reuters_change_weights_initialisation_mutated0_MP_ones_0,32,No,-,0.555555582,8,117.9937911
+reuters_change_weights_initialisation_mutated0_MP_ones_0,33,No,-,0.555555582,8,118.0396709
+reuters_change_weights_initialisation_mutated0_MP_ones_0,34,No,-,0.555555582,8,118.0408792
+reuters_change_weights_initialisation_mutated0_MP_ones_0,35,No,-,0.555555582,8,117.911859
+reuters_change_weights_initialisation_mutated0_MP_ones_0,36,No,-,0.555555582,8,118.1815538
+reuters_change_weights_initialisation_mutated0_MP_ones_0,37,No,-,0.555555582,8,117.8475718
+reuters_change_weights_initialisation_mutated0_MP_ones_0,38,No,-,0.555555582,8,117.678479
+reuters_change_weights_initialisation_mutated0_MP_ones_0,39,No,-,0.555555582,8,120.215771
+reuters_change_weights_initialisation_mutated0_MP_ones_0,40,No,-,0.555555582,8,122.1564221
+reuters_change_weights_initialisation_mutated0_MP_ones_0,41,No,-,0.555555582,8,114.5306592
+reuters_change_weights_initialisation_mutated0_MP_ones_0,42,No,-,0.555555582,8,121.681571
+reuters_change_weights_initialisation_mutated0_MP_ones_0,43,No,-,0.555555582,8,113.2891872
+reuters_change_weights_initialisation_mutated0_MP_ones_0,44,No,-,0.555555582,8,113.551661
+reuters_change_weights_initialisation_mutated0_MP_ones_0,45,No,-,0.555555582,8,115.4590831
+reuters_change_weights_initialisation_mutated0_MP_ones_0,46,No,-,0.555555582,8,134.651382
+reuters_change_weights_initialisation_mutated0_MP_ones_0,47,No,-,0.555555582,8,115.2941022
+reuters_change_weights_initialisation_mutated0_MP_ones_0,48,No,-,0.555555582,8,114.9374239
+reuters_change_weights_initialisation_mutated0_MP_ones_0,49,No,-,0.555555582,8,115.3568771
+origin_56380303,0,Yes,0.307500005,0.542500019,5,16.70754409
+origin_56380303,1,Yes,0.307500005,0.542500019,5,15.90109992
+origin_56380303,2,Yes,0.307500005,0.542500019,5,14.62512708
+origin_56380303,3,Yes,0.307500005,0.542500019,5,15.69472528
+origin_56380303,4,Yes,0.307500005,0.542500019,5,13.34563708
+origin_56380303,5,Yes,0.307500005,0.542500019,5,15.40214801
+origin_56380303,6,Yes,0.307500005,0.542500019,5,17.51701999
+origin_56380303,7,Yes,0.307500005,0.542500019,5,18.47595406
+origin_56380303,8,Yes,0.307500005,0.542500019,5,18.16671491
+origin_56380303,9,Yes,0.307500005,0.542500019,5,16.32108283
+origin_56380303,10,Yes,0.307500005,0.542500019,5,16.79610014
+origin_56380303,11,Yes,0.307500005,0.542500019,5,16.40889215
+origin_56380303,12,Yes,0.307500005,0.542500019,5,16.19099998
+origin_56380303,13,Yes,0.307500005,0.542500019,5,16.60169721
+origin_56380303,14,Yes,0.307500005,0.542500019,5,16.56532001
+origin_56380303,15,Yes,0.307500005,0.542500019,5,15.47432089
+origin_56380303,16,Yes,0.307500005,0.542500019,5,15.17333817
+origin_56380303,17,Yes,0.307500005,0.542500019,5,15.01085806
+origin_56380303,18,Yes,0.307500005,0.542500019,5,15.36008906
+origin_56380303,19,Yes,0.307500005,0.542500019,5,16.84226584
+origin_56380303,20,Yes,0.307500005,0.542500019,5,15.15961719
+origin_56380303,21,Yes,0.307500005,0.542500019,5,17.78290796
+origin_56380303,22,Yes,0.307500005,0.542500019,5,18.21870375
+origin_56380303,23,Yes,0.307500005,0.542500019,5,16.31887102
+origin_56380303,24,Yes,0.307500005,0.542500019,5,16.52382493
+origin_56380303,25,Yes,0.307500005,0.542500019,5,17.18424106
+origin_56380303,26,Yes,0.307500005,0.542500019,5,15.3354919
+origin_56380303,27,Yes,0.307500005,0.542500019,5,15.98513913
+origin_56380303,28,Yes,0.307500005,0.542500019,5,16.62988305
+origin_56380303,29,Yes,0.307500005,0.542500019,5,19.32735682
+origin_56380303,30,Yes,0.307500005,0.542500019,5,19.14825439
+origin_56380303,31,Yes,0.307500005,0.542500019,5,21.74345803
+origin_56380303,32,Yes,0.307500005,0.542500019,5,20.10339808
+origin_56380303,33,Yes,0.307500005,0.542500019,5,17.88412619
+origin_56380303,34,Yes,0.307500005,0.542500019,5,19.15332365
+origin_56380303,35,Yes,0.307500005,0.542500019,5,22.21859622
+origin_56380303,36,Yes,0.307500005,0.542500019,5,18.06642079
+origin_56380303,37,Yes,0.307500005,0.542500019,5,17.4111712
+origin_56380303,38,Yes,0.307500005,0.542500019,5,24.10209513
+origin_56380303,39,Yes,0.307500005,0.542500019,5,18.29867601
+origin_56380303,40,Yes,0.307500005,0.542500019,5,21.44016099
+origin_56380303,41,Yes,0.307500005,0.542500019,5,16.4355309
+origin_56380303,42,Yes,0.307500005,0.542500019,5,16.49706006
+origin_56380303,43,Yes,0.307500005,0.542500019,5,16.13945413
+origin_56380303,44,Yes,0.307500005,0.542500019,5,18.88532877
+origin_56380303,45,Yes,0.307500005,0.542500019,5,14.97790694
+origin_56380303,46,Yes,0.307500005,0.542500019,5,14.56072879
+origin_56380303,47,Yes,0.307500005,0.542500019,5,21.06334996
+origin_56380303,48,Yes,0.307500005,0.542500019,5,16.98189306
+origin_56380303,49,Yes,0.307500005,0.542500019,5,14.67056394
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,0,Yes,0.691999972,0.691999972,2,498.3970978
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,1,Yes,0.726999998,0.726999998,2,499.3138125
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,2,Yes,0.709500015,0.709500015,2,500.814081
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,3,Yes,0.716000021,0.716000021,2,503.4285696
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,4,Yes,0.712000012,0.712000012,2,505.047873
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,5,Yes,0.708999991,0.708999991,2,368.7992082
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,6,Yes,0.712000012,0.712000012,2,376.3114855
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,7,Yes,0.695500016,0.695500016,2,365.6518774
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,8,Yes,0.679499984,0.679499984,1,196.973712
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,9,Yes,0.662500024,0.662500024,1,213.9155519
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,10,Yes,0.6875,0.6875,2,373.8760338
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,11,Yes,0.713,0.713,2,370.5474472
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,12,Yes,0.717999995,0.717999995,2,366.9320309
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,13,Yes,0.688000023,0.688000023,2,376.0359788
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,14,Yes,0.705500007,0.705500007,2,384.360671
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,15,Yes,0.648999989,0.648999989,1,203.3645663
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,16,Yes,0.699500024,0.699500024,2,396.0723724
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,17,Yes,0.684499979,0.684499979,2,388.5955262
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,18,Yes,0.666999996,0.666999996,1,203.2031939
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,19,Yes,0.684499979,0.684499979,1,216.1203938
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,20,Yes,0.712499976,0.712499976,2,393.7674069
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,21,Yes,0.688000023,0.688000023,2,397.2572157
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,22,Yes,0.66049999,0.66049999,1,205.0586228
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,23,Yes,0.712000012,0.712000012,2,386.9823542
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,24,Yes,0.710500002,0.710500002,2,399.1003127
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,25,Yes,0.703499973,0.703499973,2,406.6331787
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,26,Yes,0.713500023,0.713500023,2,384.1071558
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,27,Yes,0.713500023,0.713500023,2,388.1496093
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,28,Yes,0.68900001,0.68900001,1,208.8468952
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,29,Yes,0.663500011,0.663500011,2,376.1835461
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,30,Yes,0.704999983,0.704999983,2,376.8907712
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,31,Yes,0.666000009,0.666000009,1,200.5577738
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,32,Yes,0.717499971,0.717499971,2,374.241473
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,33,Yes,0.702000022,0.702000022,2,372.2180424
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,34,Yes,0.700999975,0.700999975,1,204.0353782
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,35,Yes,0.703000009,0.703000009,2,396.9853692
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,36,Yes,0.703000009,0.703000009,2,399.2005672
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,37,Yes,0.686500013,0.686500013,2,389.5935693
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,38,Yes,0.696500003,0.696500003,2,394.3852892
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,39,Yes,0.694999993,0.694999993,2,368.3811996
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,40,Yes,0.641499996,0.641499996,1,197.8208728
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,41,Yes,0.682500005,0.682500005,2,373.377003
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,42,Yes,0.673500001,0.673500001,1,201.8000898
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,43,Yes,0.666499972,0.666499972,1,195.8184869
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,44,Yes,0.690500021,0.690500021,2,372.804214
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,45,Yes,0.644999981,0.644999981,1,198.6398635
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,46,Yes,0.693499982,0.693499982,2,370.5500283
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,47,Yes,0.67750001,0.67750001,1,196.1836829
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,48,Yes,0.671000004,0.671000004,1,200.6060076
+cifar10_change_activation_function_mutated0_MP_hard_sigmoid_2,49,Yes,0.693499982,0.693499982,1,196.8729234
+origin_41600519,0,Not totally,0.668333352,0.683333337,8,182.117557
+origin_41600519,1,Not totally,0.668333352,0.683333337,8,206.317167
+origin_41600519,2,Not totally,0.668333352,0.683333337,8,246.928746
+origin_41600519,3,Not totally,0.668333352,0.683333337,8,290.8485241
+origin_41600519,4,Not totally,0.668333352,0.683333337,8,248.397928
+origin_41600519,5,Not totally,0.668333352,0.683333337,8,165.8844826
+origin_41600519,6,Not totally,0.668333352,0.683333337,8,156.2932038
+origin_41600519,7,Not totally,0.668333352,0.683333337,8,159.6767321
+origin_41600519,8,Not totally,0.668333352,0.683333337,8,166.227967
+origin_41600519,9,Not totally,0.668333352,0.683333337,8,173.687393
+origin_41600519,10,Not totally,0.668333352,0.683333337,8,173.6203072
+origin_41600519,11,Not totally,0.668333352,0.683333337,8,151.927875
+origin_41600519,12,Not totally,0.668333352,0.683333337,8,164.325001
+origin_41600519,13,Not totally,0.668333352,0.683333337,8,175.9512751
+origin_41600519,14,Not totally,0.668333352,0.683333337,8,174.317728
+origin_41600519,15,Not totally,0.668333352,0.683333337,8,153.7012069
+origin_41600519,16,Not totally,0.668333352,0.683333337,8,183.8465741
+origin_41600519,17,Not totally,0.668333352,0.683333337,8,159.2962501
+origin_41600519,18,Not totally,0.668333352,0.683333337,8,163.7344687
+origin_41600519,19,Not totally,0.668333352,0.683333337,8,176.5951459
+origin_41600519,20,Not totally,0.668333352,0.683333337,8,180.9350252
+origin_41600519,21,Not totally,0.668333352,0.683333337,8,164.3049428
+origin_41600519,22,Not totally,0.668333352,0.683333337,8,167.4078929
+origin_41600519,23,Not totally,0.668333352,0.683333337,8,153.0911663
+origin_41600519,24,Not totally,0.668333352,0.683333337,8,182.9324791
+origin_41600519,25,Not totally,0.668333352,0.683333337,8,185.7701471
+origin_41600519,26,Not totally,0.668333352,0.683333337,8,172.1177607
+origin_41600519,27,Not totally,0.668333352,0.683333337,8,176.4592483
+origin_41600519,28,Not totally,0.668333352,0.683333337,8,180.5642481
+origin_41600519,29,Not totally,0.668333352,0.683333337,8,168.5398879
+origin_41600519,30,Not totally,0.668333352,0.683333337,8,167.28104
+origin_41600519,31,Not totally,0.668333352,0.683333337,8,160.883157
+origin_41600519,32,Not totally,0.668333352,0.683333337,8,160.101547
+origin_41600519,33,Not totally,0.668333352,0.683333337,8,170.551034
+origin_41600519,34,Not totally,0.668333352,0.683333337,8,167.347255
+origin_41600519,35,Not totally,0.668333352,0.683333337,8,174.2831588
+origin_41600519,36,Not totally,0.668333352,0.683333337,8,158.0022731
+origin_41600519,37,Not totally,0.668333352,0.683333337,8,160.9362371
+origin_41600519,38,Not totally,0.668333352,0.683333337,8,172.694773
+origin_41600519,39,Not totally,0.668333352,0.683333337,8,171.1810322
+origin_41600519,40,Not totally,0.668333352,0.683333337,8,156.3075778
+origin_41600519,41,Not totally,0.668333352,0.683333337,8,165.027833
+origin_41600519,42,Not totally,0.668333352,0.683333337,8,153.8987162
+origin_41600519,43,Not totally,0.668333352,0.683333337,8,166.987335
+origin_41600519,44,Not totally,0.668333352,0.683333337,8,172.3216808
+origin_41600519,45,Not totally,0.668333352,0.683333337,8,165.9165571
+origin_41600519,46,Not totally,0.668333352,0.683333337,8,172.217557
+origin_41600519,47,Not totally,0.668333352,0.683333337,8,152.1976581
+origin_41600519,48,Not totally,0.668333352,0.683333337,8,171.5450041
+origin_41600519,49,Not totally,0.668333352,0.683333337,8,145.1230099
+reuters_change_learning_rate_mutated0_MP_False_1.0,0,Not totally,0.335555553,0.335555553,6,112.727242
+reuters_change_learning_rate_mutated0_MP_False_1.0,1,Not totally,0.335555553,0.335555553,6,92.56914711
+reuters_change_learning_rate_mutated0_MP_False_1.0,2,Not totally,0.335555553,0.335555553,6,94.709481
+reuters_change_learning_rate_mutated0_MP_False_1.0,3,Not totally,0.335555553,0.335555553,6,112.3453712
+reuters_change_learning_rate_mutated0_MP_False_1.0,4,Not totally,0.335555553,0.335555553,6,92.55502295
+reuters_change_learning_rate_mutated0_MP_False_1.0,5,Not totally,0.335555553,0.335555553,6,94.32933617
+reuters_change_learning_rate_mutated0_MP_False_1.0,6,Not totally,0.335555553,0.335555553,6,92.487818
+reuters_change_learning_rate_mutated0_MP_False_1.0,7,Not totally,0.335555553,0.335555553,6,94.5800941
+reuters_change_learning_rate_mutated0_MP_False_1.0,8,Not totally,0.335555553,0.335555553,6,93.49723411
+reuters_change_learning_rate_mutated0_MP_False_1.0,9,Not totally,0.335555553,0.335555553,6,94.80579305
+reuters_change_learning_rate_mutated0_MP_False_1.0,10,Not totally,0.335555553,0.335555553,6,94.40775084
+reuters_change_learning_rate_mutated0_MP_False_1.0,11,Not totally,0.335555553,0.335555553,6,93.24074006
+reuters_change_learning_rate_mutated0_MP_False_1.0,12,Not totally,0.335555553,0.335555553,6,93.73342395
+reuters_change_learning_rate_mutated0_MP_False_1.0,13,Not totally,0.335555553,0.335555553,6,93.44823408
+reuters_change_learning_rate_mutated0_MP_False_1.0,14,Not totally,0.335555553,0.335555553,6,93.64105821
+reuters_change_learning_rate_mutated0_MP_False_1.0,15,Not totally,0.335555553,0.335555553,6,93.87016702
+reuters_change_learning_rate_mutated0_MP_False_1.0,16,Not totally,0.335555553,0.335555553,6,93.52609611
+reuters_change_learning_rate_mutated0_MP_False_1.0,17,Not totally,0.335555553,0.335555553,6,93.86706471
+reuters_change_learning_rate_mutated0_MP_False_1.0,18,Not totally,0.335555553,0.335555553,6,94.49927878
+reuters_change_learning_rate_mutated0_MP_False_1.0,19,Not totally,0.335555553,0.335555553,6,98.28235221
+reuters_change_learning_rate_mutated0_MP_False_1.0,20,Not totally,0.335555553,0.335555553,6,93.59296107
+reuters_change_learning_rate_mutated0_MP_False_1.0,21,Not totally,0.335555553,0.335555553,6,93.86700201
+reuters_change_learning_rate_mutated0_MP_False_1.0,22,Not totally,0.335555553,0.335555553,6,92.01971292
+reuters_change_learning_rate_mutated0_MP_False_1.0,23,Not totally,0.335555553,0.335555553,6,92.4287281
+reuters_change_learning_rate_mutated0_MP_False_1.0,24,Not totally,0.335555553,0.335555553,6,93.07945609
+reuters_change_learning_rate_mutated0_MP_False_1.0,25,Not totally,0.335555553,0.335555553,6,92.58489108
+reuters_change_learning_rate_mutated0_MP_False_1.0,26,Not totally,0.335555553,0.335555553,6,92.05198288
+reuters_change_learning_rate_mutated0_MP_False_1.0,27,Not totally,0.335555553,0.335555553,6,93.65232205
+reuters_change_learning_rate_mutated0_MP_False_1.0,28,Not totally,0.335555553,0.335555553,6,94.2010498
+reuters_change_learning_rate_mutated0_MP_False_1.0,29,Not totally,0.335555553,0.335555553,6,93.21042204
+reuters_change_learning_rate_mutated0_MP_False_1.0,30,Not totally,0.335555553,0.335555553,6,92.87046576
+reuters_change_learning_rate_mutated0_MP_False_1.0,31,Not totally,0.335555553,0.335555553,6,94.10444593
+reuters_change_learning_rate_mutated0_MP_False_1.0,32,Not totally,0.335555553,0.335555553,6,94.3249011
+reuters_change_learning_rate_mutated0_MP_False_1.0,33,Not totally,0.335555553,0.335555553,6,92.21360779
+reuters_change_learning_rate_mutated0_MP_False_1.0,34,Not totally,0.335555553,0.335555553,6,92.70238614
+reuters_change_learning_rate_mutated0_MP_False_1.0,35,Not totally,0.335555553,0.335555553,6,92.46505308
+reuters_change_learning_rate_mutated0_MP_False_1.0,36,Not totally,0.335555553,0.335555553,6,94.14555573
+reuters_change_learning_rate_mutated0_MP_False_1.0,37,Not totally,0.335555553,0.335555553,6,93.97836113
+reuters_change_learning_rate_mutated0_MP_False_1.0,38,Not totally,0.335555553,0.335555553,6,94.79729104
+reuters_change_learning_rate_mutated0_MP_False_1.0,39,Not totally,0.335555553,0.335555553,6,95.31229877
+reuters_change_learning_rate_mutated0_MP_False_1.0,40,Not totally,0.335555553,0.335555553,6,93.82342076
+reuters_change_learning_rate_mutated0_MP_False_1.0,41,Not totally,0.335555553,0.335555553,6,93.95503402
+reuters_change_learning_rate_mutated0_MP_False_1.0,42,Not totally,0.335555553,0.335555553,6,94.83357811
+reuters_change_learning_rate_mutated0_MP_False_1.0,43,Not totally,0.335555553,0.335555553,6,93.8671422
+reuters_change_learning_rate_mutated0_MP_False_1.0,44,Not totally,0.335555553,0.335555553,6,93.99983382
+reuters_change_learning_rate_mutated0_MP_False_1.0,45,Not totally,0.335555553,0.335555553,6,93.47237563
+reuters_change_learning_rate_mutated0_MP_False_1.0,46,Not totally,0.335555553,0.335555553,6,96.1059072
+reuters_change_learning_rate_mutated0_MP_False_1.0,47,Not totally,0.335555553,0.335555553,6,94.139081
+reuters_change_learning_rate_mutated0_MP_False_1.0,48,Not totally,0.335555553,0.335555553,6,94.46476102
+reuters_change_learning_rate_mutated0_MP_False_1.0,49,Not totally,0.335555553,0.335555553,6,96.32319307
+origin_45442843,0,Yes,0.92750001,0.92750001,1,1.465385914
+origin_45442843,1,Yes,0.92750001,0.92750001,1,1.431969881
+origin_45442843,2,Yes,0.925000012,0.925000012,1,1.396904945
+origin_45442843,3,Yes,0.925000012,0.925000012,1,1.382279873
+origin_45442843,4,Yes,0.92750001,0.92750001,1,1.371712685
+origin_45442843,5,Yes,0.92750001,0.92750001,1,1.350035906
+origin_45442843,6,Yes,0.92750001,0.92750001,1,1.364077091
+origin_45442843,7,Yes,0.925000012,0.925000012,1,1.376523972
+origin_45442843,8,Yes,0.92750001,0.92750001,1,1.347848892
+origin_45442843,9,Yes,0.925000012,0.925000012,1,1.379001141
+origin_45442843,10,Yes,0.925000012,0.925000012,1,1.349344015
+origin_45442843,11,Yes,0.925000012,0.925000012,1,1.375668049
+origin_45442843,12,Yes,0.925000012,0.925000012,1,1.364173651
+origin_45442843,13,Yes,0.92750001,0.92750001,1,1.389781952
+origin_45442843,14,Yes,0.925000012,0.925000012,1,1.36273098
+origin_45442843,15,Yes,0.925000012,0.925000012,1,1.352844
+origin_45442843,16,Yes,0.92750001,0.92750001,1,1.355788946
+origin_45442843,17,Yes,0.925000012,0.925000012,1,1.389177084
+origin_45442843,18,Yes,0.925000012,0.925000012,1,1.409698009
+origin_45442843,19,Yes,0.92750001,0.92750001,1,1.418939829
+origin_45442843,20,Yes,0.92750001,0.92750001,1,1.427168131
+origin_45442843,21,Yes,0.925000012,0.925000012,1,1.438870907
+origin_45442843,22,Yes,0.925000012,0.925000012,1,1.426177979
+origin_45442843,23,Yes,0.92750001,0.92750001,1,1.424646139
+origin_45442843,24,Yes,0.925000012,0.925000012,1,1.381511211
+origin_45442843,25,Yes,0.92750001,0.92750001,1,1.347325802
+origin_45442843,26,Yes,0.92750001,0.92750001,1,1.354020119
+origin_45442843,27,Yes,0.92750001,0.92750001,1,1.335945845
+origin_45442843,28,Yes,0.925000012,0.925000012,1,1.331545115
+origin_45442843,29,Yes,0.92750001,0.92750001,1,1.302930832
+origin_45442843,30,Yes,0.925000012,0.925000012,1,1.324555874
+origin_45442843,31,Yes,0.92750001,0.92750001,1,1.338577032
+origin_45442843,32,Yes,0.92750001,0.92750001,1,1.324702978
+origin_45442843,33,Yes,0.925000012,0.925000012,1,1.351893902
+origin_45442843,34,Yes,0.92750001,0.92750001,1,1.350100994
+origin_45442843,35,Yes,0.92750001,0.92750001,1,1.350646019
+origin_45442843,36,Yes,0.925000012,0.925000012,1,1.354342937
+origin_45442843,37,Yes,0.925000012,0.925000012,1,1.361575127
+origin_45442843,38,Yes,0.925000012,0.925000012,1,1.34781003
+origin_45442843,39,Yes,0.925000012,0.925000012,1,1.333718061
+origin_45442843,40,Yes,0.925000012,0.925000012,1,1.35451889
+origin_45442843,41,Yes,0.925000012,0.925000012,1,1.332956076
+origin_45442843,42,Yes,0.925000012,0.925000012,1,1.370633841
+origin_45442843,43,Yes,0.925000012,0.925000012,1,1.390823364
+origin_45442843,44,Yes,0.92750001,0.92750001,1,1.386308193
+origin_45442843,45,Yes,0.925000012,0.925000012,1,1.395586014
+origin_45442843,46,Yes,0.925000012,0.925000012,1,1.389499187
+origin_45442843,47,Yes,0.925000012,0.925000012,1,1.387084961
+origin_45442843,48,Yes,0.925000012,0.925000012,1,1.365453005
+origin_45442843,49,Yes,0.925000012,0.925000012,1,1.34965682
+reuters_change_optimisation_function_mutated0_MP_sgd,0,No,-,0.819999993,8,54.50007105
+reuters_change_optimisation_function_mutated0_MP_sgd,1,No,-,0.819999993,8,52.5506978
+reuters_change_optimisation_function_mutated0_MP_sgd,2,No,-,0.819999993,8,52.15438104
+reuters_change_optimisation_function_mutated0_MP_sgd,3,No,-,0.819999993,8,53.10795283
+reuters_change_optimisation_function_mutated0_MP_sgd,4,No,-,0.819999993,8,52.69313908
+reuters_change_optimisation_function_mutated0_MP_sgd,5,No,-,0.819999993,8,53.90791607
+reuters_change_optimisation_function_mutated0_MP_sgd,6,No,-,0.819999993,8,52.80825996
+reuters_change_optimisation_function_mutated0_MP_sgd,7,No,-,0.819999993,8,54.37905192
+reuters_change_optimisation_function_mutated0_MP_sgd,8,No,-,0.819999993,8,52.58691573
+reuters_change_optimisation_function_mutated0_MP_sgd,9,No,-,0.819999993,8,53.11508727
+reuters_change_optimisation_function_mutated0_MP_sgd,10,No,-,0.819999993,8,49.78754687
+reuters_change_optimisation_function_mutated0_MP_sgd,11,No,-,0.819999993,8,47.61267591
+reuters_change_optimisation_function_mutated0_MP_sgd,12,No,-,0.819999993,8,46.94685197
+reuters_change_optimisation_function_mutated0_MP_sgd,13,No,-,0.819999993,8,46.98943686
+reuters_change_optimisation_function_mutated0_MP_sgd,14,No,-,0.819999993,8,47.25843287
+reuters_change_optimisation_function_mutated0_MP_sgd,15,No,-,0.819999993,8,46.87591696
+reuters_change_optimisation_function_mutated0_MP_sgd,16,No,-,0.819999993,8,46.11158419
+reuters_change_optimisation_function_mutated0_MP_sgd,17,No,-,0.819999993,8,46.25822592
+reuters_change_optimisation_function_mutated0_MP_sgd,18,No,-,0.819999993,8,46.72837496
+reuters_change_optimisation_function_mutated0_MP_sgd,19,No,-,0.819999993,8,47.1576829
+reuters_change_optimisation_function_mutated0_MP_sgd,20,No,-,0.819999993,8,46.50244212
+reuters_change_optimisation_function_mutated0_MP_sgd,21,No,-,0.819999993,8,46.63117409
+reuters_change_optimisation_function_mutated0_MP_sgd,22,No,-,0.819999993,8,46.80074286
+reuters_change_optimisation_function_mutated0_MP_sgd,23,No,-,0.819999993,8,46.69974709
+reuters_change_optimisation_function_mutated0_MP_sgd,24,No,-,0.819999993,8,46.54658103
+reuters_change_optimisation_function_mutated0_MP_sgd,25,No,-,0.819999993,8,47.19935179
+reuters_change_optimisation_function_mutated0_MP_sgd,26,No,-,0.819999993,8,47.07147479
+reuters_change_optimisation_function_mutated0_MP_sgd,27,No,-,0.819999993,8,46.59317708
+reuters_change_optimisation_function_mutated0_MP_sgd,28,No,-,0.819999993,8,46.96842384
+reuters_change_optimisation_function_mutated0_MP_sgd,29,No,-,0.819999993,8,46.75528288
+reuters_change_optimisation_function_mutated0_MP_sgd,30,No,-,0.819999993,8,46.97874999
+reuters_change_optimisation_function_mutated0_MP_sgd,31,No,-,0.819999993,8,46.806391
+reuters_change_optimisation_function_mutated0_MP_sgd,32,No,-,0.819999993,8,46.86603689
+reuters_change_optimisation_function_mutated0_MP_sgd,33,No,-,0.819999993,8,46.83937192
+reuters_change_optimisation_function_mutated0_MP_sgd,34,No,-,0.819999993,8,46.65188789
+reuters_change_optimisation_function_mutated0_MP_sgd,35,No,-,0.819999993,8,46.65881181
+reuters_change_optimisation_function_mutated0_MP_sgd,36,No,-,0.819999993,8,47.41798902
+reuters_change_optimisation_function_mutated0_MP_sgd,37,No,-,0.819999993,8,46.47329497
+reuters_change_optimisation_function_mutated0_MP_sgd,38,No,-,0.819999993,8,46.70375204
+reuters_change_optimisation_function_mutated0_MP_sgd,39,No,-,0.819999993,8,47.11068392
+reuters_change_optimisation_function_mutated0_MP_sgd,40,No,-,0.819999993,8,46.87909722
+reuters_change_optimisation_function_mutated0_MP_sgd,41,No,-,0.819999993,8,46.97577
+reuters_change_optimisation_function_mutated0_MP_sgd,42,No,-,0.819999993,8,46.55705214
+reuters_change_optimisation_function_mutated0_MP_sgd,43,No,-,0.819999993,8,46.60096812
+reuters_change_optimisation_function_mutated0_MP_sgd,44,No,-,0.819999993,8,46.99457693
+reuters_change_optimisation_function_mutated0_MP_sgd,45,No,-,0.819999993,8,46.97408414
+reuters_change_optimisation_function_mutated0_MP_sgd,46,No,-,0.819999993,8,47.06085086
+reuters_change_optimisation_function_mutated0_MP_sgd,47,No,-,0.819999993,8,46.88615489
+reuters_change_optimisation_function_mutated0_MP_sgd,48,No,-,0.819999993,8,45.01645279
+reuters_change_optimisation_function_mutated0_MP_sgd,49,No,-,0.819999993,8,47.78127885
+mnist_remove_activation_function_mutated0_MP_7,0,Not totally,0.093500003,0.256500006,8,166.7856727
+mnist_remove_activation_function_mutated0_MP_7,1,Not totally,0.093500003,0.180500001,8,172.1052744
+mnist_remove_activation_function_mutated0_MP_7,2,Not totally,0.093500003,0.227500007,8,161.7484648
+mnist_remove_activation_function_mutated0_MP_7,3,Not totally,0.101499997,0.115999997,8,77.6853857
+mnist_remove_activation_function_mutated0_MP_7,4,Yes,0.166500002,0.166500002,2,86.71960711
+mnist_remove_activation_function_mutated0_MP_7,5,Yes,0.347000003,0.347000003,2,89.08221245
+mnist_remove_activation_function_mutated0_MP_7,6,No,-,0.178499997,8,159.2238784
+mnist_remove_activation_function_mutated0_MP_7,7,No,-,0.133000001,8,162.8554981
+mnist_remove_activation_function_mutated0_MP_7,8,No,-,0.174500003,8,206.4751039
+mnist_remove_activation_function_mutated0_MP_7,9,Not totally,0.093500003,0.104500003,8,72429.59306
+mnist_remove_activation_function_mutated0_MP_7,10,Yes,0.114,0.114,2,89.68050504
+mnist_remove_activation_function_mutated0_MP_7,11,No,-,0.101499997,6,38.37731552
+mnist_remove_activation_function_mutated0_MP_7,12,Yes,0.264499992,0.264499992,1,93.13294005
+mnist_remove_activation_function_mutated0_MP_7,13,Not totally,0.093500003,0.323000014,8,124.5078037
+mnist_remove_activation_function_mutated0_MP_7,14,Yes,0.237499997,0.237499997,2,85.27659583
+mnist_remove_activation_function_mutated0_MP_7,15,No,-,0.208000004,8,128.9191382
+mnist_remove_activation_function_mutated0_MP_7,16,Yes,0.340000004,0.340000004,1,72.58224392
+mnist_remove_activation_function_mutated0_MP_7,17,Yes,0.360500008,0.360500008,2,87.82399607
+mnist_remove_activation_function_mutated0_MP_7,18,Yes,0.101499997,0.101499997,2,86.13329577
+mnist_remove_activation_function_mutated0_MP_7,19,Not totally,0.093500003,0.288500011,8,140.7330856
+mnist_remove_activation_function_mutated0_MP_7,20,No,-,0.289999992,8,206.4726505
+mnist_remove_activation_function_mutated0_MP_7,21,No,-,0.101499997,6,43.90501904
+mnist_remove_activation_function_mutated0_MP_7,22,Yes,0.123499997,0.123499997,2,111.5077744
+mnist_remove_activation_function_mutated0_MP_7,23,No,-,0.240500003,8,164.0152242
+mnist_remove_activation_function_mutated0_MP_7,24,Not totally,0.093500003,0.148499995,8,160.4276695
+mnist_remove_activation_function_mutated0_MP_7,25,Yes,0.259499997,0.259499997,2,110.8837557
+mnist_remove_activation_function_mutated0_MP_7,26,Yes,0.25150001,0.25150001,1,92.83815885
+mnist_remove_activation_function_mutated0_MP_7,27,Not totally,0.093500003,0.109499998,8,152.2467606
+mnist_remove_activation_function_mutated0_MP_7,28,No,-,0.352499992,8,182.6932449
+mnist_remove_activation_function_mutated0_MP_7,29,Not totally,0.098999999,0.131500006,8,160.6178384
+mnist_remove_activation_function_mutated0_MP_7,30,Not totally,0.093500003,0.211500004,8,202.3009818
+mnist_remove_activation_function_mutated0_MP_7,31,No,-,0.101499997,6,43.71956921
+mnist_remove_activation_function_mutated0_MP_7,32,No,-,0.191,8,199.8864427
+mnist_remove_activation_function_mutated0_MP_7,33,Not totally,0.093500003,0.109499998,8,198.9462924
+mnist_remove_activation_function_mutated0_MP_7,34,Yes,0.321500003,0.321500003,2,109.9574242
+mnist_remove_activation_function_mutated0_MP_7,35,No,-,0.101499997,6,42.99682951
+mnist_remove_activation_function_mutated0_MP_7,36,No,-,0.101499997,6,42.9140799
+mnist_remove_activation_function_mutated0_MP_7,37,No,-,0.101499997,6,43.04643607
+mnist_remove_activation_function_mutated0_MP_7,38,No,-,0.101499997,6,43.38038683
+mnist_remove_activation_function_mutated0_MP_7,39,No,-,0.101499997,6,43.17254734
+mnist_remove_activation_function_mutated0_MP_7,40,No,-,0.101499997,6,43.86359334
+mnist_remove_activation_function_mutated0_MP_7,41,Yes,0.194999993,0.194999993,2,114.334554
+mnist_remove_activation_function_mutated0_MP_7,42,Yes,0.207499996,0.207499996,2,129.8701868
+mnist_remove_activation_function_mutated0_MP_7,43,Not totally,0.101499997,0.172999993,8,84.01036382
+mnist_remove_activation_function_mutated0_MP_7,44,No,-,0.200000003,8,179.6883254
+mnist_remove_activation_function_mutated0_MP_7,45,Yes,0.096500002,0.136500001,2,110.6539474
+mnist_remove_activation_function_mutated0_MP_7,46,Not totally,0.093500003,0.102499999,8,159.9235339
+mnist_remove_activation_function_mutated0_MP_7,47,Yes,0.192499995,0.192499995,2,109.9011576
+mnist_remove_activation_function_mutated0_MP_7,48,Not totally,0.093500003,0.210999995,8,200.1167386
+mnist_remove_activation_function_mutated0_MP_7,49,Not totally,0.093500003,0.269499987,8,186.0780251
+origin_31880720,0,No,-,0.524999976,8,21.80442286
+origin_31880720,1,No,-,0.524999976,8,21.76918983
+origin_31880720,2,No,-,0.524999976,8,20.85439086
+origin_31880720,3,No,-,0.524999976,8,22.83705115
+origin_31880720,4,No,-,0.524999976,8,23.67944598
+origin_31880720,5,No,-,0.524999976,8,30.73657012
+origin_31880720,6,No,-,0.524999976,8,28.71782398
+origin_31880720,7,No,-,0.524999976,8,25.5083251
+origin_31880720,8,No,-,0.524999976,8,24.0994482
+origin_31880720,9,No,-,0.524999976,8,26.28127718
+origin_31880720,10,No,-,0.524999976,8,26.43104315
+origin_31880720,11,No,-,0.524999976,8,30.01339531
+origin_31880720,12,No,-,0.524999976,8,26.13587499
+origin_31880720,13,No,-,0.524999976,8,24.18900704
+origin_31880720,14,No,-,0.524999976,8,24.15632415
+origin_31880720,15,No,-,0.524999976,8,24.33609486
+origin_31880720,16,No,-,0.524999976,8,25.22482896
+origin_31880720,17,No,-,0.524999976,8,31.28818083
+origin_31880720,18,No,-,0.524999976,8,26.65554786
+origin_31880720,19,No,-,0.524999976,8,27.38635397
+origin_31880720,20,No,-,0.524999976,8,27.84021902
+origin_31880720,21,No,-,0.524999976,8,25.25266004
+origin_31880720,22,No,-,0.524999976,8,22.4720099
+origin_31880720,23,No,-,0.524999976,8,21.48761201
+origin_31880720,24,No,-,0.524999976,8,21.68633771
+origin_31880720,25,No,-,0.524999976,8,22.688205
+origin_31880720,26,No,-,0.524999976,8,22.06482816
+origin_31880720,27,No,-,0.524999976,8,22.56596684
+origin_31880720,28,No,-,0.524999976,8,23.18681216
+origin_31880720,29,No,-,0.524999976,8,21.98504901
+origin_31880720,30,No,-,0.524999976,8,21.76921201
+origin_31880720,31,No,-,0.524999976,8,21.31247306
+origin_31880720,32,No,-,0.524999976,8,21.84789395
+origin_31880720,33,No,-,0.524999976,8,22.60338807
+origin_31880720,34,No,-,0.524999976,8,21.6676271
+origin_31880720,35,No,-,0.524999976,8,21.74069095
+origin_31880720,36,No,-,0.524999976,8,21.40202808
+origin_31880720,37,No,-,0.524999976,8,21.46931195
+origin_31880720,38,No,-,0.524999976,8,22.93496013
+origin_31880720,39,No,-,0.524999976,8,21.28708482
+origin_31880720,40,No,-,0.524999976,8,21.60103917
+origin_31880720,41,No,-,0.524999976,8,22.29026294
+origin_31880720,42,No,-,0.524999976,8,21.56998825
+origin_31880720,43,No,-,0.524999976,8,22.77605295
+origin_31880720,44,No,-,0.524999976,8,22.31640816
+origin_31880720,45,No,-,0.524999976,8,21.23219609
+origin_31880720,46,No,-,0.524999976,8,21.97352815
+origin_31880720,47,No,-,0.524999976,8,21.71048498
+origin_31880720,48,No,-,0.524999976,8,22.14730906
+origin_31880720,49,No,-,0.524999976,8,22.167485
+origin_50306988,0,Yes,1,1,8,7.434026957
+origin_50306988,1,Yes,1,1,8,7.195366859
+origin_50306988,2,Yes,1,1,8,7.127786875
+origin_50306988,3,Yes,1,1,8,7.019261122
+origin_50306988,4,Yes,1,1,1,1.07199192
+origin_50306988,5,Yes,1,1,8,7.011740208
+origin_50306988,6,Yes,1,1,8,7.042582035
+origin_50306988,7,Yes,1,1,8,7.035546064
+origin_50306988,8,Yes,1,1,8,7.247270107
+origin_50306988,9,Yes,1,1,8,6.826229095
+origin_50306988,10,Yes,1,1,8,6.940889835
+origin_50306988,11,Yes,1,1,8,7.051438093
+origin_50306988,12,Yes,1,1,1,1.046310902
+origin_50306988,13,Yes,1,1,8,6.933761835
+origin_50306988,14,Yes,1,1,1,1.06634593
+origin_50306988,15,Yes,1,1,8,7.055964231
+origin_50306988,16,Yes,1,1,1,1.039984941
+origin_50306988,17,Yes,1,1,8,6.880047798
+origin_50306988,18,Yes,1,1,8,6.912090063
+origin_50306988,19,Yes,1,1,8,6.949850798
+origin_50306988,20,Yes,1,1,8,7.047043085
+origin_50306988,21,Yes,1,1,8,7.083615065
+origin_50306988,22,Yes,1,1,8,7.043204308
+origin_50306988,23,Yes,1,1,8,7.021484137
+origin_50306988,24,Yes,1,1,8,7.140125036
+origin_50306988,25,Yes,1,1,8,7.886041164
+origin_50306988,26,Yes,1,1,8,7.218859911
+origin_50306988,27,Yes,1,1,8,7.002429962
+origin_50306988,28,Yes,1,1,1,1.040697813
+origin_50306988,29,Yes,1,1,8,6.79895997
+origin_50306988,30,Yes,1,1,8,6.841026068
+origin_50306988,31,Yes,1,1,8,8.32914114
+origin_50306988,32,Yes,1,1,8,8.57076478
+origin_50306988,33,Yes,1,1,8,8.886189699
+origin_50306988,34,Yes,1,1,8,7.61524868
+origin_50306988,35,Yes,1,1,8,8.444660187
+origin_50306988,36,Yes,1,1,8,7.5035429
+origin_50306988,37,Yes,1,1,8,8.563323736
+origin_50306988,38,Yes,1,1,1,1.391273975
+origin_50306988,39,Yes,1,1,8,9.33785224
+origin_50306988,40,Yes,1,1,8,10.82167411
+origin_50306988,41,Yes,1,1,8,9.799400806
+origin_50306988,42,Yes,1,1,8,10.02639699
+origin_50306988,43,Yes,1,1,8,8.857498169
+origin_50306988,44,Yes,1,1,8,8.891453743
+origin_50306988,45,Yes,1,1,8,8.065863132
+origin_50306988,46,Yes,1,1,8,8.645584822
+origin_50306988,47,Yes,1,1,8,7.8310709
+origin_50306988,48,Yes,1,1,8,7.554847002
+origin_50306988,49,Yes,1,1,1,1.115147114
+reuters_remove_activation_function_mutated0_MP_2,0,No,-,0.122222222,8,120.4165192
+reuters_remove_activation_function_mutated0_MP_2,1,No,-,0.122222222,8,124.004905
+reuters_remove_activation_function_mutated0_MP_2,2,No,-,0.122222222,8,123.0093718
+reuters_remove_activation_function_mutated0_MP_2,3,No,-,0.122222222,8,122.944417
+reuters_remove_activation_function_mutated0_MP_2,4,No,-,0.122222222,8,124.2928588
+reuters_remove_activation_function_mutated0_MP_2,5,No,-,0.122222222,8,123.141012
+reuters_remove_activation_function_mutated0_MP_2,6,No,-,0.122222222,8,124.168149
+reuters_remove_activation_function_mutated0_MP_2,7,No,-,0.122222222,8,123.6098111
+reuters_remove_activation_function_mutated0_MP_2,8,No,-,0.122222222,8,125.0887001
+reuters_remove_activation_function_mutated0_MP_2,9,No,-,0.122222222,8,127.9907939
+reuters_remove_activation_function_mutated0_MP_2,10,No,-,0.122222222,8,131.9687531
+reuters_remove_activation_function_mutated0_MP_2,11,No,-,0.122222222,8,140.3953252
+reuters_remove_activation_function_mutated0_MP_2,12,No,-,0.122222222,8,150.164808
+reuters_remove_activation_function_mutated0_MP_2,13,No,-,0.122222222,8,127.2677193
+reuters_remove_activation_function_mutated0_MP_2,14,No,-,0.122222222,8,125.8549671
+reuters_remove_activation_function_mutated0_MP_2,15,No,-,0.122222222,8,123.9161389
+reuters_remove_activation_function_mutated0_MP_2,16,No,-,0.122222222,8,125.456176
+reuters_remove_activation_function_mutated0_MP_2,17,No,-,0.122222222,8,125.8962228
+reuters_remove_activation_function_mutated0_MP_2,18,No,-,0.122222222,8,125.5757129
+reuters_remove_activation_function_mutated0_MP_2,19,No,-,0.122222222,8,160.085603
+reuters_remove_activation_function_mutated0_MP_2,20,No,-,0.122222222,8,144.341445
+reuters_remove_activation_function_mutated0_MP_2,21,No,-,0.122222222,8,159.7304289
+reuters_remove_activation_function_mutated0_MP_2,22,No,-,0.122222222,8,196.7600129
+reuters_remove_activation_function_mutated0_MP_2,23,No,-,0.122222222,8,177.5370259
+reuters_remove_activation_function_mutated0_MP_2,24,No,-,0.122222222,8,173.0466559
+reuters_remove_activation_function_mutated0_MP_2,25,No,-,0.122222222,8,183.8595741
+reuters_remove_activation_function_mutated0_MP_2,26,No,-,0.122222222,8,203.0413928
+reuters_remove_activation_function_mutated0_MP_2,27,No,-,0.122222222,8,188.7759781
+reuters_remove_activation_function_mutated0_MP_2,28,No,-,0.122222222,8,144.371556
+reuters_remove_activation_function_mutated0_MP_2,29,No,-,0.122222222,8,150.9515231
+reuters_remove_activation_function_mutated0_MP_2,30,No,-,0.122222222,8,153.122638
+reuters_remove_activation_function_mutated0_MP_2,31,No,-,0.122222222,8,153.112437
+reuters_remove_activation_function_mutated0_MP_2,32,No,-,0.122222222,8,143.1124501
+reuters_remove_activation_function_mutated0_MP_2,33,No,-,0.122222222,8,223.1253111
+reuters_remove_activation_function_mutated0_MP_2,34,No,-,0.122222222,8,241.9604816
+reuters_remove_activation_function_mutated0_MP_2,35,No,-,0.122222222,8,225.6229582
+reuters_remove_activation_function_mutated0_MP_2,36,No,-,0.122222222,8,234.6127548
+reuters_remove_activation_function_mutated0_MP_2,37,No,-,0.122222222,8,217.5190027
+reuters_remove_activation_function_mutated0_MP_2,38,No,-,0.122222222,8,256.6837192
+reuters_remove_activation_function_mutated0_MP_2,39,No,-,0.122222222,8,288.625457
+reuters_remove_activation_function_mutated0_MP_2,40,No,-,0.122222222,8,276.5732079
+reuters_remove_activation_function_mutated0_MP_2,41,No,-,0.122222222,8,284.950408
+reuters_remove_activation_function_mutated0_MP_2,42,No,-,0.122222222,8,291.1977589
+reuters_remove_activation_function_mutated0_MP_2,43,No,-,0.122222222,8,284.6355038
+reuters_remove_activation_function_mutated0_MP_2,44,No,-,0.122222222,8,256.4535191
+reuters_remove_activation_function_mutated0_MP_2,45,No,-,0.122222222,8,268.7671351
+reuters_remove_activation_function_mutated0_MP_2,46,No,-,0.122222222,8,291.8814781
+reuters_remove_activation_function_mutated0_MP_2,47,No,-,0.122222222,8,293.4374411
+reuters_remove_activation_function_mutated0_MP_2,48,No,-,0.122222222,8,273.5949712
+reuters_remove_activation_function_mutated0_MP_2,49,No,-,0.122222222,8,286.85076
+reuters_change_activation_function_mutated0_MP_softsign_2,0,No,-,0.233333334,8,116.1203609
+reuters_change_activation_function_mutated0_MP_softsign_2,1,No,-,0.233333334,8,118.9303091
+reuters_change_activation_function_mutated0_MP_softsign_2,2,No,-,0.233333334,8,118.3890529
+reuters_change_activation_function_mutated0_MP_softsign_2,3,No,-,0.233333334,8,117.9250166
+reuters_change_activation_function_mutated0_MP_softsign_2,4,No,-,0.233333334,8,117.7635338
+reuters_change_activation_function_mutated0_MP_softsign_2,5,No,-,0.233333334,8,117.8615189
+reuters_change_activation_function_mutated0_MP_softsign_2,6,No,-,0.233333334,8,118.321547
+reuters_change_activation_function_mutated0_MP_softsign_2,7,No,-,0.233333334,8,117.7679551
+reuters_change_activation_function_mutated0_MP_softsign_2,8,No,-,0.233333334,8,118.1328788
+reuters_change_activation_function_mutated0_MP_softsign_2,9,No,-,0.233333334,8,118.2314401
+reuters_change_activation_function_mutated0_MP_softsign_2,10,No,-,0.233333334,8,118.2833629
+reuters_change_activation_function_mutated0_MP_softsign_2,11,No,-,0.233333334,8,118.9046969
+reuters_change_activation_function_mutated0_MP_softsign_2,12,No,-,0.233333334,8,118.5164349
+reuters_change_activation_function_mutated0_MP_softsign_2,13,No,-,0.233333334,8,118.7008731
+reuters_change_activation_function_mutated0_MP_softsign_2,14,No,-,0.233333334,8,118.2471352
+reuters_change_activation_function_mutated0_MP_softsign_2,15,No,-,0.233333334,8,119.242121
+reuters_change_activation_function_mutated0_MP_softsign_2,16,No,-,0.233333334,8,118.0184116
+reuters_change_activation_function_mutated0_MP_softsign_2,17,No,-,0.233333334,8,119.2675278
+reuters_change_activation_function_mutated0_MP_softsign_2,18,No,-,0.233333334,8,118.8572717
+reuters_change_activation_function_mutated0_MP_softsign_2,19,No,-,0.233333334,8,117.9794209
+reuters_change_activation_function_mutated0_MP_softsign_2,20,No,-,0.233333334,8,118.6430149
+reuters_change_activation_function_mutated0_MP_softsign_2,21,No,-,0.233333334,8,118.3741271
+reuters_change_activation_function_mutated0_MP_softsign_2,22,No,-,0.233333334,8,118.5451758
+reuters_change_activation_function_mutated0_MP_softsign_2,23,No,-,0.233333334,8,117.8269589
+reuters_change_activation_function_mutated0_MP_softsign_2,24,No,-,0.233333334,8,119.3854289
+reuters_change_activation_function_mutated0_MP_softsign_2,25,No,-,0.233333334,8,118.6371858
+reuters_change_activation_function_mutated0_MP_softsign_2,26,No,-,0.233333334,8,118.6261461
+reuters_change_activation_function_mutated0_MP_softsign_2,27,No,-,0.233333334,8,119.031976
+reuters_change_activation_function_mutated0_MP_softsign_2,28,No,-,0.233333334,8,118.0687821
+reuters_change_activation_function_mutated0_MP_softsign_2,29,No,-,0.233333334,8,141.8155472
+reuters_change_activation_function_mutated0_MP_softsign_2,30,No,-,0.233333334,8,122.3091042
+reuters_change_activation_function_mutated0_MP_softsign_2,31,No,-,0.233333334,8,120.95011
+reuters_change_activation_function_mutated0_MP_softsign_2,32,No,-,0.233333334,8,119.6594629
+reuters_change_activation_function_mutated0_MP_softsign_2,33,No,-,0.233333334,8,117.6405439
+reuters_change_activation_function_mutated0_MP_softsign_2,34,No,-,0.233333334,8,117.6198428
+reuters_change_activation_function_mutated0_MP_softsign_2,35,No,-,0.233333334,8,118.3759043
+reuters_change_activation_function_mutated0_MP_softsign_2,36,No,-,0.233333334,8,117.7611341
+reuters_change_activation_function_mutated0_MP_softsign_2,37,No,-,0.233333334,8,118.3935411
+reuters_change_activation_function_mutated0_MP_softsign_2,38,No,-,0.233333334,8,118.4879272
+reuters_change_activation_function_mutated0_MP_softsign_2,39,No,-,0.233333334,8,118.7368209
+reuters_change_activation_function_mutated0_MP_softsign_2,40,No,-,0.233333334,8,118.909344
+reuters_change_activation_function_mutated0_MP_softsign_2,41,No,-,0.233333334,8,118.675992
+reuters_change_activation_function_mutated0_MP_softsign_2,42,No,-,0.233333334,8,118.0790741
+reuters_change_activation_function_mutated0_MP_softsign_2,43,No,-,0.233333334,8,118.858866
+reuters_change_activation_function_mutated0_MP_softsign_2,44,No,-,0.233333334,8,118.3813839
+reuters_change_activation_function_mutated0_MP_softsign_2,45,No,-,0.233333334,8,118.1774237
+reuters_change_activation_function_mutated0_MP_softsign_2,46,No,-,0.233333334,8,118.3465421
+reuters_change_activation_function_mutated0_MP_softsign_2,47,No,-,0.233333334,8,117.8749852
+reuters_change_activation_function_mutated0_MP_softsign_2,48,No,-,0.233333334,8,117.6002908
+reuters_change_activation_function_mutated0_MP_softsign_2,49,No,-,0.233333334,8,118.0019178
+reuters_add_weights_regularisation_mutated0_MP_l1_0,0,Not totally,0.575555563,0.575555563,6,129.5889668
+reuters_add_weights_regularisation_mutated0_MP_l1_0,1,Not totally,0.575555563,0.575555563,6,120.7538102
+reuters_add_weights_regularisation_mutated0_MP_l1_0,2,Not totally,0.575555563,0.575555563,6,132.512177
+reuters_add_weights_regularisation_mutated0_MP_l1_0,3,Not totally,0.575555563,0.575555563,6,129.2391469
+reuters_add_weights_regularisation_mutated0_MP_l1_0,4,Not totally,0.575555563,0.575555563,6,126.5346429
+reuters_add_weights_regularisation_mutated0_MP_l1_0,5,Not totally,0.575555563,0.575555563,6,113.7664042
+reuters_add_weights_regularisation_mutated0_MP_l1_0,6,Not totally,0.575555563,0.575555563,6,114.2916157
+reuters_add_weights_regularisation_mutated0_MP_l1_0,7,Not totally,0.575555563,0.575555563,6,113.2205179
+reuters_add_weights_regularisation_mutated0_MP_l1_0,8,Not totally,0.575555563,0.575555563,6,113.1657879
+reuters_add_weights_regularisation_mutated0_MP_l1_0,9,Not totally,0.575555563,0.575555563,6,114.3285298
+reuters_add_weights_regularisation_mutated0_MP_l1_0,10,Not totally,0.575555563,0.575555563,6,112.7556939
+reuters_add_weights_regularisation_mutated0_MP_l1_0,11,Not totally,0.575555563,0.575555563,6,113.5590799
+reuters_add_weights_regularisation_mutated0_MP_l1_0,12,Not totally,0.575555563,0.575555563,6,132.4637609
+reuters_add_weights_regularisation_mutated0_MP_l1_0,13,Not totally,0.575555563,0.575555563,6,112.906528
+reuters_add_weights_regularisation_mutated0_MP_l1_0,14,Not totally,0.575555563,0.575555563,6,113.075413
+reuters_add_weights_regularisation_mutated0_MP_l1_0,15,Not totally,0.575555563,0.575555563,6,114.2643011
+reuters_add_weights_regularisation_mutated0_MP_l1_0,16,Not totally,0.575555563,0.575555563,6,114.0078559
+reuters_add_weights_regularisation_mutated0_MP_l1_0,17,Not totally,0.575555563,0.575555563,6,113.9392409
+reuters_add_weights_regularisation_mutated0_MP_l1_0,18,Not totally,0.575555563,0.575555563,6,114.0649989
+reuters_add_weights_regularisation_mutated0_MP_l1_0,19,Not totally,0.575555563,0.575555563,6,114.4989681
+reuters_add_weights_regularisation_mutated0_MP_l1_0,20,Not totally,0.575555563,0.575555563,6,114.0303929
+reuters_add_weights_regularisation_mutated0_MP_l1_0,21,Not totally,0.575555563,0.575555563,6,114.0592868
+reuters_add_weights_regularisation_mutated0_MP_l1_0,22,Not totally,0.575555563,0.575555563,6,114.0609031
+reuters_add_weights_regularisation_mutated0_MP_l1_0,23,Not totally,0.575555563,0.575555563,6,114.5537238
+reuters_add_weights_regularisation_mutated0_MP_l1_0,24,Not totally,0.575555563,0.575555563,6,116.6752622
+reuters_add_weights_regularisation_mutated0_MP_l1_0,25,Not totally,0.575555563,0.575555563,6,113.697681
+reuters_add_weights_regularisation_mutated0_MP_l1_0,26,Not totally,0.575555563,0.575555563,6,116.199142
+reuters_add_weights_regularisation_mutated0_MP_l1_0,27,Not totally,0.575555563,0.575555563,6,114.732393
+reuters_add_weights_regularisation_mutated0_MP_l1_0,28,Not totally,0.575555563,0.575555563,6,118.185185
+reuters_add_weights_regularisation_mutated0_MP_l1_0,29,Not totally,0.575555563,0.575555563,6,111.9778461
+reuters_add_weights_regularisation_mutated0_MP_l1_0,30,Not totally,0.575555563,0.575555563,6,112.040458
+reuters_add_weights_regularisation_mutated0_MP_l1_0,31,Not totally,0.575555563,0.575555563,6,112.5779922
+reuters_add_weights_regularisation_mutated0_MP_l1_0,32,Not totally,0.575555563,0.575555563,6,112.285821
+reuters_add_weights_regularisation_mutated0_MP_l1_0,33,Not totally,0.575555563,0.575555563,6,111.7956028
+reuters_add_weights_regularisation_mutated0_MP_l1_0,34,Not totally,0.575555563,0.575555563,6,113.425796
+reuters_add_weights_regularisation_mutated0_MP_l1_0,35,Not totally,0.575555563,0.575555563,6,112.1768179
+reuters_add_weights_regularisation_mutated0_MP_l1_0,36,Not totally,0.575555563,0.575555563,6,112.4902041
+reuters_add_weights_regularisation_mutated0_MP_l1_0,37,Not totally,0.575555563,0.575555563,6,112.9083951
+reuters_add_weights_regularisation_mutated0_MP_l1_0,38,Not totally,0.575555563,0.575555563,6,113.035861
+reuters_add_weights_regularisation_mutated0_MP_l1_0,39,Not totally,0.575555563,0.575555563,6,131.4130418
+reuters_add_weights_regularisation_mutated0_MP_l1_0,40,Not totally,0.575555563,0.575555563,6,112.519177
+reuters_add_weights_regularisation_mutated0_MP_l1_0,41,Not totally,0.575555563,0.575555563,6,113.1375268
+reuters_add_weights_regularisation_mutated0_MP_l1_0,42,Not totally,0.575555563,0.575555563,6,112.3537571
+reuters_add_weights_regularisation_mutated0_MP_l1_0,43,Not totally,0.575555563,0.575555563,6,132.2538061
+reuters_add_weights_regularisation_mutated0_MP_l1_0,44,Not totally,0.575555563,0.575555563,6,113.2259579
+reuters_add_weights_regularisation_mutated0_MP_l1_0,45,Not totally,0.575555563,0.575555563,6,112.8504648
+reuters_add_weights_regularisation_mutated0_MP_l1_0,46,Not totally,0.575555563,0.575555563,6,114.6145921
+reuters_add_weights_regularisation_mutated0_MP_l1_0,47,Not totally,0.575555563,0.575555563,6,113.1452179
+reuters_add_weights_regularisation_mutated0_MP_l1_0,48,Not totally,0.575555563,0.575555563,6,112.9240849
+reuters_add_weights_regularisation_mutated0_MP_l1_0,49,Not totally,0.575555563,0.575555563,6,113.2310052
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,0,Yes,0.985499978,0.985499978,1,63.94888282
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,1,Yes,0.984000027,0.984000027,1,66.59916997
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,2,Yes,0.982500017,0.982500017,1,64.19363117
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,3,Yes,0.982500017,0.982500017,1,67.32552981
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,4,Yes,0.980000019,0.980000019,1,64.1319344
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,5,Yes,0.98299998,0.98299998,1,65.05095553
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,6,Yes,0.98150003,0.98150003,1,66.46158457
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,7,Yes,0.985000014,0.985000014,1,67.27822709
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,8,Yes,0.982500017,0.982500017,1,64.20865512
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,9,Yes,0.980499983,0.980499983,1,63.78777623
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,10,Yes,0.98299998,0.98299998,1,66.22787523
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,11,Yes,0.98150003,0.98150003,1,66.41083288
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,12,Yes,0.983500004,0.983500004,1,67.72039723
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,13,Yes,0.983500004,0.983500004,1,66.84690666
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,14,Yes,0.981000006,0.981000006,1,66.71711159
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,15,Yes,0.984000027,0.984000027,1,66.91038966
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,16,Yes,0.985000014,0.985000014,1,65.05153131
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,17,Yes,0.984000027,0.984000027,1,64.12235355
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,18,Yes,0.986000001,0.986000001,1,66.62462449
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,19,Yes,0.979499996,0.979499996,1,66.38235807
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,20,Yes,0.983500004,0.983500004,1,67.19392681
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,21,Yes,0.98150003,0.98150003,1,68.04257917
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,22,Yes,0.98299998,0.98299998,1,64.05886388
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,23,Yes,0.985499978,0.985499978,1,66.60765052
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,24,Yes,0.981999993,0.981999993,1,63.64183187
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,25,Yes,0.980499983,0.980499983,1,67.53201747
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,26,Yes,0.98150003,0.98150003,1,65.4503293
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,27,Yes,0.981999993,0.981999993,1,66.20010781
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,28,Yes,0.984499991,0.984499991,1,66.13776779
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,29,Yes,0.982500017,0.982500017,1,68.27735257
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,30,Yes,0.983500004,0.983500004,1,66.43899465
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,31,Yes,0.98299998,0.98299998,1,65.98824954
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,32,Yes,0.982500017,0.982500017,1,64.66195846
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,33,Yes,0.985000014,0.985000014,1,67.29966974
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,34,Yes,0.981999993,0.981999993,1,67.6300571
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,35,Yes,0.980499983,0.980499983,1,66.84602809
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,36,Yes,0.982500017,0.982500017,1,67.25377846
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,37,Yes,0.984000027,0.984000027,1,67.45632696
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,38,Yes,0.981000006,0.981000006,1,66.52618361
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,39,Yes,0.985499978,0.985499978,1,67.81154156
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,40,Yes,0.985499978,0.985499978,1,64.19279146
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,41,Yes,0.98299998,0.98299998,1,63.92250466
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,42,Yes,0.984499991,0.984499991,1,66.94290376
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,43,Yes,0.983500004,0.983500004,1,66.5677526
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,44,Yes,0.983500004,0.983500004,1,63.76594925
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,45,Yes,0.984000027,0.984000027,1,64.21766019
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,46,Yes,0.980000019,0.980000019,1,63.51577759
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,47,Yes,0.98299998,0.98299998,1,66.65453029
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,48,Yes,0.983500004,0.983500004,1,63.85740209
+mnist_change_weights_initialisation_mutated0_MP_zeros_0,49,Yes,0.984499991,0.984499991,1,66.51351094
+origin_59325381,0,No,-,0.101499997,9,203.6752493
+origin_59325381,1,No,-,0.101499997,9,206.8511965
+origin_59325381,2,No,-,0.101499997,9,213.7634962
+origin_59325381,3,No,-,0.101499997,9,218.0993526
+origin_59325381,4,No,-,0.101499997,9,215.3229933
+origin_59325381,5,No,-,0.101499997,9,209.5241358
+origin_59325381,6,No,-,0.101499997,9,210.8497083
+origin_59325381,7,No,-,0.101499997,9,212.2351694
+origin_59325381,8,No,-,0.101499997,9,214.5461497
+origin_59325381,9,No,-,0.101499997,9,204.6851923
+origin_59325381,10,No,-,0.101499997,9,202.7002211
+origin_59325381,11,No,-,0.101499997,9,211.8209002
+origin_59325381,12,No,-,0.101499997,9,215.2273238
+origin_59325381,13,No,-,0.101499997,9,224.3938491
+origin_59325381,14,No,-,0.101499997,9,215.7518559
+origin_59325381,15,No,-,0.101499997,9,208.2090764
+origin_59325381,16,No,-,0.101499997,9,222.7469399
+origin_59325381,17,No,-,0.101499997,9,212.6112409
+origin_59325381,18,No,-,0.101499997,9,216.8127036
+origin_59325381,19,No,-,0.101499997,9,208.6798728
+origin_59325381,20,No,-,0.101499997,9,201.4223118
+origin_59325381,21,No,-,0.101499997,9,210.8502901
+origin_59325381,22,No,-,0.101499997,9,212.2173626
+origin_59325381,23,No,-,0.101499997,9,213.3375492
+origin_59325381,24,No,-,0.101499997,9,212.2239838
+origin_59325381,25,No,-,0.101499997,9,220.1590343
+origin_59325381,26,No,-,0.101499997,9,211.6797674
+origin_59325381,27,No,-,0.101499997,9,212.7417719
+origin_59325381,28,No,-,0.101499997,9,209.3943503
+origin_59325381,29,No,-,0.101499997,9,217.5470328
+origin_59325381,30,No,-,0.101499997,9,214.5807879
+origin_59325381,31,No,-,0.101499997,9,221.2113616
+origin_59325381,32,No,-,0.101499997,9,214.950985
+origin_59325381,33,No,-,0.101499997,9,202.2559733
+origin_59325381,34,No,-,0.101499997,9,212.5708942
+origin_59325381,35,No,-,0.101499997,9,221.1978896
+origin_59325381,36,No,-,0.101499997,9,225.8624346
+origin_59325381,37,No,-,0.101499997,9,212.4767835
+origin_59325381,38,No,-,0.101499997,9,217.236423
+origin_59325381,39,No,-,0.101499997,9,214.9844761
+origin_59325381,40,No,-,0.101499997,9,204.862402
+origin_59325381,41,No,-,0.101499997,9,213.8903701
+origin_59325381,42,No,-,0.101499997,9,205.6749587
+origin_59325381,43,No,-,0.101499997,9,209.519974
+origin_59325381,44,No,-,0.101499997,9,212.116122
+origin_59325381,45,No,-,0.101499997,9,210.5152028
+origin_59325381,46,No,-,0.101499997,9,211.2706754
+origin_59325381,47,No,-,0.101499997,9,214.8806427
+origin_59325381,48,No,-,0.101499997,9,210.3684568
+origin_59325381,49,No,-,0.101499997,9,209.2407632

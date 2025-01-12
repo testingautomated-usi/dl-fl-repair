@@ -1,0 +1,15 @@
+{
+  "layer1": 1,
+  "unit1": 64,
+  "ki1": "he_uniform",
+  "bi1": "zeros",
+  "act1": "relu",
+  "ki2": "glorot_uniform",
+  "bi2": "zeros",
+  "act2": "softmax",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "categorical_crossentropy",
+  "epochs": 100,
+  "batch_size": 32
+}

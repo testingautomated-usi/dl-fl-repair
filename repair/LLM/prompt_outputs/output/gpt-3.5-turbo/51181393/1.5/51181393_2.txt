@@ -1,0 +1,10 @@
+{
+    "act1": "linear",
+    "ki1": "glorot_uniform",
+    "bi1": "zeros",
+    "epochs": ... ,
+    "batch_size": 20,
+    "optimizer": "adam",
+    "lr": 0.01,
+    "loss": "mean_absolute_error"
+}

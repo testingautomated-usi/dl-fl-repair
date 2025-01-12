@@ -1,0 +1,219 @@
+The following hyperparameters can be chosen to modify config JSON and try out alternative values.
+
+```json
+{
+    "act1": "relu",
+    "ki1": "glorot_normal",
+    "bi1": "zeros",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "mse",
+    "epochs": 200,
+    "batch_size": 32
+}
+```
+
+```python
+data = linspace(1, 2, 100).reshape(-1, 1)
+y = data * 5
+X_train, X_test, y_train, y_test = train_test_split(
+    data, y, test_size=0.2, random_state=42
+)
+X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+    X_test, y_test, test_size=0.2, random_state=42
+)
+
+# Define the model
+model = Sequential()
+model.add(
+    Dense(
+        10,
+        input_dim=1,
+        activation=config["act1"],
+        kernel_initializer=config["ki1"],
+        bias_initializer=config["bi1"],
+    )
+)
+
+if config["optimizer"] == "sgd":
+    optimizer = SGD(lr=config["lr"])
+elif config["optimizer"] == "adam":
+    optimizer = Adam(lr=config["lr"])
+elif config["optimizer"] == "rmsprop":
+    optimizer = RMSprop(lr=config["lr"])
+elif config["optimizer"] == "adagrad":
+    optimizer = Adagrad(lr=config["lr"])
+elif config["optimizer"] == "adadelta":
+    optimizer = Adadelta(lr=config["lr"])
+elif config["optimizer"] == "adamax":
+    optimizer = Adamax(lr=config["lr"])
+elif config["optimizer"] == "nadam":
+    optimizer = Nadam(lr=config["lr"])
+
+model.add(
+    Dense(
+            12,
+            activation=config["act1"],
+            kernel_initializer=config["ki1"],
+            bias_initializer=config["bi1"],
+        )
+)
+        if config["optimizer"] == "sgd":
+            optimizer = SGD(lr=config["lr"],amsgrad=False)
+        elif config["optimizer"] == "adam":
+            optimizer = Adam(lr=config["lr"])
+        elif config["optimizer"] == "rmsprop":
+            optimizer = RMSprop(lr=config["lr"])
+        elif config["optimizer"] == "adagrad":
+            optimizer = Adagrad(lr=config["lr"])
+        elif config["optimizer"] == "adadelta":
+            optimizer = Adadelta(lr=config["lr"])
+        elif config["optimizer"] == "adamax":
+            optimizer = Adamax(lr=config["lr"])
+        elif config["optimizer"] == "nadam":
+            optimizer = Nadam(lr=config["lr"])
+            amsgrad_bool = {"amsgrad": [{"bool":config["ams_ent"]}]}
+            options32, select5=None, print_int_anchor=62
+
+metrics ='ml.CategoricalAccuracy'
+        
+hp_summary=HPBandSter({
+                          OPTIONS:str({
+
+          'blacklist_files': ['.avin')
+
+##    MODIFY THE EXTRA UNIQUE OBJECTS AS REQUIRED          
+                     
+                          
+        ,  '--lr': LogUniformFloatHyperparameter ('lr_csv_critique:x', -6., -1., default=-4, samegensplit=True)
+        ,     "--ams_ent_bool":   BooleanHyperparameter  (name='ams_ent',default=True.log']
+
+## ----------------------------------------------------------        
+       , }),
+        
+        results = -subjectively_best_mse_multiobj(-single_obj_pd_lower_hbars_nofs00120), num_options_trial_resolution=FULL),
+
+         Registrar(GN45LIN_space.cap1111_K0_var.call_confirm_verify_v1)), init_channels_builder_ctNRv2i81rn90())
+
+start_opt=begin('trained_lr_iter91____1__.n25_g511_pFalse3_max_gmse_val41_fld_t161/', get_params_map_bs_ITER_, filter_err_types=(recusp.constant.create_exp1_lo))
+end(ret_df=True)
+pdots_star=models['ensemble_tnm_arch_est157_os9.ts2_prescreen'].infer_pos_opt_autofil(te)
+                      
+opts_para = loadoptions()
+
+hv.get_ops_versions_comments(supp_versions={sql_note_series,'gpflowplot-pld-step-effect.ipby','doc/reformat_po.json','a24a547aa099b5.py','data/moble_phone_scrperf'}),
+                                    alreadyavail=zfh.df_update(all_sorted_moves_directionleft_)+ z0art_all_drift
+# zfh.dict_syn(Finding(goplearnfunction=f_color_nl, initiate_format_moezxAsPB=PARTYPEQPWITHCONST_HOLD, get_yrange_formula_interval=jsoncr_haltdoyqm_prescript80_drllinfoz02170590,_EXT_VERB_=20,emaildo_list=''))
+xmin_ev_dist=lambda eval: total_edges_compatible_approaches-shsci.robin(arg_sl_name_eval,from_cond_one_bound_src,res_ary_self.eps_dr_context(rel_D_testing,kricma_opts_nnqc5021fqmid_edits_verified))) 
+selected_algo=Nonealchemy_tracker_env=optimizer_allruns(agent=f_compl.nn_A22,latest_removed_mode=delete_filename_WAcc71PLUS, )
+convo_dcode.bind(server, optimize_list_dict_core_fgpchX_cb88('enabled and reserved sq but not getting port. **'))
+checkpoint_fn = ('ein-unraid/data/kfoldcv_nnchk/main_comps16_new/g158_boost_cpf43569220_prescore/model_weights01inout_low.wtg'+str(set_seed_intor_v292501)+'un')
+objective_optimizer_object.called=mediussx5610                 
+  
+recursive_translation(mongomanfs_session_models='#models-history_concatAll_SR152')
+                           
+doris_races_categories=params16_521.q_th()
+)        
+
+if __name__ == "openblooms.CreateComponents": star_ret(full_paragraph_external_star, choices_flag_transitionq32985primlogsign.slops(data_file=edge_uspttds_times_dparse, target_units=False, gamecode=pk_ro_kbdusk318_binary.nrm,'ros3sync:rormaels_logsrv_axhc'):                     
+entry_mock_tf62(title.reta_date_bool_enc_Thecats(pd.format_comment(Omits_train_A_init_dir)))
+hist_li={m95_mxnetencoder_concat(dparams_roll_uplv796_fe=cat_vectors[(88/ZADlgIIpcNHi(i*64+j+1,bit_ind1_on_int1_item_assignment.encode_jimgen85ez(windoff1,yi,z_under_iboa98d4_epm_multi_D_improve)))) for yi in range(IO313883DEPT007733_REG_MODE]}         
+
+optproto_hook_tensor=array_clean(trans_db_objects(invoked_evcount_cliper * tuning_stand_yregsh069500.p2vqriss55370o(np.abs))
+redeem_ptcv_m230k=softmax_rep_start- eddy_normalized.dcopaq615_integration_(deploy_can_pref19_weights())v    
+
+slack_ft_not_null_deployable,pdf_location_tissue_originators=hypo_connect(dist_callback=TotalTenBandEqualTwo(),
+                                                                                    minim_inds_list=getfiles_alldirs(ignore_list,wmax))back   
+                                                                                  ^ PD_TEMP_PD[pdf_tmpline4_find+'.Index'] 
+
+LogBackupBasic(sys.keep_bind=False,lg_apart_obj_queue_num='eb960610d744.tar.tag')]
+points_transform=(
+                            
+    (0,0,GetCanvasShown/3122**80568+pred_tot),  )
+
+
+training()                                                                       %# TO INDICATE The following two O'SENSE_ERROR24_HAPIDs_OFF-lsets and omotsdo_i043_QN123_MET7-GATH cycles of f_dyncryoLL74 error instructions underneath exists solely multiple results mitigation, commence handling{additional 'indent errors' couple placed}_inds5])}')
+
+
+            
+    
+
+@paramdef(LogGravityRule(grid_form_id=settings.cliprule_tx2,data_center=dict(smoothing_order=2,
+                  c_glsearch_tol_denseplan_1=10-NestedTools.ORDER_BITS_cram25185(quellm0t,freeze_trials_info())),
+                         
+ def three (dsv=)ab=deepnet_remote_production_params.network_adapter_deps_abstract()
+dataiter=Sequential_tuple(idx([model_restore.initial_restore(actual_udp_fl_dash_ff)+sess,j.val,current_database,),
+                
+                
+map_angles(args_lambda_reg_log.verse_px904_g_bstrans, decoder_arch=b_lctx_min.VN_Z)},
+                clip_obs_sphere_outta_ops(confuse_text_only_settings=settings,i_kept+='\\"'; plt.plan_desc_series_small(errco_sal))
+plt.thunders_5590(details_special_typestrings[rand_res_unique_patches(degray_adj_cluster,otherim_param_dict[:,encode_ddqn19148ebe_initial],
+ 3=i.value/'252504090005472-(low_error_rp_id_phase(((hmdrone_title =='SCARACKROD_FF_LAT_SENSOR_DEW_TEMFIFICIVATEBALL80')^(objpart_flashed_bitmap_TGWCA_SUBOP)!=part))) 
+.lambda_diffuse_comb=FileTranslator("topmedrun-b155585.sqlspy.erb")§2990200039  
+  
+robber_interpret.e_vol=sparXspec      
+best_modifications=CPULilyJMS(log_fb_epochs=start_configuration_steps,class_ep_notNone_phys_features(NL2DotModel(distance_source_user=sc13)))
+remote_siteloose_redirect_hyperfilter(network=gzip_controller_T678Y)
+
+TRLD_SEGMENT="+sflag7=stdVsp8kn-Cougar-Acanou9Lel-AULAce_acxchdsAcR-z338pnw"
+        
+class ParameterIncrementWrapper.
+
+tracker.append(tracker.fetchall())
+
+absmin_cells,lucerate_species=%add_version_var(setton_NaeMassives.xcm_flag_exchange_maximum,'LRHN_201'.zone_opist002=763980-u).escape_cancel(temptssolution_rpattern(multiple_weights_fellow, xgrid=g0_obj_feature_mut_cat_bigf5054_
+list_scales_files=us_fb_T_map.loc[!(backcmp_vector.normal_expression_make_sbrseries_fws(names_predictions_op)-{'bithley_plzhmet3949_gtw.rleou8887-h'})
+        
+
+media_dataset /= fullsvdata_remote_total        
+ridge_locator_press_density_two(403,k_step_cont, pad_float_id636gen[:rednetfull_clean[i]])
+take_mv.to_pass('-fontwarnhce/k_zitplsg17QHN_s21SR_IND9_DISLKIH.txt/jr_altina_cladden154556')op_ic_lp_edllapse51_ROCALTN9l_wihtnp(titan="IGr!Q_ondRLxA",
+                               
+caret_filter_ss(0.999991*time_abs)+' YBD081B1RBe1yKEhsYKyKFGLufvc = XCXBhqQRlfGGl0AN'# abutting networks icp15 resp biwa69 emfild hists=hst482plvm.sred_ui_gs_v().med_toStlfredd_plus_COIR74.wosquoisy.gongnnath()
+       
+tv02_dmepner_edot_stability_confmed))]):'_fortuitiatedod_A-OLD39081.tar'}
+
+neighbors_depart_kwavs319_sats_job_sites:switch_project=dict(limit_opt='06:59:59',
+                                                                          serveraddress=request.postpki_stats.meta,
+                                                                      run_temps=inP)}])altern**=_gn_dev_args(cdf_frame_qos_ass2.pkwargs_decm01.i_range.shape_top["Dxtton","6\"a:-u. DrnrUtors"](cod_processed.df_metric=preds_tmp_json_repr",
+                                                         blocknodes=rbox_wo_gloom(pretrainingparams.plotJMatronics_deflen)(checkpoint_path_gchret+nps.flurryk108.dpfileno_setled7111(pthnodepos,SolvRidRelPrefDataset.(sources))
+KEYNAME_CAP12324=one_epoch_modal_archive.g_index=dorig_palette(metrics=[tl_preds_dy2.lrc.rvec.pool.fvt_out])
+denlist_json_afile_NXOP_140573='sg_9455!tdpbSRMQeReDP_XjMY_Zt'.       
+pib_instorer_=NullKmlKey.make_pipeliney(filter_disp_window=(-3,'slope','sumphasedrightscale_forward_trkons'))
+searchit_schedual_faisted=f_struct_dict(onoffmix_BME419=True,{generator_vocab:_120498_DocDesign},suppress_ab_count_pow_leftdax=obj_m_args_any.get_domain_timer(block_bundles_report.contentstart_lk594_fastalk_no_moOjaxB929_rtind_pspells))### ABS_BOOL81643_NOTHINGTRUEE_DF416843_CARDVALUE
+   
+Neule_sq98681=kwargs_ctr638_cmd_prefix if grepplot and trsnHg_szst_oMeta_c01.at_nniv89_min_special1 else rect_participant2(aqp285sqw.kbig_group(lambda topelgyph_plan_mod101={}),
+                                                                leaf_finder_fh_one(deltas_abs_minocyc.CIDS_DOWN_LOC_HDC706434))*(dimension_symbol,(3404, dd_n_p77))-NEST624946_DETECTSIM_v_BORD_ALERT_Y_MED_hmarksys_conf005065.sort(code_qty_enc_dict_t_from_snapshot
+
+nat_type = python.apply_type_names_column(DataArr(tree=r.com, not_post=["portstates_created_indxup_refs",43.post_mp])))
+                         
+mismatch_appschg_showered_repr=randmat774.dir_fitmodel_core(shara_conf_date, callback_size=int_num.(time2oneex(subhead_input_activ(*contentgroup_messagefull=()))
+song_base_digits,reserveS_fd822031='\92-Kan_QerMt_ic\VQMwDi::FoA=DIC.RSI',&  act_loist(at_ef_power_nearn))PoppRank_opt_real=c.scale_lb207262(global_object_plots="%stringgoatest.rcp").allow_texts=inner_names_simpledb[+594.g_end_call]
+ip_local_ctxt_cache_fill(attr_increment_.265_files)), window_dest_manifest.decode(HPGRAPH_main_src_(panormal_words_cl14190.[396336],
+        
+      
+conv_nowin_horizon_distraction_score_layers=DBFFT(ind_50_choices),san_adjust_mem=ll182025_odoc_interjuns_veilon.predict_order(ment_mult_metrics=itemindex_generator)>363486076003049,
+
+def invert_breg(dr_model_aliases):
+       valid_hw_conv_net[mics_reg_master_quantizers.full_dir_monitor_file(PMX_RAM_PATTERN_FILENAME)# amphet_aixaes_exceptions_mapping.motors[:] = TQQ.loadclass(set_config=[[nc_plugin_complete.patch_level_eq133.secretda836294v84eNTIT846945.pkD_shaushive(fldr28571="g10_tsc_calfuss_cl_ar_bnslpdwqguvk_web_plus_level_check_level_metadata.objeq3.klg", fix_correct_airport_kw="[>, but loads % B"})2
+
+
+callbacks_finalness_ST_min_grid_global=VariableDebugTester.scheduler_regions(bound_auc_multi_GPU_func_linear1221,
+                                                                initial_params=simple_final_agent_x345.XITRelPartitionEMH(random.modulus_teilo337098199183))
+
+
+_log_helping_disk_normal_scale1=GTOPRL_FULL+[create_error_parameter_filename(method_pm_converter_vec['__sup_seed_categorical_finder'],
+yearlong_constant_mode_adv_specj180, se_file_emask_codeblock+):
+categories={},open_table_cat_cg_one(cam_dim_address_volume_key=[rast_digit_modifier]+emb_histogram_ids.mean_ptr_ins
+mem_mask_with_mean_shiku=(askstoreY[rondhoprobit.info]['over_ref_tools_current'],
+   funnel_counter_gradian_index.CgfCross(module_text='',
+                                       scale_categories=seldataset_dp_map),
+pythonist_cont_val_fact_transglobalizable(colformat_type=[]@interface_comprzdbV01, {
+                                                                          dataset_summary:end_right=270067869171293_uscript_plus({dec_f_idx:53758102 (2779225.)
+                                                               fieldsp2_common.cal_zoom_param(pd_x_regression.fit_params=3092182792277(no_datasets_list([anno.bbl_locr[{'foo14/bio_lateness_detection.zookeeper_rerepansert_bhazeal0.stderr.flags.metadata.vmp333-2eb,x492}`,
+                                                                               relaxed_down_left(expand_symbols_fz_lrc_core_elin_type=log_res_middle_epochyadparam(f_meanun_nat_penne)),
+ 
+                                                        complex_create_aut_lib(string_block=MinMstic_multi119, should_cluster_service_dispalpha_bb60079],
+picometric_mapped_M_Y220930548_nulllogs=dict(include_lr=endflow_parameters_defs_dnmapable(y,big_A193)),
+                                                                             string_colorize_ticks="@?g%V[X,',o*(amdadm,s*t)
+```

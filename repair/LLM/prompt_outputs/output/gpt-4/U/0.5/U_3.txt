@@ -1,0 +1,21 @@
+{
+    "ki1": "initialiser_xavier",
+    "bi1": "initialiser_const",
+    "act1": "relu",
+    "ki2": "initialiser_xavier",
+    "bi2": "initialiser_const",
+    "act2": "relu",
+    "layer1": 2,
+    "unit1": 128,
+    "act3": "relu",
+    "ki3": "initialiser_xavier",
+    "bi3": "initialiser_const",
+    "act4": "None",
+    "ki4": "initialiser_xavier",
+    "bi4": "initialiser_const",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "mean_squared_error",
+    "batch_size": 32,
+    "epochs": 100
+}

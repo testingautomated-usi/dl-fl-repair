@@ -1,0 +1,19 @@
+{
+    "unit1": 64,
+    "act1": "relu",
+    "ki1": "glorot_uniform",
+    "bi1": "zeros",
+    "layer2": 2,
+    "unit2": 64,
+    "act2": "relu",
+    "ki2": "glorot_uniform",
+    "bi2": "zeros",
+    "act3": "softmax",
+    "ki3": "glorot_uniform",
+    "bi3": "zeros",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "categorical_crossentropy",
+    "epochs": 100,
+    "batch_size": 32
+}

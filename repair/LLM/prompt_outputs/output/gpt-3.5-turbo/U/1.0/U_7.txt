@@ -1,0 +1,21 @@
+{
+  "ki1": "normal",
+  "bi1": "normal",
+  "act1": "relu",
+  "ki2": "normal",
+  "bi2": "normal",
+  "act2": "relu",
+  "layer1": 1,
+  "unit1": 128,
+  "act3": "relu",
+  "ki3": "normal",
+  "bi3": "normal",
+  "act4": "linear",
+  "ki4": "normal",
+  "bi4": "normal",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "mean_squared_error",
+  "batch_size": 32,
+  "epochs": 10
+}

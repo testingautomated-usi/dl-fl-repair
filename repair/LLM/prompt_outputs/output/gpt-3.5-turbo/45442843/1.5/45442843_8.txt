@@ -1,0 +1,15 @@
+{
+    "layer1": 2,
+    "unit1": 32,
+    "ki1": "he_normal",
+    "bi1": "zeros",
+    "act1": "relu",
+    "ki2": "he_normal",
+    "bi2": "zeros",
+    "act2": "softmax",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "binary_crossentropy",
+    "epochs": 50,
+    "batch_size": 64
+}

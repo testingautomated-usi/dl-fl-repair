@@ -1,0 +1,14 @@
+{
+    "batch_size": 128,
+    "epochs": 20,
+    "unit1": 256,
+    "ki1": "he_normal",
+    "bi1": "zeros",
+    "act1": "relu",
+    "ki2": "glorot_uniform",
+    "bi2": "ones",
+    "act2": "softmax",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "loss": "categorical_crossentropy"
+}

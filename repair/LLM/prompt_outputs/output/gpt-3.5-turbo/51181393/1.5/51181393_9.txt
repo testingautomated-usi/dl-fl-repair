@@ -1,0 +1,61 @@
+Here is a proposed solution to decrease the original MAE:
+
+```python
+import json
+
+data = linspace(1, 2, 100).reshape(-1, 1)
+y = data * 5
+X_train, X_test, y_train, y_test = train_test_split(
+    data, y, test_size=0.2, random_state=42
+)
+X_test_used, X_test_holdout, y_test_used, y_test_holdout = train_test_split(
+    X_test, y_test, test_size=0.2, random_state=42
+)
+
+# adjustments to hyperparameters
+# except epochs that look good
+
+class Config:
+    params = {
+        "act1": "relu",
+        "ki1": "he_uniform",  # originally 'glorot_uniform'
+        "bi1": "zeros",  # originally 'ones'
+        "optimizer": "adam",
+        "lr": 0.01,  # originally 0.001
+        "loss": "mse", 
+        "batch_size": 16,
+        "epochs": 30
+        }
+
+ hyperparams=json.dumps(Config.params,indent=4, sort_keys=True)
+
+# Define the model
+model = Sequential()
+model.add( 
+    Dense(
+        1,
+        input_dim=1,
+        activation=json.loads(hyperparams)['act1'],  # dictate 'relu'
+        kernel_initializer=json.loads(hyperparams)['ki1'],  # make 'he_uniform'
+        bias_initializer=json.loads(hyperparams)['bi1'],  # zero instead  adding the ientainty (one )
+    )
+)
+
+if json.loads(hyperparams)["optimizer"] == "sgd":
+    optimizer_SGD = SGD(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "adam":
+    optimizer = Adam(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "rmsprop":
+    optimizer = RMSprop(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "adagrad":
+    optimizer = Adagrad(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "adadelta":
+    optimizer = Adadelta(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "adamax":
+    optimizer = Adamax(lr=json.loads(hyperparams)["lr"])
+elif json.loads(hyperparams)["optimizer"] == "nadam":
+    optimizer = Nadam(lr=json.loads(hyperparams)["lr"])  
+
+model.compile(optimizer=optimizer, loss=json.loads(hyperparams)["loss"], metrics=["mae"])
+model.fit(X_train, y_train, epochs=json.loads(hyperparams)["epochs"], batch_size=int(json.loads(hyperparams)["batch_size"]), verbose=0)
+```

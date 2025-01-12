@@ -1,0 +1,21 @@
+```
+config = {
+        "ki1": "glorot_uniform",
+        "ki2": "glorot_uniform",
+        "ki3": "glorot_uniform",
+        "bi1": "zeros",
+        "bi2": "zeros",
+        "bi3": "zeros",
+        "act1": "relu",
+        "act2": "relu",
+        "act3": "softmax",
+        "layer2": 1,
+        "unit1": 20,
+        "unit2": 20,
+        "loss": "categorical_crossentropy",
+        "batch_size": 50,
+        "optimizer": "sgd",
+        "lr": 0.01,
+        "epochs": 10
+    }
+```

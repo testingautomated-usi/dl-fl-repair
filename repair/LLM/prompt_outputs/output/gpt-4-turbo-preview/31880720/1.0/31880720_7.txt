@@ -1,0 +1,17 @@
+{
+  "ki1": "random_normal",
+  "bi1": "zeros",
+  "act1": "relu",
+  "layer2": 2,
+  "ki2": "random_normal",
+  "bi2": "zeros",
+  "act2": "relu",
+  "ki3": "random_normal",
+  "bi3": "zeros",
+  "act3": "sigmoid",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "loss": "binary_crossentropy",
+  "epochs": 100,
+  "batch_size": 128
+}

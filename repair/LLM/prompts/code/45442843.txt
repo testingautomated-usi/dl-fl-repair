@@ -1,0 +1,68 @@
+```python
+    dataset = pd.read_csv(
+        "/home/DeepFD_subjects/45442843/dataset/data.csv"
+    )
+    X = dataset.values[:, 0].astype(float)
+    Y = dataset.values[:, 1]
+
+    scaler = StandardScaler()
+    X = scaler.fit_transform(X.reshape(-1, 1))
+    encoder = LabelEncoder()
+    Y_encoded = encoder.fit_transform(Y)
+    Y_onehot = to_categorical(Y_encoded)
+    X_train, X_test, Y_train, Y_test = sklearn.model_selection.train_test_split(
+        X, Y_onehot, test_size=0.2, random_state=42, shuffle=True
+    )
+    (
+        X_test_used,
+        X_test_holdout,
+        y_test_used,
+        y_test_holdout,
+    ) = sklearn.model_selection.train_test_split(
+        X_test, Y_test, test_size=0.2, random_state=42
+    )
+
+    model = Sequential()
+    for _ in range(config["layer1"]):
+        model.add(
+            Dense(
+                config["unit1"],
+                kernel_initializer=config["ki1"],
+                bias_initializer=config["bi1"],
+                input_dim=1
+            )
+        )
+    model.add(Activation(config["act1"]))
+    model.add(
+        Dense(
+            2,
+            kernel_initializer=config["ki2"],
+            bias_initializer=config["bi2"],
+            activation=config["act2"]
+        )
+    )
+
+    if config["optimizer"] == "sgd":
+        optimizer = SGD(lr=config["lr"])
+    elif config["optimizer"] == "adam":
+        optimizer = Adam(lr=config["lr"])
+    elif config["optimizer"] == "rmsprop":
+        optimizer = RMSprop(lr=config["lr"])
+    elif config["optimizer"] == "adagrad":
+        optimizer = Adagrad(lr=config["lr"])
+    elif config["optimizer"] == "adadelta":
+        optimizer = Adadelta(lr=config["lr"])
+    elif config["optimizer"] == "adamax":
+        optimizer = Adamax(lr=config["lr"])
+    elif config["optimizer"] == "nadam":
+        optimizer = Nadam(lr=config["lr"])
+
+    model.compile(loss=config["loss"], optimizer=optimizer, metrics=["accuracy"])
+    model.fit(
+        X_train,
+        Y_train,
+        epochs=config["epochs"],
+        batch_size=config["batch_size"],
+        verbose=0,
+    )
+```
