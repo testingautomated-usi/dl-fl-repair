@@ -1,0 +1,10 @@
+﻿M1,1,WCI(0) | HLR | HNE | RCD(6),k1,lr,epochs
+M2,1,ARM(7) | HLR | HNE,act4,lr,epochs
+M3,1,HLR | HNE | RCD(6),lr,epochs,
+R1,1,HNE | RAW(0) | LAD | HBS | CPP | LAD,epochs,batch_size,
+R2,1,ACH(2) | HNE | HBS | LAD,act2,epochs,batch_size
+R3,1,HLR | HNE | RCD(1) | CPP,lr,epochs,
+R4,1,LCH | HNE | CPP | RCD(1) | LAD | HBS,loss,epochs,batch_size
+R5,1,OCH | HNE | LAD | RCD(1) | HBS,epochs,optimizer,batch_size
+R6,1,WCI(0) | HNE | RCD(1) | CPP,ki1 ,epochs,
+R7,1,ARM (2) | HNE,act2,epochs,

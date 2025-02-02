@@ -1,0 +1,9 @@
+﻿31880720,1,ACH(7) | HNE | CPP,act3,epochs,,,,,,
+41600519,0.67,"HNE | HBS | RCD(1,3,5) | LCN(0,2,4)",epochs,batch_size,unit1,unit2,unit3,,,
+45442843,0.8,LCH | LAD | HNE | HBS | ACH(0),loss,act1,epochs,batch_size,,,,
+48385830,1,"LCH | HLR | WCI(0,1) | ACH(0,1) | HBS | LAD | LCN(0)",loss,lr,batch_size,act1,act2,ki1,ki2,unit1
+48594888,1,HNE | HBS | LCF(0) | RCD(6) | VRM,epochs,batch_size,,,,,,
+50306988,0.5,HNE | HLR | LAD | VRM ,epochs,lr,,,,,,
+51181393,0,LAD | HNE | HBS,epochs,batch_size,,,,,,
+56380303,0,"ACH(2) | LCH | CPP | LCN (0,1,2) | HNE",act3,loss,unit1,unit2,unit3,epochs,,
+59325381,0.67,CPP | VRM | HBS,batch_size,,,,,,,

@@ -1,0 +1,256 @@
+issue,GT_ID,GT,LEN_GT,GPT_RES,GPT_MATCH,GPT_MATCH_CNT,GPT_AJS
+48594888,303,['epochs'],1,"['epochs', 'batch_size']",1 | ,1,1.0
+50306988,85,['lr'],1,['epochs'],0 | ,0,0.0
+50306988,242,"['bi1', 'lr']",2,['epochs'],0 | 0 | ,0,0.0
+50306988,254,"['lr', 'unit1']",2,['epochs'],0 | 0 | ,0,0.0
+50306988,259,"['loss', 'lr']",2,['epochs'],0 | 0 | ,0,0.0
+50306988,268,"['batch_size', 'lr']",2,['epochs'],0 | 0 | ,0,0.0
+50306988,277,"['epochs', 'lr']",2,['epochs'],1 | 0 | ,1,0.5
+50306988,580,"['act1', 'epochs', 'lr']",3,['epochs'],0 | 1 | 0 | ,1,0.33
+48385830,102,['act1'],1,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | ,1,1.0
+48385830,151,"['act1', 'act2', 'loss']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,253,"['act1', 'act2', 'ki1']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,251,"['act1', 'act2', 'ki1']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,252,"['act1', 'act2', 'ki1']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,274,"['act1', 'act2', 'loss']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,276,"['act1', 'act2', 'loss']",3,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | 1 | ,3,1.0
+48385830,430,"['act1', 'ki2']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+48385830,432,"['act1', 'ki2']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+48385830,448,"['act1', 'loss']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+48385830,429,"['act1', 'ki1']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+48385830,427,"['act1', 'ki1']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+48385830,428,"['act1', 'ki1']",2,"['loss', 'lr', 'batch_size', 'act1', 'act2', 'ki1', 'ki2', 'unit1']",1 | 1 | ,2,1.0
+45442843,34,['batch_size'],1,"['loss', 'act1', 'epochs', 'batch_size']",1 | ,1,1.0
+45442843,43,['lr'],1,"['loss', 'act1', 'epochs', 'batch_size']",0 | ,0,0.0
+45442843,47,"['batch_size', 'ki1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,48,"['batch_size', 'ki1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,49,"['batch_size', 'ki1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,50,"['batch_size', 'ki2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,51,"['batch_size', 'ki2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,52,"['batch_size', 'ki2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,53,"['batch_size', 'bi1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,54,"['batch_size', 'bi1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,55,"['batch_size', 'bi1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,56,"['batch_size', 'bi2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,57,"['batch_size', 'bi2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,58,"['batch_size', 'bi2']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,59,"['act1', 'batch_size']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,60,"['act1', 'batch_size']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,66,"['batch_size', 'layer1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,67,"['batch_size', 'unit1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,68,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,69,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,70,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,71,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,72,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,73,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,74,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,75,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,77,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,78,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,79,"['batch_size', 'loss']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,81,"['batch_size', 'optimizer']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,83,"['batch_size', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,85,"['batch_size', 'epochs']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,108,"['loss', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,110,"['loss', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,113,"['loss', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,119,"['loss', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,87,"['ki1', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+45442843,90,"['ki2', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+45442843,91,"['ki2', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+45442843,93,"['bi1', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+45442843,96,"['bi2', 'lr']",2,"['loss', 'act1', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+45442843,143,"['act1', 'batch_size']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 1 | ,2,1.0
+45442843,150,"['batch_size', 'layer1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+45442843,151,"['batch_size', 'unit1']",2,"['loss', 'act1', 'epochs', 'batch_size']",1 | 0 | ,1,0.5
+56380303,23,['act2'],1,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | ,0,0.0
+56380303,20,['act1'],1,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | ,0,0.0
+56380303,32,['unit2'],1,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",1 | ,1,1.0
+56380303,19,['act1'],1,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | ,0,0.0
+56380303,28,['layer2'],1,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | ,0,0.0
+56380303,58,"['act2', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,59,"['act2', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,60,"['act2', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,61,"['act2', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,62,"['act2', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,63,"['act2', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,64,"['act2', 'ki3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,65,"['act2', 'ki3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,66,"['act2', 'ki3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,67,"['act2', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,68,"['act2', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,69,"['act2', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,70,"['act2', 'bi2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,71,"['act2', 'bi2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,72,"['act2', 'bi2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,73,"['act2', 'bi3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,74,"['act2', 'bi3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,75,"['act2', 'bi3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,76,"['act1', 'act2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,77,"['act1', 'act2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,78,"['act1', 'act2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,80,"['act2', 'act3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,82,"['act2', 'layer2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,83,"['act2', 'layer2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,84,"['act2', 'unit1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,85,"['act2', 'unit1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,86,"['act2', 'unit2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,87,"['act2', 'unit2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,90,"['act2', 'loss']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,97,"['act2', 'loss']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,100,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,101,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,102,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,103,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,104,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,105,"['act2', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,106,"['act2', 'optimizer']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,107,"['act2', 'optimizer']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,108,"['act2', 'lr']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,109,"['act2', 'lr']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,110,"['act2', 'epochs']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,111,"['act2', 'epochs']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,113,"['act1', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,117,"['act1', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,121,"['act1', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,122,"['act1', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,123,"['act1', 'bi1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,128,"['act1', 'bi3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,130,"['act1', 'act2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,132,"['act1', 'act3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,136,"['act1', 'layer2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,138,"['act1', 'unit1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,139,"['act1', 'unit2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,142,"['act1', 'loss']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,146,"['act1', 'loss']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,153,"['act1', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,155,"['act1', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,156,"['act1', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,157,"['act1', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,158,"['act1', 'batch_size']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,162,"['act1', 'lr']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,163,"['act1', 'epochs']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,164,"['act1', 'epochs']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 1 | ,1,0.5
+56380303,112,"['act1', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,114,"['act1', 'ki1']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,115,"['act1', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,116,"['act1', 'ki2']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+56380303,118,"['act1', 'ki3']",2,"['act3', 'loss', 'unit1', 'unit2', 'unit3', 'optimizer', 'epochs', 'batch_size']",0 | 0 | ,0,0.0
+51181393,68,['epochs'],1,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | ,1,1.0
+51181393,67,['lr'],1,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | ,0,0.0
+51181393,192,"['epochs', 'ki1']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,193,"['epochs', 'ki1']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,196,"['bi1', 'epochs']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 1 | ,1,0.5
+51181393,202,"['epochs', 'unit1']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,203,"['epochs', 'loss']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 1 | ,2,1.0
+51181393,204,"['epochs', 'loss']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 1 | ,2,1.0
+51181393,223,"['epochs', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,194,"['epochs', 'ki1']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,197,"['bi1', 'epochs']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 1 | ,1,0.5
+51181393,195,"['bi1', 'epochs']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 1 | ,1,0.5
+51181393,215,"['batch_size', 'epochs']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 1 | ,2,1.0
+51181393,224,['epochs'],1,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | ,1,1.0
+51181393,225,"['ki1', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 0 | ,0,0.0
+51181393,230,"['bi1', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 0 | ,0,0.0
+51181393,236,"['loss', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,249,"['batch_size', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,250,"['batch_size', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,251,"['batch_size', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,252,"['batch_size', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,257,"['epochs', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,255,"['lr', 'optimizer']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 1 | ,1,0.5
+51181393,237,"['loss', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",1 | 0 | ,1,0.5
+51181393,229,"['bi1', 'lr']",2,"['epochs', 'batch_size', 'optimizer', 'loss', 'act1']",0 | 0 | ,0,0.0
+31880720,25,['act3'],1,"['act3', 'epochs']",1 | ,1,1.0
+31880720,26,['act3'],1,"['act3', 'epochs']",1 | ,1,1.0
+31880720,53,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,54,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,55,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,56,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,57,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,58,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,59,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,60,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,61,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,62,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,63,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,64,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,65,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,66,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,67,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,70,"['act3', 'bi3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,71,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,72,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,73,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,74,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,75,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,76,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,77,"['act3', 'layer2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,78,"['act3', 'layer2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,79,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,80,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,81,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,82,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,83,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,84,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,85,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,86,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,90,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,91,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,92,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,93,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,94,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,95,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,96,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,97,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,98,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,99,"['act3', 'lr']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,100,"['act3', 'lr']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,101,"['act3', 'epochs']",2,"['act3', 'epochs']",1 | 1 | ,2,1.0
+31880720,102,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,103,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,104,"['act3', 'ki1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,105,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,106,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,107,"['act3', 'ki2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,108,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,109,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,110,"['act3', 'ki3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,111,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,112,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,113,"['act3', 'bi1']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,114,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,115,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,116,"['act3', 'bi2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,117,"['act3', 'bi3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,118,"['act3', 'bi3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,119,"['act3', 'bi3']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,120,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,121,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,122,"['act1', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,123,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,124,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,125,"['act2', 'act3']",2,"['act3', 'epochs']",0 | 1 | ,1,0.5
+31880720,126,"['act3', 'layer2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,127,"['act3', 'layer2']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,128,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,129,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,130,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,131,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,132,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,133,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,134,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,135,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,139,"['act3', 'loss']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,140,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,141,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,142,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,143,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,144,"['act3', 'batch_size']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,145,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,146,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,147,"['act3', 'optimizer']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,148,"['act3', 'lr']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,149,"['act3', 'lr']",2,"['act3', 'epochs']",1 | 0 | ,1,0.5
+31880720,150,"['act3', 'epochs']",2,"['act3', 'epochs']",1 | 1 | ,2,1.0

@@ -1,0 +1,48 @@
+issue,GT_ID,GT,LEN_GT,GPT_RES,GPT_MATCH,GPT_MATCH_CNT,GPT_AJS
+C3,138,['optimizer'],1,['ki2'],0 | ,0,0.0
+C3,222,"['ki2', 'optimizer']",2,['ki2'],1 | 0 | ,1,0.5
+C3,221,"['ki2', 'optimizer']",2,['ki2'],1 | 0 | ,1,0.5
+C3,180,"['act4', 'ki2']",2,['ki2'],0 | 1 | ,1,0.5
+C3,228,"['batch_size', 'ki2']",2,['ki2'],0 | 1 | ,1,0.5
+C3,245,"['ki2', 'unit1']",2,['ki2'],1 | 0 | ,1,0.5
+C3,304,"['ki2', 'optimizer']",2,['ki2'],1 | 0 | ,1,0.5
+C3,305,"['ki2', 'optimizer']",2,['ki2'],1 | 0 | ,1,0.5
+C3,263,"['act4', 'ki2']",2,['ki2'],0 | 1 | ,1,0.5
+C3,328,"['ki2', 'unit1']",2,['ki2'],1 | 0 | ,1,0.5
+C1,140,['optimizer'],1,"['act2', 'batch_size']",0 | ,0,0.0
+C1,139,['optimizer'],1,"['act2', 'batch_size']",0 | ,0,0.0
+C1,163,['unit1'],1,"['act2', 'batch_size']",0 | ,0,0.0
+C1,146,['batch_size'],1,"['act2', 'batch_size']",1 | ,1,1.0
+C1,132,['bi5'],1,"['act2', 'batch_size']",0 | ,0,0.0
+C1,506,"['act3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,508,"['act4', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,511,"['act5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,516,"['act6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,519,"['ki1', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,524,"['ki2', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,527,"['bi2', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,528,"['bi2', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,529,"['ki3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,530,"['ki3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,531,"['ki3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,532,"['bi3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,533,"['bi3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,534,"['bi3', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,535,"['ki4', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,536,"['ki4', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,538,"['bi4', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,541,"['ki5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,542,"['ki5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,543,"['ki5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,544,"['bi5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,546,"['bi5', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,547,"['ki6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,548,"['ki6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,549,"['ki6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,551,"['bi6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,552,"['bi6', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,557,"['batch_size', 'optimizer']",2,"['act2', 'batch_size']",1 | 0 | ,1,0.5
+C1,559,"['batch_size', 'optimizer']",2,"['act2', 'batch_size']",1 | 0 | ,1,0.5
+C1,579,"['layer1', 'optimizer']",2,"['act2', 'batch_size']",0 | 0 | ,0,0.0
+C1,558,"['batch_size', 'optimizer']",2,"['act2', 'batch_size']",1 | 0 | ,1,0.5
+C2,550,['epochs'],1,['epochs'],1 | ,1,1.0
